@@ -27,7 +27,7 @@
 		}
 		.profile-item img {
 			max-width: 100%;
-			border-radius: 50%;
+			border-radius: 5%;
 		}
 		.profile-item h4 {
 			margin-top: 15px;
