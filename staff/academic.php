@@ -15,7 +15,7 @@
 		.profile-grid {
 			display: grid;
 			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-			gap: 20px;
+			gap: 50px;
 			margin: 20px 0;
 		}
 		.profile-item {
@@ -38,7 +38,7 @@
 			font-size: 1rem;
 		}
 		.profile-item p {
-			margin: 10px 0;
+			margin: 10px 5px;
 			font-size: 0.9rem;
 		}
 	</style>
