@@ -35,19 +35,19 @@
 		}
 		.profile-item h4 {
 			margin-top: 15px;
-			font-size: 1.2rem;
+			font-size: 1.8rem;
 		}
 		.profile-item h5 {
 			color: #555;
-			font-size: 1rem;
+			font-size: 1.6rem;
 		}
 		.profile-item p {
 			margin: 10px 5px;
-			font-size: 0.9rem;
+			font-size: 1.4rem;
 		}
 		.profile-item:hover {
-		transform: translateY(-10px);
-		box-shadow: 0 5px 10px rgba(0, 130, 200, 0.6);
+			transform: translateY(-10px);
+			box-shadow: 0 5px 10px rgba(0, 130, 200, 0.6);
 		}
 
 		.profile-item:hover img {
@@ -100,7 +100,7 @@
 					<img src="../assets/images/academic/sandya.png" alt="Ms. K.G.A.M. Sandya Kumari Nawarathna Menike" width="147" height="182">
 					<h4><a href="sandya.php">Ms. K.G.A.M. Sandya Kumari Nawarathna Menike</a></h4>
 					<h5>Lecturer</h5>
-					<p>BA(Hons)Peradeniya,MSc(PGIAR),Ph.D.Reading(PGIAR) MSLCA</p>
+					<p>BA(Hons)Peradeniya, MSc(PGIAR), Ph.D.Reading(PGIAR) MSLCA</p>
 					<p>Email: <a href="mailto:sannawarathna@gmail.com">sannawarathna@gmail.com</a>/<a href="mailto:nawarathnasknm@pdn.ac.lk">nawarathnasknm@pdn.ac.lk</a></p>
 					<p>Phone: +94 714 823 384</p>
 				</div>
