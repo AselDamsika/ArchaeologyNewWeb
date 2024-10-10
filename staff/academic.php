@@ -14,8 +14,8 @@
 	<style>
 		.profile-grid {
 			display: grid;
-			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-			gap: 50px;
+			grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+			gap: 90px;
 			margin: 20px 0;
 		}
 		.profile-item {
@@ -24,6 +24,7 @@
 			text-align: center;
 			border-radius: 10px;
 			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			
 		}
 		.profile-item img {
 			max-width: 100%;
