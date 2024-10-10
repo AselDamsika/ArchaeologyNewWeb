@@ -17,6 +17,7 @@
 			grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
 			gap: 90px;
 			margin: 20px 0;
+			
 		}
 		.profile-item {
 			border: 1px solid #ddd;
@@ -24,11 +25,13 @@
 			text-align: center;
 			border-radius: 10px;
 			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			transition: transform 0.3s ease, box-shadow 0.2s ease;
 			
 		}
 		.profile-item img {
 			max-width: 100%;
 			border-radius: 5%;
+			transition: transform 0.3s ease;
 		}
 		.profile-item h4 {
 			margin-top: 15px;
@@ -42,6 +45,15 @@
 			margin: 10px 5px;
 			font-size: 0.9rem;
 		}
+		.profile-item:hover {
+		transform: translateY(-10px);
+		box-shadow: 0 5px 10px rgba(0, 130, 200, 0.6);
+		}
+
+		.profile-item:hover img {
+			transform: scale(1.05);
+		}
+		
 	</style>
 
 </head>
