@@ -18,24 +18,24 @@
     <style>
         /* Styling the profile grid items */
         .profile-item {
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            overflow: hidden;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            margin-bottom: 20px;
-            padding: 20px;
-            background-color: #f0efed;
-        }
+			border: 1px solid #e0e0e0;
+			border-radius: 8px;
+			overflow: hidden;
+			transition: transform 0.3s ease, box-shadow 0.3s ease;
+			margin-bottom: 20px;
+			padding: 20px;
+			background-color: #f9f9f9;
+		}
 
-        /* Hover effect on profile items */
-        .profile-item:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-            background-color: #fff;
-        }
+		/* Hover effect on profile items */
+		.profile-item:hover {
+			transform: scale(1.05);
+			box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+			background-color: #fff;
+		}
 
-        /* Styling the profile image */
-        .profile-item img {
+		/* Styling the profile image */
+		.profile-item img {
 			width: 150px; /* Set a fixed width */
 			height: 150px; /* Set a fixed height */
 			object-fit: cover; /* Ensures the image covers the area while keeping aspect ratio */
@@ -43,36 +43,36 @@
 			margin-bottom: 15px;
 		}
 
-        /* Styling for the profile description */
-        .profile-description h4 {
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
+		/* Increased font sizes for profile description */
+		.profile-description h4 {
+			font-size: 2rem; /* Increase name font size */
+			font-weight: bold;
+		}
 
-        .profile-description h5 {
-            font-size: 1.2rem;
-            color: #555;
-        }
+		.profile-description h5 {
+			font-size: 1.4rem; /* Increase title font size */
+			color: #555;
+		}
 
-        .profile-description blockquote {
-            font-size: 1rem;
-            color: #777;
-            border-left: 3px solid #007bff;
-            padding-left: 10px;
-        }
+		.profile-description blockquote {
+			font-size: 1.2rem; /* Increase degree font size */
+			color: #777;
+			border-left: 3px solid #007bff;
+			padding-left: 10px;
+		}
 
-        /* Font size adjustments */
-        .profile-description p {
-            font-size: 1rem;
-            line-height: 1.5;
-        }
-        
-        /* Ensuring grid layout looks good */
-        .profile-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            grid-gap: 20px;
-        }
+		/* Increase for the profile description text */
+		.profile-description p {
+			font-size: 1.2rem; /* Increase contact info font size */
+			line-height: 1.5;
+		}
+
+		/* Ensuring grid layout looks good */
+		.profile-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+			grid-gap: 20px;
+		}
 
     </style>
 </head>
@@ -84,7 +84,7 @@
 			<li class="active">Academic</li>
 		</ol>
         <div class="container my-5">
-			<h2 class="text-center mb-4">Academic Staff</h2>
+			<h2 class="text-center mb-4">Academic Staff</h2><br>
 
 			<!-- Profile Items Grid -->
 			<div class="profile-grid">
@@ -99,7 +99,7 @@
 						</blockquote>
 						<p>
 							<span class="fa fa-envelope-o"></span>
-							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">m.chandraratne@arts.pdn.ac.lk</a><br>
+							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">m.chandraratne@arts.pdn.ac.lk</a><br><br>
 							<span class="fa fa-phone"></span> +94 0812392583
 						</p>
 					</div>
@@ -115,7 +115,7 @@
 						</blockquote>
 						<p>
 							<span class="fa fa-envelope-o"></span>
-							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">chulanimw@gmail.com</a><br>
+							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">chulanimw@gmail.com</a><br><br>
 							<span class="fa fa-phone"></span> +94 0812392583
 						</p>
 					</div>
@@ -140,7 +140,7 @@
 						</blockquote>
 						<p>
 							<span class="fa fa-envelope-o"></span>
-							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">tsaru2003@yahoo.com</a><br>
+							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">tsaru2003@yahoo.com</a><br><br>
 							<span class="fa fa-phone"></span> +94 71 4395277
 						</p>
 					</div>
@@ -165,7 +165,7 @@
 						</blockquote>
 						<p>
 							<span class="fa fa-envelope-o"></span>
-							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">sannawarathna@gmail.com</a><br>
+							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">sannawarathna@gmail.com</a><br><br>
 							<span class="fa fa-phone"></span> +94 714 823 384
 						</p>
 					</div>
@@ -190,7 +190,7 @@
 						</blockquote>
 						<p>
 							<span class="fa fa-envelope-o"></span>
-							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">ujinadasa@pdn.ac.lk</a><br>
+							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">ujinadasa@pdn.ac.lk</a><br><br>
 							<span class="fa fa-phone"></span> +94 71 497 0718
 						</p>
 					</div>
@@ -215,7 +215,7 @@
 						</blockquote>
 						<p>
 							<span class="fa fa-envelope-o"></span>
-							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">piyumie@arts.pdn.ac.lk</a><br>
+							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">piyumie@arts.pdn.ac.lk</a><br><br>
 							<span class="fa fa-phone"></span> +94 772383788
 						</p>
 					</div>
@@ -240,7 +240,7 @@
 						</blockquote>
 						<p>
 							<span class="fa fa-envelope-o"></span>
-							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">buddisha@arts.pdn.ac.lk</a><br>
+							<a href="mailto:m.chandraratne@arts.pdn.ac.lk">buddisha@arts.pdn.ac.lk</a><br><br>
 							<span class="fa fa-phone"></span> +94 71 5206865
 						</p>
 					</div>
