@@ -33,7 +33,22 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+	<style>
+		/* Change the font color of the navbar */
+		.navbar-nav > li > a {
+			color: #333; /* Change this color as per your preference */
+		}
 
+		/* Change the font color on hover */
+		.navbar-nav > li > a:hover {
+			color: #007bff; /* Change this color for the hover effect */
+		}
+
+		/* Change the font color of the brand text */
+		.navbar-header .navbar-brand {
+			color: #333; /* Change this to the desired color */
+		}
+	</style>
 
 </head>
 <body>
