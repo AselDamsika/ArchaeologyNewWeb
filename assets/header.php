@@ -36,18 +36,21 @@
 	<style>
 		/* Change the font color of the navbar */
 		.navbar-nav > li > a {
+			
 			color: #333; /* Change this color as per your preference */
 		}
 
 		/* Change the font color on hover */
 		.navbar-nav > li > a:hover {
-			color: #007bff; /* Change this color for the hover effect */
+			color: #008bff; /* Change this color for the hover effect */
 		}
 
 		/* Change the font color of the brand text */
 		.navbar-header .navbar-brand {
+			
 			color: #333; /* Change this to the desired color */
 		}
+		
 	</style>
 
 </head>
