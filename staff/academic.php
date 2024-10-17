@@ -36,26 +36,26 @@
 
 		/* Styling the profile image */
 		.profile-item img {
-			width: 150px; /* Set a fixed width */
-			height: 150px; /* Set a fixed height */
-			object-fit: cover; /* Ensures the image covers the area while keeping aspect ratio */
-			border-radius: 50%; /* Keeps the circular shape */
+			width: 150px;
+			height: 150px;
+			object-fit: cover;
+			border-radius: 50%;
 			margin-bottom: 15px;
 		}
 
 		/* Increased font sizes for profile description */
 		.profile-description h4 {
-			font-size: 2rem; /* Increase name font size */
+			font-size: 2rem;
 			font-weight: bold;
 		}
 
 		.profile-description h5 {
-			font-size: 1.4rem; /* Increase title font size */
+			font-size: 1.4rem;
 			color: #555;
 		}
 
 		.profile-description blockquote {
-			font-size: 1.2rem; /* Increase degree font size */
+			font-size: 1.2rem;
 			color: #777;
 			border-left: 3px solid #007bff;
 			padding-left: 10px;
@@ -63,7 +63,7 @@
 
 		/* Increase for the profile description text */
 		.profile-description p {
-			font-size: 1.2rem; /* Increase contact info font size */
+			font-size: 1.2rem;
 			line-height: 1.5;
 		}
 
