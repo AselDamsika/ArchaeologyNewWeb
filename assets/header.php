@@ -34,24 +34,53 @@ if (!isset($pageId)) {
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 <style>
-	/* Change the font color of the navbar */
+	.logocol {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		align-items: center;
+	}
+
+	.logoimg {
+		margin: 0;
+		padding: 0;
+		width: 90px;
+	}
+
+	.deptcol {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		padding: 10px 5px;
+
+	}
+
+	.deptname {
+		font-weight: bold;
+		font-size: 3.5rem;
+		margin: 0;
+	}
+
+	.uniname {
+		font-weight: normal;
+		font-size: 2rem;
+	}
+
+
 	.navbar-nav>li>a {
 
 		color: #333;
-		/* Change this color as per your preference */
+
 	}
 
-	/* Change the font color on hover */
 	.navbar-nav>li>a:hover {
 		color: #008bff;
-		/* Change this color for the hover effect */
 	}
 
-	/* Change the font color of the brand text */
 	.navbar-header .navbar-brand {
 
 		color: #333;
-		/* Change this to the desired color */
 	}
 </style>
 
@@ -61,23 +90,35 @@ if (!isset($pageId)) {
 
 	<header>
 		<div class="container">
-			<div class="col-md-2">
-				<img src="<?php echo $root; ?>/assets/images/logo.png" alt="Pdn_Logo">
+			<div class="row">
+				<div class="col-md-1 logocol">
+					<img src="<?php echo $root; ?>/assets/images/logo.png" alt="Pdn_Logo" class="logoimg">
+				</div>
+				<div class="col-md-7 deptcol">
+					<h2 class="deptname">Department of Archaeology</h2>
+					<h4 class="uniname"> University of Peradeniya</h4>
+				</div>
+				<div class="col-md-4 searchcol">
+					<form onSubmit="searchGeo()" method="get" action="" class="search-form">
+						<div class="form-group has-feedback">
+							<label for="search" class="sr-only">Search Archaelogy</label>
+							<input type="text" class="form-control" name="query" id="query" placeholder="Search Archaelogy">
+							<span class="glyphicon glyphicon-search form-control-feedback"></span>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<!-- <div class="col-md-2">
+				
 			</div>
 			<div class="col-md-5">
-				<h2>Department of Archaeology</h2>
-				<h4> University of Peradeniya</h4>
+				
 			</div>
 			<div class="col-md-offset-1 col-md-3">
-				<form onSubmit="searchGeo()" method="get" action="" class="search-form">
-					<div class="form-group has-feedback">
-						<label for="search" class="sr-only">Search Archaelogy</label>
-						<input type="text" class="form-control" name="query" id="query" placeholder="Search Archaelogy">
-						<span class="glyphicon glyphicon-search form-control-feedback"></span>
-					</div>
-				</form>
+				
 
-			</div>
+			</div> -->
 		</div>
 	</header>
 
