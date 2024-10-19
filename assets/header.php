@@ -18,6 +18,7 @@ if (!isset($pageId)) {
 <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/custom.css" />
+<link rel="stylesheet" href="<?php echo $root; ?>/assets/css/header.css" />
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/font-awesome.min.css" />
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/lightbox.css" />
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/all.min.css" />
@@ -34,44 +35,8 @@ if (!isset($pageId)) {
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 <style>
-	.logocol {
-		padding: 0;
-		margin: 0;
-		display: flex;
-		align-items: center;
-	}
-
-	.logoimg {
-		margin: 0;
-		padding: 0;
-		width: 90px;
-	}
-
-	.deptcol {
-		padding: 0;
-		margin: 0;
-		display: flex;
-		flex-direction: column;
-		padding: 10px 5px;
-
-	}
-
-	.deptname {
-		font-weight: bold;
-		font-size: 3.5rem;
-		margin: 0;
-	}
-
-	.uniname {
-		font-weight: normal;
-		font-size: 2rem;
-	}
-
-
 	.navbar-nav>li>a {
-
 		color: #333;
-
 	}
 
 	.navbar-nav>li>a:hover {
@@ -79,7 +44,6 @@ if (!isset($pageId)) {
 	}
 
 	.navbar-header .navbar-brand {
-
 		color: #333;
 	}
 </style>
@@ -91,34 +55,27 @@ if (!isset($pageId)) {
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-1 logocol">
+				<div class="col-md-2 logocol">
 					<img src="<?php echo $root; ?>/assets/images/logo.png" alt="Pdn_Logo" class="logoimg">
 				</div>
-				<div class="col-md-7 deptcol">
+				<div class="col-md-6 deptcol">
 					<h2 class="deptname">Department of Archaeology</h2>
 					<h4 class="uniname"> University of Peradeniya</h4>
 				</div>
+
 				<div class="col-md-4 searchcol">
-					<form onSubmit="searchGeo()" method="get" action="" class="search-form">
-						<div class="form-group has-feedback">
-							<label for="search" class="sr-only">Search Archaelogy</label>
-							<input type="text" class="form-control" name="query" id="query" placeholder="Search Archaelogy">
-							<span class="glyphicon glyphicon-search form-control-feedback"></span>
-						</div>
+					<form method="GET" action="search_results.php" class="search-form d-flex">
+						<label for="query" class="visually-hidden">Search Archaeology</label>
+						<input type="text" class="form-control me-2" name="query" id="query" placeholder="Search Archaeology" aria-label="Search Archaeology">
+						<button class="btn btn-primary" type="submit" aria-label="Search">
+							<i class="bi bi-search"></i>
+						</button>
 					</form>
 				</div>
+
 			</div>
 
-			<!-- <div class="col-md-2">
-				
-			</div>
-			<div class="col-md-5">
-				
-			</div>
-			<div class="col-md-offset-1 col-md-3">
-				
-
-			</div> -->
+			
 		</div>
 	</header>
 
