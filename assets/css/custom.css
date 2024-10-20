@@ -1,30 +1,5 @@
-/*------------------------css------------------------*/
-
 body {
   font-family: "roboto condensed", sans-serif;
-}
-
-header {
-  padding: 10px;
-  color: #1db8ea;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1b98e5+0,1db8ea+100 */
-  background: #1b98e5; /* Old browsers */
-  background: -moz-linear-gradient(
-    top,
-    #1b98e5 0%,
-    #1db8ea 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    top,
-    #1b98e5 0%,
-    #1db8ea 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #1b98e5 0%,
-    #1db8ea 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b98e5', endColorstr='#1db8ea',GradientType=0 ); /* IE6-9 */
 }
 
 h1,
