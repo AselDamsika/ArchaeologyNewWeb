@@ -34,12 +34,48 @@ if (!isset($pageId)) {
 <![endif]-->
 
 <style>
+	.navbar-nav li.dropdown:hover>.dropdown-menu {
+		display: block;
+		visibility: visible;
+		opacity: 1;
+		transition: all 0.3s ease;
+	}
+
+	.navbar-nav .dropdown-menu {
+		background-color: #1b98e5;
+		transition: all 0.3s ease;
+	}
+
+	.navbar-nav .dropdown-menu>li>a {
+		color: white;
+		font-size: 1.6rem;
+	}
+
+	.navbar-nav .dropdown-menu>li>a:hover {
+		background-color: #1b98e5;
+		color: white;
+	}
+
+	.bg-light {
+		--bs-bg-opacity: 1;
+		background-color: #1b98e5 !important;
+		padding: 5px 0;
+		margin-bottom: 20px;
+	}
+
 	.navbar-nav>li>a {
-		color: #333;
+		color: white;
+		font-size: 1.8rem;
+	}
+
+	.nav>li>a:hover,
+	.nav>li>a:focus {
+		text-decoration: none;
+		background-color: #1b98e5;
 	}
 
 	.navbar-nav>li>a:hover {
-		color: #008bff;
+		color: #003269;
 	}
 
 	.navbar-header .navbar-brand {
@@ -83,6 +119,7 @@ if (!isset($pageId)) {
 	</script>
 
 
+	<!-- Navbar -->
 	<nav class="navbar-expand-lg navbar-light bg-light">
 		<div class="container">
 			<div class="navbar-header">
@@ -129,8 +166,8 @@ if (!isset($pageId)) {
 					</li>
 
 					<!-- <li class="dropdown <?php if ($pageId == 'event') {
-												echo "active";
-											} ?>">
+													echo "active";
+												} ?>">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
               <li class="<?php if ($pageId == 'faci') {
 								echo "active";

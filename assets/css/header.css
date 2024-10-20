@@ -35,18 +35,6 @@
   /* border: solid 1px black; */
 }
 
-.navbar-nav > li > a {
-  color: #333;
-}
-
-.navbar-nav > li > a:hover {
-  color: #008bff;
-}
-
-.navbar-header .navbar-brand {
-  color: #333;
-}
-
 /* media queries */
 @media (min-width: 1200px) {
   .logocol {
