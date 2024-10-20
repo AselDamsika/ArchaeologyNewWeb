@@ -42,24 +42,30 @@ if (!isset($pageId)) {
 	}
 
 	.navbar-nav .dropdown-menu {
-		background-color: #1b98e5;
+		background-color: white !important;
 		transition: all 0.3s ease;
 	}
 
+	.navbar-nav .dropdown-menu>li {
+		color: #003269;
+		background-color: white !important;
+		font-size: 1.6rem;
+	}
+
 	.navbar-nav .dropdown-menu>li>a {
-		color: white;
+		color: #003269;
+		background-color: white !important;
 		font-size: 1.6rem;
 	}
 
 	.navbar-nav .dropdown-menu>li>a:hover {
-		background-color: #1b98e5;
-		color: white;
+		color: #003269;
+		background-color: rgba(0, 50, 105, 0.2);
 	}
 
 	.bg-light {
 		--bs-bg-opacity: 1;
 		background-color: #1b98e5 !important;
-		padding: 5px 0;
 		margin-bottom: 20px;
 	}
 
@@ -69,18 +75,34 @@ if (!isset($pageId)) {
 	}
 
 	.nav>li>a:hover,
-	.nav>li>a:focus {
+	.nav>li>a:focus,
+	.nav>li>a:active {
 		text-decoration: none;
-		background-color: #1b98e5;
+		background-color: rgba(0, 50, 105, 0.2) !important;
+		color: white;
 	}
 
-	.navbar-nav>li>a:hover {
-		color: #003269;
+	.navbar-nav>li>a {
+		padding: 20px;
 	}
 
 	.navbar-header .navbar-brand {
 		color: #333;
 	}
+	.dropdown-menu {
+		border: #003269;
+	}
+	.dropdown-menu > li {
+		margin: 0 !important;
+	}
+	.dropdown-menu > li > a:focus {
+		background-color: #f5f5f5;
+		box-shadow: inset 200px 0 0 0 white;
+	}
+	.dropdown-menu > li > a:hover{
+		box-shadow:inset 250px 0 0 0 #f5f5f5;
+	}
+
 </style>
 
 </head>
@@ -145,11 +167,10 @@ if (!isset($pageId)) {
 					<li class="dropdown <?php if ($pageId == 'ac') {
 											echo "active";
 										} ?>">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programmes</a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs</a>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo $root; ?>/ac/under.php">Undergraduate </a></li>
 							<li role="separator" class="divider"></li>
-							<!--<li><a href="<?php echo $root; ?>/ac/post.php">Postgraduate </a></li>-->
 							<li><a href="http://www.pgihs.lk/">Postgraduate </a></li>
 						</ul>
 					</li>
@@ -165,42 +186,19 @@ if (!isset($pageId)) {
 						</ul>
 					</li>
 
-					<!-- <li class="dropdown <?php if ($pageId == 'event') {
-													echo "active";
-												} ?>">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
-              <li class="<?php if ($pageId == 'faci') {
-								echo "active";
-							} ?>"><a href="<?php echo $root; ?>/facilities.php">Facilities</a></li>
-	          <!-- <ul class="dropdown-menu">
-              	<li><a href="<?php echo $root; ?>/events/conference.php">International Conference</a></li>
-                <li role="separator" class="divider"></li>
-	            <li><a href="<?php echo $root; ?>/events/socday.php">Sociology Day</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="<?php echo $root; ?>/events/seminar.php">Seminar Series</a></li>
-	          </ul> -->
-					</li>
-
-					<li class="dropdown <?php if ($pageId == 'associ') {
-											echo "active";
-										} ?>">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Societies & Outreach Activities</a>
-						<ul class="dropdown-menu">
-							<!--<li><a href="<?php echo $root; ?>/societies/geosociety.php">Geography Society</a></li>
-	           <li role="separator" class="divider"></li>
-	            <li><a href="/geographynew/societies/geoschoolteachers.php">Geography for School Teachers</a></li>
-                <li role="separator" class="divider"></li>
-	            <li><a href="#">Geography Teachers Association</a></li>-->
-						</ul>
-					</li>
-
 					<li class="<?php if ($pageId == 'res') {
 									echo "active";
 								} ?>"><a href="<?php echo $root; ?>/#">Research &amp; Publications</a></li>
 
+					<li class="<?php if ($pageId == 'res') {
+									echo "active";
+								} ?>"><a href="<?php echo $root; ?>/#">Downloads</a></li>
+
 					<li class="<?php if ($pageId == 'cnt') {
 									echo "active";
 								} ?>"><a href="<?php echo $root; ?>/contact.php">Contacts</a></li>
+
+
 
 				</ul>
 			</div><!-- /.navbar-collapse -->
