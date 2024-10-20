@@ -6,12 +6,10 @@ if (!isset($pageId)) {
 }
 ?>
 
-<!-- meta section -->
 
 <meta name="description" content="The Department of Geography is one of the reputed departments in the Faculty of Arts, University of Peradeniya, Sri Lanka which was established in 1952." />
 <meta name="author" content="root" />
 
-<!-- css section -->
 
 <link rel="shortcut icon" type="image/x-icon" href="<?php echo $root; ?>/assets/images/logo.png" />
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/bootstrap.css" />
@@ -34,6 +32,7 @@ if (!isset($pageId)) {
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+
 <style>
 	.navbar-nav>li>a {
 		color: #333;
@@ -52,7 +51,7 @@ if (!isset($pageId)) {
 
 <body>
 
-	<header>
+	<header style="background: #003269; padding: 10px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2 logocol">
@@ -74,8 +73,6 @@ if (!isset($pageId)) {
 				</div>
 
 			</div>
-
-			
 		</div>
 	</header>
 
@@ -88,7 +85,6 @@ if (!isset($pageId)) {
 
 	<nav class="navbar-expand-lg navbar-light bg-light">
 		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
@@ -98,7 +94,6 @@ if (!isset($pageId)) {
 				</button>
 			</div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 
@@ -113,7 +108,7 @@ if (!isset($pageId)) {
 					<li class="dropdown <?php if ($pageId == 'ac') {
 											echo "active";
 										} ?>">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programmes <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programmes</a>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo $root; ?>/ac/under.php">Undergraduate </a></li>
 							<li role="separator" class="divider"></li>
@@ -125,7 +120,7 @@ if (!isset($pageId)) {
 					<li class="dropdown <?php if ($pageId == 'staff') {
 											echo "active";
 										} ?>">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staff <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staff</a>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo $root; ?>/staff/academic.php">Academic Staff</a></li>
 							<li role="separator" class="divider"></li>
@@ -133,26 +128,26 @@ if (!isset($pageId)) {
 						</ul>
 					</li>
 
-					<!--<li class="dropdown <?php if ($pageId == 'event') {
+					<!-- <li class="dropdown <?php if ($pageId == 'event') {
 												echo "active";
 											} ?>">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
               <li class="<?php if ($pageId == 'faci') {
 								echo "active";
 							} ?>"><a href="<?php echo $root; ?>/facilities.php">Facilities</a></li>
-	          <!--<ul class="dropdown-menu">
+	          <!-- <ul class="dropdown-menu">
               	<li><a href="<?php echo $root; ?>/events/conference.php">International Conference</a></li>
                 <li role="separator" class="divider"></li>
 	            <li><a href="<?php echo $root; ?>/events/socday.php">Sociology Day</a></li>
 	            <li role="separator" class="divider"></li>
 	            <li><a href="<?php echo $root; ?>/events/seminar.php">Seminar Series</a></li>
-	          </ul>-->
+	          </ul> -->
 					</li>
 
 					<li class="dropdown <?php if ($pageId == 'associ') {
 											echo "active";
 										} ?>">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Societies & Outreach Activities <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Societies & Outreach Activities</a>
 						<ul class="dropdown-menu">
 							<!--<li><a href="<?php echo $root; ?>/societies/geosociety.php">Geography Society</a></li>
 	           <li role="separator" class="divider"></li>
