@@ -15,41 +15,76 @@ $pageId = "home";
 
 	<?php require_once "assets/header.php"; ?>
 
-	<!-- Include Bootstrap CSS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+	<style>
+		.carousel-caption {
+			background-color: rgba(0, 0, 0, 0.5);
+			color: white;
+			font-family: "Roboto Condensed", sans-serif;
+			font-size: 4rem;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+	</style>
+
+</head>
+
+<body>
+
 
 	<div id="mySlider" class="carousel slide" data-ride="carousel" data-interval="3000">
-		<!-- Indicators -->
+
 		<ul class="carousel-indicators">
 			<li data-target="#mySlider" data-slide-to="0" class="active"></li>
 			<li data-target="#mySlider" data-slide-to="1"></li>
 			<li data-target="#mySlider" data-slide-to="2"></li>
 			<li data-target="#mySlider" data-slide-to="3"></li>
 			<li data-target="#mySlider" data-slide-to="4"></li>
+			<li data-target="#mySlider" data-slide-to="5"></li>
 		</ul>
 
-		<!-- The slideshow -->
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img src="assets/data1/images/001new.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h3>Department of Archaeology</h3>
+					<h1 style="font-weight: 400; font-size:3rem">Department of Archaeology</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/002new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/005new.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h3>Department of Archaeology</h3>
+					<h1 style="font-weight: 400; font-size:3rem">Department of Archaeology</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/005new.jpg" alt="" class="d-block w-100">
+				<img src="assets/data1/images/007new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<div class="carousel-caption">
+					<h1 style="font-weight: 400; font-size:3rem">Department of Archaeology</h1>
+				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/008new.jpg" alt="" class="d-block w-100">
+				<img src="assets/data1/images/008new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<div class="carousel-caption">
+					<h1 style="font-weight: 400; font-size:3rem">Department of Archaeology</h1>
+				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/002new.jpg" alt="slider" class="d-block w-100">
+				<img src="assets/data1/images/005.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<div class="carousel-caption">
+					<h1 style="font-weight: 400; font-size:3rem">Department of Archaeology</h1>
+				</div>
 			</div>
+			<div class="carousel-item">
+				<img src="assets/data1/images/006new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<div class="carousel-caption">
+					<h1 style="font-weight: 400; font-size:3rem">Department of Archaeology</h1>
+				</div>
+			</div>
+
 		</div>
 
 		<!-- Left and right controls -->
@@ -131,6 +166,6 @@ $pageId = "home";
 	</div>
 
 	<?php require_once "assets/footer.php" ?>
-	</body>
+</body>
 
 </html>
