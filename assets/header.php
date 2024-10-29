@@ -37,7 +37,6 @@ if (!isset($pageId)) {
 	.navbar-nav li.dropdown:hover>.dropdown-menu {
 		display: block;
 		visibility: visible;
-		opacity: 1;
 		transition: all 0.3s ease;
 	}
 
@@ -66,7 +65,6 @@ if (!isset($pageId)) {
 	.bg-light {
 		--bs-bg-opacity: 1;
 		background-color: #1b98e5 !important;
-		margin-bottom: 20px;
 	}
 
 	.navbar-nav>li>a {
@@ -89,21 +87,25 @@ if (!isset($pageId)) {
 	.navbar-header .navbar-brand {
 		color: #333;
 	}
+
 	.dropdown-menu {
 		border: #003269;
 	}
-	.dropdown-menu > li {
+
+	.dropdown-menu>li {
 		margin: 0 !important;
 	}
-	.dropdown-menu > li > a:focus {
+
+	.dropdown-menu>li>a:focus {
 		background-color: #f5f5f5;
 		box-shadow: inset 200px 0 0 0 white;
 	}
-	.dropdown-menu > li > a:hover{
-		box-shadow:inset 250px 0 0 0 #f5f5f5;
-	}
 
+	.dropdown-menu>li>a:hover {
+		box-shadow: inset 250px 0 0 0 #f5f5f5;
+	}
 </style>
+
 
 </head>
 
@@ -141,15 +143,14 @@ if (!isset($pageId)) {
 	</script>
 
 
+
 	<!-- Navbar -->
 	<nav class="navbar-expand-lg navbar-light bg-light">
-		<div class="container">
+		<div class="container" style="padding: 0;">
+			
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
 				</button>
 			</div>
 
@@ -157,28 +158,28 @@ if (!isset($pageId)) {
 				<ul class="nav navbar-nav navbar-right">
 
 					<li class="<?php if ($pageId == 'home') {
-									echo "active";
+									echo "nav-item active";
 								} ?>"><a href="<?php echo $root; ?>/">Home <span class="sr-only">(current)</span></a></li>
 
 					<li class="<?php if ($pageId == 'about') {
-									echo "active";
+									echo "nav-item active";
 								} ?>"><a href="<?php echo $root; ?>/about.php">About</a></li>
 
 					<li class="dropdown <?php if ($pageId == 'ac') {
-											echo "active";
+											echo "nav-item active";
 										} ?>">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs</a>
+						<a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs</a>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo $root; ?>/ac/under.php">Undergraduate </a></li>
 							<li role="separator" class="divider"></li>
-							<li><a href="http://www.pgihs.lk/">Postgraduate </a></li>
+							<li><a  href="http://www.pgihs.lk/">Postgraduate </a></li>
 						</ul>
 					</li>
 
 					<li class="dropdown <?php if ($pageId == 'staff') {
-											echo "active";
+											echo "nav-item active";
 										} ?>">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staff</a>
+						<a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staff</a>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo $root; ?>/staff/academic.php">Academic Staff</a></li>
 							<li role="separator" class="divider"></li>
@@ -187,16 +188,16 @@ if (!isset($pageId)) {
 					</li>
 
 					<li class="<?php if ($pageId == 'res') {
-									echo "active";
+									echo "nav-item active";
 								} ?>"><a href="<?php echo $root; ?>/#">Research &amp; Publications</a></li>
 
 					<li class="<?php if ($pageId == 'res') {
-									echo "active";
-								} ?>"><a href="<?php echo $root; ?>/#">Downloads</a></li>
+									echo "nav-item active";
+								} ?>"><a  href="<?php echo $root; ?>/#">Downloads</a></li>
 
 					<li class="<?php if ($pageId == 'cnt') {
-									echo "active";
-								} ?>"><a href="<?php echo $root; ?>/contact.php">Contacts</a></li>
+									echo "nav-item active";
+								} ?>"><a  href="<?php echo $root; ?>/contact.php">Contacts</a></li>
 
 
 
