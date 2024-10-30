@@ -15,6 +15,10 @@ if (!isset($pageId)) {
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/bootstrap.css" />
 <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/custom.css" />
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/header.css" />
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/font-awesome.min.css" />
@@ -147,7 +151,7 @@ if (!isset($pageId)) {
 	<!-- Navbar -->
 	<nav class="navbar-expand-lg navbar-light bg-light">
 		<div class="container" style="padding: 0;">
-			
+
 			<div class="navbar-header">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -168,18 +172,18 @@ if (!isset($pageId)) {
 					<li class="dropdown <?php if ($pageId == 'ac') {
 											echo "nav-item active";
 										} ?>">
-						<a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs</a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs</a>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo $root; ?>/ac/under.php">Undergraduate </a></li>
 							<li role="separator" class="divider"></li>
-							<li><a  href="http://www.pgihs.lk/">Postgraduate </a></li>
+							<li><a href="http://www.pgihs.lk/">Postgraduate </a></li>
 						</ul>
 					</li>
 
 					<li class="dropdown <?php if ($pageId == 'staff') {
 											echo "nav-item active";
 										} ?>">
-						<a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staff</a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staff</a>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo $root; ?>/staff/academic.php">Academic Staff</a></li>
 							<li role="separator" class="divider"></li>
@@ -193,11 +197,11 @@ if (!isset($pageId)) {
 
 					<li class="<?php if ($pageId == 'res') {
 									echo "nav-item active";
-								} ?>"><a  href="<?php echo $root; ?>/#">Downloads</a></li>
+								} ?>"><a href="<?php echo $root; ?>/#">Downloads</a></li>
 
 					<li class="<?php if ($pageId == 'cnt') {
 									echo "nav-item active";
-								} ?>"><a  href="<?php echo $root; ?>/contact.php">Contacts</a></li>
+								} ?>"><a href="<?php echo $root; ?>/contact.php">Contacts</a></li>
 
 
 

@@ -15,6 +15,8 @@ $pageId = "home";
 
 	<?php require_once "assets/header.php"; ?>
 
+	<link rel="stylesheet" href="<?php echo $root; ?>/assets/css/index.css" />
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -40,19 +42,38 @@ $pageId = "home";
 		.carousel-item {
 			transition: transform 0.1s step-start;
 		}
-		.carousel-indicators{
+
+		.carousel-indicators {
 			bottom: 30px;
 			display: block;
 		}
-		
 
+		.count-box {
+			background-color: #f8f9fa;
+			border-radius: 10px;
+			padding: 20px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		}
+
+		.count-box h1,
+		.count-box span {
+			font-size: 6rem;
+			color: #007bff;
+			font-weight: 400;
+		}
+
+		.count-box p {
+			font-size: 3rem;
+			color: #003269 !important;
+			font-weight: 400;
+		}
 	</style>
 
 </head>
 
 <body>
 
-
+	<!-- Image carousel slider -->
 	<div id="mySlider" class="carousel slide" data-ride="carousel" data-interval="3000">
 
 		<ol class="carousel-indicators">
@@ -68,37 +89,37 @@ $pageId = "home";
 			<div class="carousel-item active">
 				<img src="assets/data1/images/001new.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of Archaeology</h1>
+					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/data1/images/005new.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of Archaeology</h1>
+					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/data1/images/007new.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of Archaeology</h1>
+					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/data1/images/008new.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of Archaeology</h1>
+					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/data1/images/005.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of Archaeology</h1>
+					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/data1/images/006new.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of Archaeology</h1>
+					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 
@@ -106,40 +127,113 @@ $pageId = "home";
 
 		<a class="carousel-control-prev" href="#mySlider" data-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			
+
 		</a>
 		<a class="carousel-control-next" href="#mySlider" data-slide="next">
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			
+
 		</a>
 	</div>
-	
+
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
+	<!-- Counting -->
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-4 text-center">
+				<div class="count-box">
+					<p>Study Programs</p>
+					<h1 id="program-count" class="display-4">0</h1>
+
+				</div>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="count-box">
+					<p>Students</p>
+					<h1> <span id="student-count" class="display-4">0</span>+</h1>
+
+				</div>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="count-box">
+					<p>Academic Staff</p>
+					<h1><span id="teacher-count" class="display-4">0</span>+</h1>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		function animateCount(id, start, end, duration) {
+			const element = document.getElementById(id);
+			let startTime = null;
+
+			function update(timestamp) {
+				if (!startTime) startTime = timestamp;
+				const progress = timestamp - startTime;
+				const current = Math.min(Math.floor((progress / duration) * (end - start) + start), end);
+				element.innerText = current;
+				if (current < end) {
+					window.requestAnimationFrame(update);
+				}
+			}
+
+			window.requestAnimationFrame(update);
+		}
+
+		function startCounting(entries, observer) {
+			entries.forEach(entry => {
+				if (entry.isIntersecting) {
+					animateCount('program-count', 0, 20, 2000);
+					animateCount('student-count', 0, 1000, 2000);
+					animateCount('teacher-count', 0, 50, 2000);
+					observer.unobserve(entry.target);
+				}
+			});
+		}
+
+
+		document.addEventListener('DOMContentLoaded', function() {
+			const options = {
+				threshold: 0.5
+			};
+
+			const observer = new IntersectionObserver(startCounting, options);
+			const target = document.querySelector('.count-box');
+			observer.observe(target);
+		});
+	</script>
+
 
 	<div class="frontHolder">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 welcomeNote">
-					<h3><i class="fa fa-quote-left"></i> Welcome to the Department of Archaeology <i class="fa fa-quote-right"></i></h3>
-					<hr />
-					<blockquote>
-						<p><span class="highlight">The Department of Archaeology, University of Peradeniya</span> was established as a separate Department in 1976, is one of the largest Departments in the university system of Sri Lanka. At present, over one hundred undergraduates are following the Special and General Degree courses in Sinhala and English media at the Department.
+		<div class="container main-container">
 
-							The teaching of archaeology at Peradeniya, was originally introduced as an auxiliary subject to history, as a sub-department, for the purpose of training future archaeological officers required by the state. In 1957, Dr. Senarat Paranavitana on his retirement from the post of Commissioner of Archaeology was appointed as the Professor of Archaeology, which marked the official beginning of the Department of Archaeology, University of Peradeniya. The notable archaeologists, namely, Prof Senarat Paranavitana, Prof. P.L. Prematilleke and Prof. Sudharshan Seneviratne have served in the Department.
-						</p>
 
-						<hr />
 
-						<!--<p>Among the pioneering sociologists associated with the Department were the <span class="highlight"><em>Prof.Bryce Ryan, Prof.Ralph Pieris, Prof.S.J. Tambiah, Prof. Gananath Obeyesekere, Prof.Laksiri Jayasuriya, Prof. Nur Yalman, Prof. E.R. Leach, Prof. H.L.Seneviratne and Prof. Kitsiri Malalgoda. Prof. K. Tudor Silva, Emeritus Prof. W. M. Sirisena</em> and <em>Prof. M. W. Amarasiri De Silva</em></span> another prominent members who have served in the Department in the recent past.</p>-->
-					</blockquote>
+			<div class="row welcome-row">
+				<div class="row">
+					<p>Welcome to</p>
+					<h1>Department of Archaeology</h1>
+					<p>The Department of Archaeology, University of Peradeniya was established as a separate Department in 1976,
+						is one of the largest Departments in the university system of Sri Lanka. At present, over one hundred
+						undergraduates are following the Special and General Degree courses in Sinhala and English media at the
+						Department. The teaching of archaeology at Peradeniya, was originally introduced as an auxiliary subject
+						to history, as a sub-department, for the purpose of training future archaeological officers required by
+						the state. In 1957, Dr. Senarat Paranavitana on his retirement from the post of Commissioner of
+						Archaeology was appointed as the Professor of Archaeology, which marked the official beginning of the
+						Department of Archaeology, University of Peradeniya. The notable archaeologists, namely, Prof Senarat
+						Paranavitana, Prof. P.L. Prematilleke and Prof. Sudharshan Seneviratne have served in the Department.</p>
 				</div>
+			</div>
 
-				<div class="col-md-4 noticeBoard">
+
+			<div class="row" style="border: solid;">
+				<div class="col-md-12 noticeBoard">
 					<h3>News &amp; Events</h3>
 					<hr />
 
