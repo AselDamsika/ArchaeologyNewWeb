@@ -23,12 +23,29 @@ $pageId = "home";
 	<style>
 		.carousel-caption {
 			background-color: rgba(0, 0, 0, 0.5);
+			display: flex;
+			justify-content: center;
 			color: white;
 			font-family: "Roboto Condensed", sans-serif;
-			font-size: 4rem;
-			padding-top: 20px;
-			padding-bottom: 50px;
+			padding: 20px 0px 50px 0px;
+			letter-spacing: 20px;
 		}
+
+		.carousel-control-next-icon,
+		.carousel-control-prev-icon {
+			width: 5rem;
+			height: 4rem;
+		}
+
+		.carousel-item {
+			transition: transform 0.1s step-start;
+		}
+		.carousel-indicators{
+			bottom: 30px;
+			display: block;
+		}
+		
+
 	</style>
 
 </head>
@@ -38,65 +55,66 @@ $pageId = "home";
 
 	<div id="mySlider" class="carousel slide" data-ride="carousel" data-interval="3000">
 
-		<ul class="carousel-indicators">
+		<ol class="carousel-indicators">
 			<li data-target="#mySlider" data-slide-to="0" class="active"></li>
 			<li data-target="#mySlider" data-slide-to="1"></li>
 			<li data-target="#mySlider" data-slide-to="2"></li>
 			<li data-target="#mySlider" data-slide-to="3"></li>
 			<li data-target="#mySlider" data-slide-to="4"></li>
 			<li data-target="#mySlider" data-slide-to="5"></li>
-		</ul>
+		</ol>
 
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img src="assets/data1/images/001new.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:3rem">Department of Archaeology</h1>
+					<h1 style="font-weight: 400; font-size:4rem">Department of Archaeology</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/data1/images/005new.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:3rem">Department of Archaeology</h1>
+					<h1 style="font-weight: 400; font-size:4rem">Department of Archaeology</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/data1/images/007new.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:3rem">Department of Archaeology</h1>
+					<h1 style="font-weight: 400; font-size:4rem">Department of Archaeology</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/data1/images/008new.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:3rem">Department of Archaeology</h1>
+					<h1 style="font-weight: 400; font-size:4rem">Department of Archaeology</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/data1/images/005.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:3rem">Department of Archaeology</h1>
+					<h1 style="font-weight: 400; font-size:4rem">Department of Archaeology</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/data1/images/006new.jpg" alt="Department of Archaeology" class="d-block w-100">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:3rem">Department of Archaeology</h1>
+					<h1 style="font-weight: 400; font-size:4rem">Department of Archaeology</h1>
 				</div>
 			</div>
 
 		</div>
 
-		<!-- Left and right controls -->
 		<a class="carousel-control-prev" href="#mySlider" data-slide="prev">
-			<span class="carousel-control-prev-icon"></span>
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			
 		</a>
 		<a class="carousel-control-next" href="#mySlider" data-slide="next">
-			<span class="carousel-control-next-icon"></span>
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			
 		</a>
 	</div>
+	
 
-	<!-- Include Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
