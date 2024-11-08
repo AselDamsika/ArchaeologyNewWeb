@@ -23,28 +23,36 @@
 		}
 
 		.page hr {
-			border-top: 3px solid #007bff; /* Bootstrap primary color */
+			border-top: 3px solid #007bff;
 			width: 60px;
 			margin-top: -10px;
 		}
 
-		.cList h4 {
-			color: #007bff; /* Bootstrap primary color */
-			font-weight: 600;
+		.course-box {
+			border: 2px solid #007bff;
+			border-radius: 10px;
+			padding: 15px;
 			margin-top: 20px;
+			background-color: #f9f9f9;
 		}
 
-		.cList ul {
+		.course-box h4 {
+			color: #007bff;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		.course-box ul {
 			padding-left: 20px;
 		}
 
-		.cList li {
+		.course-box li {
 			font-size: 16px;
 			padding-left: 10px;
 			position: relative;
 		}
 
-		.cList li::before {
+		.course-box li::before {
 			content: "•";
 			color: #007bff;
 			font-weight: bold;
@@ -67,20 +75,22 @@
 		
 		<div class="page bg-white p-4 shadow-sm rounded">
 			<!-- Main Title -->
-			<h3 class="text-primary">Undergraduate Programme</h3>
-			<hr />
+			<h3 class="text-primary text-center">Undergraduate Programme</h3>
+			<br>
+      <hr />
 			<div class="cList">
 				<h3 class="text-secondary">Our Course Structure</h3>
-				
-				<!-- First Year Courses Section -->
-				<h4 class="text-info mt-4">First Year Courses</h4>
+				<br>
+				<div class="course-box">
+				<h4>First Year Courses</h4>
 				<ul class="list-unstyled">
 					<li>ACL 1001 Introductory Archaeology I</li>
 					<li>ACL 1002 Introductory Archaeology II</li>
 				</ul>
+			</div>
 
-				<!-- Second Year Courses Section -->
-				<h4 class="text-info mt-4">Second Year Courses</h4>
+			<div class="course-box">
+				<h4>Second Year Courses</h4>
 				<ul class="list-unstyled">
 					<li>ACL 2001 Palaeo-Human Biology and Ethno-Archaeology</li>
 					<li>ACL 2002 Socio-Economic History of Ancient India</li>
@@ -92,9 +102,10 @@
 					<li>ACL 2008 Practical Archaeology</li>
 					<li>ACL 2009 Heritage Museum and Management</li>
 				</ul>
+			</div>
 
-				<!-- Third Year Courses Section -->
-				<h4 class="text-info mt-4">Third Year Courses</h4>
+			<div class="course-box">
+				<h4>Third Year Courses</h4>
 				<ul class="list-unstyled">
 					<li>ACL 3001 Crafts & Technology of Pre-Industrial South Asia</li>
 					<li>ACL 3002 Epigraphic Studies of Ancient India</li>
@@ -106,9 +117,10 @@
 					<li>ACL 3008 Archaeological Data Retrieval Systems & Processes</li>
 					<li>ACL 3020 Bio-Archaeology</li>
 				</ul>
+			</div>
 
-				<!-- Fourth Year Courses Section -->
-				<h4 class="text-info mt-4">Fourth Year Courses</h4>
+			<div class="course-box">
+				<h4>Fourth Year Courses</h4>
 				<ul class="list-unstyled">
 					<li>ACL 4001 Environmental Archaeology</li>
 					<li>ACL 4002 World Prehistory</li>
@@ -121,7 +133,6 @@
 			</div>
 		</div>
 	</div>
-
 	<!-- Include Bootstrap JS and dependencies -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
