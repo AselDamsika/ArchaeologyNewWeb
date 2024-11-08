@@ -6,18 +6,21 @@ if (!isset($pageId)) {
 }
 ?>
 
-<!-- meta section -->
 
 <meta name="description" content="The Department of Geography is one of the reputed departments in the Faculty of Arts, University of Peradeniya, Sri Lanka which was established in 1952." />
 <meta name="author" content="root" />
 
-<!-- css section -->
 
 <link rel="shortcut icon" type="image/x-icon" href="<?php echo $root; ?>/assets/images/logo.png" />
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/bootstrap.css" />
 <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/custom.css" />
+<link rel="stylesheet" href="<?php echo $root; ?>/assets/css/header.css" />
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/font-awesome.min.css" />
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/lightbox.css" />
 <link rel="stylesheet" href="<?php echo $root; ?>/assets/css/all.min.css" />
@@ -33,49 +36,105 @@ if (!isset($pageId)) {
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+
 <style>
-	/* Change the font color of the navbar */
+	.navbar-nav li.dropdown:hover>.dropdown-menu {
+		display: block;
+		visibility: visible;
+		transition: all 0.3s ease;
+	}
+
+	.navbar-nav .dropdown-menu {
+		background-color: white !important;
+		transition: all 0.3s ease;
+	}
+
+	.navbar-nav .dropdown-menu>li {
+		color: #003269;
+		background-color: white !important;
+		font-size: 1.6rem;
+	}
+
+	.navbar-nav .dropdown-menu>li>a {
+		color: #003269;
+		background-color: white !important;
+		font-size: 1.6rem;
+	}
+
+	.navbar-nav .dropdown-menu>li>a:hover {
+		color: #003269;
+		background-color: rgba(0, 50, 105, 0.2);
+	}
+
+	.bg-light {
+		--bs-bg-opacity: 1;
+		background-color: #1b98e5 !important;
+	}
+
 	.navbar-nav>li>a {
-
-		color: #333;
-		/* Change this color as per your preference */
+		color: white;
+		font-size: 1.8rem;
 	}
 
-	/* Change the font color on hover */
-	.navbar-nav>li>a:hover {
-		color: #008bff;
-		/* Change this color for the hover effect */
+	.nav>li>a:hover,
+	.nav>li>a:focus,
+	.nav>li>a:active {
+		text-decoration: none;
+		background-color: rgba(0, 50, 105, 0.2) !important;
+		color: white;
 	}
 
-	/* Change the font color of the brand text */
+	.navbar-nav>li>a {
+		padding: 20px;
+	}
+
 	.navbar-header .navbar-brand {
-
 		color: #333;
-		/* Change this to the desired color */
+	}
+
+	.dropdown-menu {
+		border: #003269;
+	}
+
+	.dropdown-menu>li {
+		margin: 0 !important;
+	}
+
+	.dropdown-menu>li>a:focus {
+		background-color: #f5f5f5;
+		box-shadow: inset 200px 0 0 0 white;
+	}
+
+	.dropdown-menu>li>a:hover {
+		box-shadow: inset 250px 0 0 0 #f5f5f5;
 	}
 </style>
+
 
 </head>
 
 <body>
 
-	<header>
+	<header style="background: #003269; padding: 10px;">
 		<div class="container">
-			<div class="col-md-2">
-				<img src="<?php echo $root; ?>/assets/images/logo.png" alt="Pdn_Logo">
-			</div>
-			<div class="col-md-5">
-				<h2>Department of Archaeology</h2>
-				<h4> University of Peradeniya</h4>
-			</div>
-			<div class="col-md-offset-1 col-md-3">
-				<form onSubmit="searchGeo()" method="get" action="" class="search-form">
-					<div class="form-group has-feedback">
-						<label for="search" class="sr-only">Search Archaelogy</label>
-						<input type="text" class="form-control" name="query" id="query" placeholder="Search Archaelogy">
-						<span class="glyphicon glyphicon-search form-control-feedback"></span>
-					</div>
-				</form>
+			<div class="row">
+				<div class="col-md-2 logocol">
+					<img src="<?php echo $root; ?>/assets/images/logo.png" alt="Pdn_Logo" class="logoimg">
+				</div>
+				<div class="col-md-6 deptcol">
+					<h2 class="deptname">Department of Archaeology</h2>
+					<h4 class="uniname"> University of Peradeniya</h4>
+				</div>
+
+				<div class="col-md-4 searchcol">
+					<form method="GET" action="search_results.php" class="search-form d-flex">
+						<label for="query" class="visually-hidden">Search Archaeology</label>
+						<input type="text" class="form-control me-2" name="query" id="query" placeholder="Search Archaeology" aria-label="Search Archaeology">
+						<button class="btn btn-primary" type="submit" aria-label="Search">
+							<i class="bi bi-search"></i>
+						</button>
+					</form>
+				</div>
 
 			</div>
 		</div>
@@ -88,46 +147,43 @@ if (!isset($pageId)) {
 	</script>
 
 
+
+	<!-- Navbar -->
 	<nav class="navbar-expand-lg navbar-light bg-light">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="container" style="padding: 0;">
+
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button> -->
 			</div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 
 					<li class="<?php if ($pageId == 'home') {
-									echo "active";
+									echo "nav-item active";
 								} ?>"><a href="<?php echo $root; ?>/">Home <span class="sr-only">(current)</span></a></li>
 
 					<li class="<?php if ($pageId == 'about') {
-									echo "active";
+									echo "nav-item active";
 								} ?>"><a href="<?php echo $root; ?>/about.php">About</a></li>
 
 					<li class="dropdown <?php if ($pageId == 'ac') {
-											echo "active";
+											echo "nav-item active";
 										} ?>">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programmes <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs</a>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo $root; ?>/ac/under.php">Undergraduate </a></li>
 							<li role="separator" class="divider"></li>
-							<!--<li><a href="<?php echo $root; ?>/ac/post.php">Postgraduate </a></li>-->
 							<li><a href="http://www.pgihs.lk/">Postgraduate </a></li>
 						</ul>
 					</li>
 
 					<li class="dropdown <?php if ($pageId == 'staff') {
-											echo "active";
+											echo "nav-item active";
 										} ?>">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staff <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staff</a>
 						<ul class="dropdown-menu">
 							<li><a href="<?php echo $root; ?>/staff/academic.php">Academic Staff</a></li>
 							<li role="separator" class="divider"></li>
@@ -135,42 +191,19 @@ if (!isset($pageId)) {
 						</ul>
 					</li>
 
-					<!--<li class="dropdown <?php if ($pageId == 'event') {
-												echo "active";
-											} ?>">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
-              <li class="<?php if ($pageId == 'faci') {
-								echo "active";
-							} ?>"><a href="<?php echo $root; ?>/facilities.php">Facilities</a></li>
-	          <!--<ul class="dropdown-menu">
-              	<li><a href="<?php echo $root; ?>/events/conference.php">International Conference</a></li>
-                <li role="separator" class="divider"></li>
-	            <li><a href="<?php echo $root; ?>/events/socday.php">Sociology Day</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="<?php echo $root; ?>/events/seminar.php">Seminar Series</a></li>
-	          </ul>-->
-					</li>
-
-					<li class="dropdown <?php if ($pageId == 'associ') {
-											echo "active";
-										} ?>">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Societies & Outreach Activities <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<!--<li><a href="<?php echo $root; ?>/societies/geosociety.php">Geography Society</a></li>
-	           <li role="separator" class="divider"></li>
-	            <li><a href="/geographynew/societies/geoschoolteachers.php">Geography for School Teachers</a></li>
-                <li role="separator" class="divider"></li>
-	            <li><a href="#">Geography Teachers Association</a></li>-->
-						</ul>
-					</li>
-
 					<li class="<?php if ($pageId == 'res') {
-									echo "active";
+									echo "nav-item active";
 								} ?>"><a href="<?php echo $root; ?>/#">Research &amp; Publications</a></li>
 
+					<li class="<?php if ($pageId == 'res') {
+									echo "nav-item active";
+								} ?>"><a href="<?php echo $root; ?>/#">Downloads</a></li>
+
 					<li class="<?php if ($pageId == 'cnt') {
-									echo "active";
+									echo "nav-item active";
 								} ?>"><a href="<?php echo $root; ?>/contact.php">Contacts</a></li>
+
+
 
 				</ul>
 			</div><!-- /.navbar-collapse -->

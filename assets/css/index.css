@@ -1,0 +1,10 @@
+.main-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.welcome-row {
+  border: solid;
+  margin: 20px 0;
+  padding: 2% 0;
+}

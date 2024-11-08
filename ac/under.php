@@ -67,7 +67,7 @@
 	<!-- Main container for Bootstrap grid -->
 	<div class="container">
 		<!-- Breadcrumb navigation -->
-		<ol class="breadcrumb bg-light p-2">
+		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="../index.php">Home</a></li>
 			<li class="breadcrumb-item active">Programmes</li>
 			<li class="breadcrumb-item active">Undergraduate Programme</li>
