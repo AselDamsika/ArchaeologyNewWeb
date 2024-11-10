@@ -38,6 +38,57 @@ if (!isset($pageId)) {
 <![endif]-->
 
 <style>
+	.logocol {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		align-items: center;
+		flex-wrap: nowrap;
+	}
+
+	.logoimg {
+		margin: 0;
+		padding: 0;
+		width: 90px;
+	}
+
+	.deptcol {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		padding: 10px 5px;
+		/* border: solid 1px black; */
+	}
+
+	.deptname {
+		font-weight: bold;
+		font-size: 3.5rem;
+		margin: 0;
+	}
+
+	.uniname {
+		font-weight: normal;
+		font-size: 2rem;
+	}
+
+	.searchcol {
+		/* border: solid 1px black; */
+	}
+
+	/* media queries */
+	@media (min-width: 1200px) {
+		.logocol {
+			width: 9%;
+		}
+
+		.searchcol {
+			width: 41%;
+		}
+	}
+
+
+
 	.navbar-nav li.dropdown:hover>.dropdown-menu {
 		display: block;
 		visibility: visible;
@@ -128,7 +179,6 @@ if (!isset($pageId)) {
 
 				<div class="col-md-4 searchcol">
 					<form method="GET" action="search_results.php" class="search-form d-flex">
-						<label for="query" class="visually-hidden">Search Archaeology</label>
 						<input type="text" class="form-control me-2" name="query" id="query" placeholder="Search Archaeology" aria-label="Search Archaeology">
 						<button class="btn btn-primary" type="submit" aria-label="Search">
 							<i class="bi bi-search"></i>
