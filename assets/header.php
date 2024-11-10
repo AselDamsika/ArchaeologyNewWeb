@@ -38,90 +38,7 @@ if (!isset($pageId)) {
 <![endif]-->
 
 <style>
-	.logocol {
-		padding: 0;
-		margin: 0;
-		display: flex;
-		align-items: center;
-		flex-wrap: nowrap;
-	}
-
-	.logoimg {
-		margin: 0;
-		padding: 0;
-		width: 90px;
-	}
-
-	.deptcol {
-		padding: 0;
-		margin: 0;
-		display: flex;
-		flex-direction: column;
-		padding: 10px 5px;
-		/* border: solid 1px black; */
-	}
-
-	.deptname {
-		font-weight: bold;
-		font-size: 3.5rem;
-		margin: 0;
-	}
-
-	.uniname {
-		font-weight: normal;
-		font-size: 2rem;
-	}
-
-	.searchcol {
-		/* border: solid 1px black; */
-	}
-
-	/* media queries */
-	@media (min-width: 1200px) {
-		.logocol {
-			width: 9%;
-		}
-
-		.searchcol {
-			width: 41%;
-		}
-	}
-
-
-
-	.navbar-nav li.dropdown:hover>.dropdown-menu {
-		display: block;
-		visibility: visible;
-		transition: all 0.3s ease;
-	}
-
-	.navbar-nav .dropdown-menu {
-		background-color: white !important;
-		transition: all 0.3s ease;
-	}
-
-	.navbar-nav .dropdown-menu>li {
-		color: #003269;
-		background-color: white !important;
-		font-size: 1.6rem;
-	}
-
-	.navbar-nav .dropdown-menu>li>a {
-		color: #003269;
-		background-color: white !important;
-		font-size: 1.6rem;
-	}
-
-	.navbar-nav .dropdown-menu>li>a:hover {
-		color: #003269;
-		background-color: rgba(0, 50, 105, 0.2);
-	}
-
-	.bg-light {
-		--bs-bg-opacity: 1;
-		background-color: #1b98e5 !important;
-	}
-
+	/* Change the font color of the navbar */
 	.navbar-nav>li>a {
 		color: white;
 		font-size: 1.8rem;
@@ -168,23 +85,21 @@ if (!isset($pageId)) {
 
 	<header style="background: #003269; padding: 10px;">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-2 logocol">
-					<img src="<?php echo $root; ?>/assets/images/logo.png" alt="Pdn_Logo" class="logoimg">
-				</div>
-				<div class="col-md-6 deptcol">
-					<h2 class="deptname">Department of Archaeology</h2>
-					<h4 class="uniname"> University of Peradeniya</h4>
-				</div>
-
-				<div class="col-md-4 searchcol">
-					<form method="GET" action="search_results.php" class="search-form d-flex">
-						<input type="text" class="form-control me-2" name="query" id="query" placeholder="Search Archaeology" aria-label="Search Archaeology">
-						<button class="btn btn-primary" type="submit" aria-label="Search">
-							<i class="bi bi-search"></i>
-						</button>
-					</form>
-				</div>
+			<div class="col-md-2">
+				<img src="<?php echo $root; ?>/assets/images/logo.png" alt="Pdn_Logo">
+			</div>
+			<div class="col-md-5">
+				<h2>Department of Archaeology</h2>
+				<h4> University of Peradeniya</h4>
+			</div>
+			<div class="col-md-offset-1 col-md-3">
+				<form onSubmit="searchGeo()" method="get" action="" class="search-form">
+					<div class="form-group has-feedback">
+						<label for="search" class="sr-only">Search Archaelogy</label>
+						<input type="text" class="form-control" name="query" id="query" placeholder="Search Archaelogy">
+						<span class="glyphicon glyphicon-search form-control-feedback"></span>
+					</div>
+				</form>
 
 			</div>
 		</div>
@@ -203,8 +118,11 @@ if (!isset($pageId)) {
 		<div class="container" style="padding: 0;">
 
 			<div class="navbar-header">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
 				</button>
 			</div>
 

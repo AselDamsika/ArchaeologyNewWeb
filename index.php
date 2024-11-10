@@ -143,8 +143,13 @@ $pageId = "home";
 
 	<!-- Counting -->
 	<div class="container mt-5">
+<<<<<<< HEAD
 		<div class="row" >
 			<div class="col-md-4 text-center" >
+=======
+		<div class="row">
+			<div class="col-md-4 text-center">
+>>>>>>> 10edc5c9fb35a1c1390e85061bf21fe404eaba62
 				<div class="count-box">
 					<p>Study Programs</p>
 					<h1 id="program-count" class="display-4">0</h1>
