@@ -90,7 +90,7 @@ $pageId = "home";
 		}
 
 		.welcomeheading {
-			font-size: 6rem;
+			font-size: 5.5rem;
 			margin: 2% 0;
 			color: #007bff;
 			line-height: 1.5;
@@ -115,7 +115,7 @@ $pageId = "home";
 		}
 
 		.deptpara {
-			font-size: 2.2rem;
+			font-size: 2.1rem;
 			font-weight: 400;
 			line-height: 1.5 !important;
 			color: #505050 !important;
@@ -276,7 +276,6 @@ $pageId = "home";
 
 
 			<div class="row welcome-row">
-				<div class="row">
 					<p class="welcometo">Welcome to</p>
 					<h1 class="welcomeheading">Department of Archaeology</h1>
 					<p class="deptpara">The <span class="dept-para-span">Department of Archaeology</span>, University of Peradeniya was established as a separate Department in 1976,
@@ -288,7 +287,7 @@ $pageId = "home";
 						Archaeology was appointed as the Professor of Archaeology, which marked the official beginning of the
 						Department of Archaeology, University of Peradeniya. The notable archaeologists, namely, Prof Senarat
 						Paranavitana, Prof. P.L. Prematilleke and Prof. Sudharshan Seneviratne have served in the Department.</p>
-				</div>
+				
 			</div>
 
 
