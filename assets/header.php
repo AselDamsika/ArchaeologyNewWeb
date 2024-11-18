@@ -125,6 +125,8 @@ if (!isset($pageId)) {
 		.deptcol {
 			padding: 0;
 			margin: 0;
+			display: flex;
+			flex-direction: column;
 			padding: 10px 5px;
 		}
 
