@@ -103,9 +103,14 @@ if (!isset($pageId)) {
 			box-shadow: inset 250px 0 0 0 #f5f5f5;
 		}
 
+		.main-row{
+			display: flex;
+			justify-content: space-between;
+		}
+
 		.logocol {
-			padding: 0;
 			margin: 0;
+			padding: 0;
 			display: flex;
 			align-items: center;
 			justify-content: left;
@@ -120,8 +125,6 @@ if (!isset($pageId)) {
 		.deptcol {
 			padding: 0;
 			margin: 0;
-			display: flex;
-			flex-direction: column;
 			padding: 10px 5px;
 		}
 
@@ -150,11 +153,11 @@ if (!isset($pageId)) {
 
 	<header style="background: #003269; padding: 10px;">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-2 logocol">
+			<div class="row main-row">
+				<div class="col-md-1 logocol">
 					<img src="<?php echo $root; ?>/assets/images/logo.png" alt="Pdn_Logo" class="logoimg">
 				</div>
-				<div class="col-md-6 deptcol">
+				<div class="col-md-7 deptcol">
 					<h2 class="deptname">Department of Archaeology</h2>
 					<h4 class="uniname"> University of Peradeniya</h4>
 				</div>
