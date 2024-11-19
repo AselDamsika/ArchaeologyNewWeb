@@ -218,6 +218,7 @@ $pageId = "home";
 
 			<div class="col-md-4 text-center">
 				<div class="count-box">
+					<img src="assets/data1/images/degree.png" alt="" class="count-img">
 					<p>Study Programs</p>
 					<h1 id="program-count" class="display-4">0</h1>
 				</div>
