@@ -290,7 +290,7 @@ $pageId = "home";
 
 
 			<div class="row welcome-row">
-					<p class="welcometo">Welcome to</p>
+					<p class="welcometo">Welcome to,</p>
 					<h1 class="welcomeheading">Department of Archaeology</h1>
 					<p class="deptpara">The <span class="dept-para-span">Department of Archaeology</span>, University of Peradeniya was established as a separate Department in 1976,
 						is one of the largest Departments in the university system of Sri Lanka. At present, over one hundred
