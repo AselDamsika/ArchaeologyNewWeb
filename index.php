@@ -47,23 +47,28 @@ $pageId = "home";
 		}
 
 		.count-box {
-			background-color: #f8f9fa;
-			border-radius: 10px;
+			background-color: #F0F8FF;
+			margin: 5% 0;
 			padding: 20px;
-			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 		}
 
 		.count-box h1,
 		.count-box span {
 			font-size: 6rem;
-			color: #007bff;
-			font-weight: 400;
+			color: #1b98e5;
+			font-weight: 500;
 		}
 
 		.count-box p {
-			font-size: 3rem;
+			font-size: 2.5rem;
 			color: #003269 !important;
 			font-weight: 400;
+		}
+		.count-img{
+			width: 50px;
+			height: 50px;
+			margin: 5% 0;
 		}
 
 		.main-container {
@@ -78,7 +83,7 @@ $pageId = "home";
 			padding-left: 2%;
 			padding: 2%;
 			text-align: justify;
-			border-left: 4px solid #007bff;
+			border-left: 4px solid #1B98E5;
 		}
 
 		.welcometo {
@@ -90,7 +95,7 @@ $pageId = "home";
 		.welcomeheading {
 			font-size: 5.5rem;
 			margin: 2% 0;
-			color: #007bff;
+			color: #1B98E5;
 			line-height: 1.5;
 			overflow: hidden;
 			white-space: nowrap;
@@ -204,6 +209,7 @@ $pageId = "home";
 		<div class="row">
 			<div class="col-md-4 text-center">
 				<div class="count-box">
+					<img src="assets/data1/images/student.png" alt="" class="count-img">
 					<p>Students</p>
 					<h1> <span id="student-count" class="display-4">0</span>+</h1>
 				</div>
@@ -212,6 +218,7 @@ $pageId = "home";
 
 			<div class="col-md-4 text-center">
 				<div class="count-box">
+					<img src="assets/data1/images/degree.png" alt="" class="count-img">
 					<p>Study Programs</p>
 					<h1 id="program-count" class="display-4">0</h1>
 				</div>
@@ -219,6 +226,7 @@ $pageId = "home";
 
 			<div class="col-md-4 text-center">
 				<div class="count-box">
+					<img src="assets/data1/images/staff.png" alt="" class="count-img">
 					<p>Academic Staff</p>
 					<h1><span id="teacher-count" class="display-4">0</span>+</h1>
 				</div>

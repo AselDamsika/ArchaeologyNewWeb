@@ -103,7 +103,7 @@ if (!isset($pageId)) {
 			box-shadow: inset 250px 0 0 0 #f5f5f5;
 		}
 
-		.main-row{
+		.main-row {
 			display: flex;
 			justify-content: space-between;
 		}
@@ -145,6 +145,16 @@ if (!isset($pageId)) {
 			align-items: center;
 			justify-content: left;
 		}
+
+		.search-btn {
+			background-color: #1b98e5;
+			color: white;
+			border: none;
+		}
+
+		.search-btn:hover {
+			background-color: #1684CC;
+		}
 	</style>
 
 </head>
@@ -165,7 +175,7 @@ if (!isset($pageId)) {
 				<div class="col-md-4 searchcol">
 					<form method="GET" action="search_results.php" class="search-form d-flex">
 						<input type="text" class="form-control me-2" name="query" id="query" placeholder="Search Archaeology" aria-label="Search Archaeology">
-						<button class="btn btn-primary">
+						<button class="btn btn-primary search-btn">
 							<i class="bi bi-search"></i>
 						</button>
 					</form>
