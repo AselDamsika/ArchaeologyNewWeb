@@ -67,6 +67,64 @@ $pageId = "home";
 			color: #003269 !important;
 			font-weight: 400;
 		}
+
+		.main-container {
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.welcome-row {
+			background-color: #fdfdfd;
+			border: none;
+			margin: 5% 0;
+			padding-left: 2%;
+			padding: 2%;
+			text-align: justify;
+			border-left: 4px solid #007bff;
+		}
+
+		.welcometo {
+			font-size: 3rem;
+			font-weight: 400;
+			color: #003269 !important;
+		}
+
+		.welcomeheading {
+			font-size: 6rem;
+			margin: 2% 0;
+			color: #007bff;
+			line-height: 1.5;
+			overflow: hidden;
+			white-space: nowrap;
+			animation: typing 3s steps(40, end), blink 0.7s step-end infinite;
+		}
+
+		.welcomeheading:hover {
+			color: #0056b3;
+
+		}
+
+		@keyframes typing {
+			from {
+				width: 0;
+			}
+
+			to {
+				width: 100%;
+			}
+		}
+
+		.deptpara {
+			font-size: 2.2rem;
+			font-weight: 400;
+			line-height: 1.5 !important;
+			color: #505050 !important;
+
+		}
+
+		.dept-para-span {
+			font-weight: 600;
+		}
 	</style>
 
 </head>
@@ -219,9 +277,9 @@ $pageId = "home";
 
 			<div class="row welcome-row">
 				<div class="row">
-					<p>Welcome to</p>
-					<h1>Department of Archaeology</h1>
-					<p>The Department of Archaeology, University of Peradeniya was established as a separate Department in 1976,
+					<p class="welcometo">Welcome to</p>
+					<h1 class="welcomeheading">Department of Archaeology</h1>
+					<p class="deptpara">The <span class="dept-para-span">Department of Archaeology</span>, University of Peradeniya was established as a separate Department in 1976,
 						is one of the largest Departments in the university system of Sri Lanka. At present, over one hundred
 						undergraduates are following the Special and General Degree courses in Sinhala and English media at the
 						Department. The teaching of archaeology at Peradeniya, was originally introduced as an auxiliary subject
@@ -234,7 +292,7 @@ $pageId = "home";
 			</div>
 
 
-			<div class="row" style="border: solid;">
+			<div class="row">
 				<div class="col-md-12 noticeBoard">
 					<h3>News &amp; Events</h3>
 					<hr />
