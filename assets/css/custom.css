@@ -55,7 +55,7 @@ header form {
 .fotStripe {
   text-align: center;
   padding: 10px;
-  background-color: #404040;
+  background-color: #003269;
   color: #a9a9a9;
 }
 
@@ -171,12 +171,12 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #717171;
+  color: white;
   text-decoration: none;
 }
 
 .fotBar {
-  background-color: #e4e4e4;
+  background-color: #003269 !important;
   padding: 20px;
 }
 

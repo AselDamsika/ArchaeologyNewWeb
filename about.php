@@ -10,9 +10,22 @@ $pageId = "about";
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <title>Department of Archaeology</title>
 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>Department of Archaeology</title>
+
     <?php require_once "assets/header.php"; ?>
 
     <style>
+        .welcome-row {
+            background-color: #fdfdfd;
+            border: none;
+            margin: 5% 0;
+            padding-left: 2%;
+            padding: 2%;
+            border-left: 4px solid #007bff;
+        }
+
         .about-cont{
             margin: 5% 0;
         }
@@ -48,12 +61,13 @@ $pageId = "about";
 </head>
 
 <body>
+
     <div class="container">
         <ol class="breadcrumb">
-            <li><a href="./index.php">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li class="active">About</li>
         </ol>
-        <div class="container about-cont">
+        <div class="page">
             <div class="row about-row">
                 <p class="about-heading">General Information</p>
                 <hr class="about-hr" />
