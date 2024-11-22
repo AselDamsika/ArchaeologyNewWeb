@@ -10,9 +10,7 @@ $pageId = "home";
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 	<title>Department of Archaeology</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
-
+	
 	<?php require_once "assets/header.php"; ?>
 
 	<link rel="stylesheet" href="<?php echo $root; ?>/assets/css/index.css" />
@@ -49,23 +47,28 @@ $pageId = "home";
 		}
 
 		.count-box {
-			background-color: #f8f9fa;
-			border-radius: 10px;
+			background-color: #F0F8FF;
+			margin: 5% 0;
 			padding: 20px;
-			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 		}
 
 		.count-box h1,
 		.count-box span {
 			font-size: 6rem;
-			color: #007bff;
-			font-weight: 400;
+			color: #1b98e5;
+			font-weight: 500;
 		}
 
 		.count-box p {
-			font-size: 3rem;
+			font-size: 2.5rem;
 			color: #003269 !important;
 			font-weight: 400;
+		}
+		.count-img{
+			width: 50px;
+			height: 50px;
+			margin: 5% 0;
 		}
 
 		.main-container {
@@ -80,7 +83,7 @@ $pageId = "home";
 			padding-left: 2%;
 			padding: 2%;
 			text-align: justify;
-			border-left: 4px solid #007bff;
+			border-left: 4px solid #1B98E5;
 		}
 
 		.welcometo {
@@ -90,9 +93,9 @@ $pageId = "home";
 		}
 
 		.welcomeheading {
-			font-size: 6rem;
+			font-size: 5.5rem;
 			margin: 2% 0;
-			color: #007bff;
+			color: #1B98E5;
 			line-height: 1.5;
 			overflow: hidden;
 			white-space: nowrap;
@@ -115,7 +118,7 @@ $pageId = "home";
 		}
 
 		.deptpara {
-			font-size: 2.2rem;
+			font-size: 2.1rem;
 			font-weight: 400;
 			line-height: 1.5 !important;
 			color: #505050 !important;
@@ -206,6 +209,7 @@ $pageId = "home";
 		<div class="row">
 			<div class="col-md-4 text-center">
 				<div class="count-box">
+					<img src="assets/data1/images/student.png" alt="" class="count-img">
 					<p>Students</p>
 					<h1> <span id="student-count" class="display-4">0</span>+</h1>
 				</div>
@@ -214,6 +218,7 @@ $pageId = "home";
 
 			<div class="col-md-4 text-center">
 				<div class="count-box">
+					<img src="assets/data1/images/degree.png" alt="" class="count-img">
 					<p>Study Programs</p>
 					<h1 id="program-count" class="display-4">0</h1>
 				</div>
@@ -221,6 +226,7 @@ $pageId = "home";
 
 			<div class="col-md-4 text-center">
 				<div class="count-box">
+					<img src="assets/data1/images/staff.png" alt="" class="count-img">
 					<p>Academic Staff</p>
 					<h1><span id="teacher-count" class="display-4">0</span>+</h1>
 				</div>
@@ -276,7 +282,6 @@ $pageId = "home";
 
 
 			<div class="row welcome-row">
-				<div class="row">
 					<p class="welcometo">Welcome to</p>
 					<h1 class="welcomeheading">Department of Archaeology</h1>
 					<p class="deptpara">The <span class="dept-para-span">Department of Archaeology</span>, University of Peradeniya was established as a separate Department in 1976,
@@ -288,7 +293,7 @@ $pageId = "home";
 						Archaeology was appointed as the Professor of Archaeology, which marked the official beginning of the
 						Department of Archaeology, University of Peradeniya. The notable archaeologists, namely, Prof Senarat
 						Paranavitana, Prof. P.L. Prematilleke and Prof. Sudharshan Seneviratne have served in the Department.</p>
-				</div>
+				
 			</div>
 
 
