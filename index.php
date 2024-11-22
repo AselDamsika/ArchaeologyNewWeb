@@ -226,14 +226,6 @@ $pageId = "home";
 
 			<div class="col-md-4 text-center">
 				<div class="count-box">
-					<img src="assets/data1/images/degree.png" alt="" class="count-img">
-					<p>Study Programs</p>
-					<h1 id="program-count" class="display-4">0</h1>
-				</div>
-			</div>
-
-			<div class="col-md-4 text-center">
-				<div class="count-box">
 					<img src="assets/data1/images/staff.png" alt="" class="count-img">
 					<p>Academic Staff</p>
 					<h1><span id="teacher-count" class="display-4">0</span>+</h1>
@@ -263,9 +255,9 @@ $pageId = "home";
 		function startCounting(entries, observer) {
 			entries.forEach(entry => {
 				if (entry.isIntersecting) {
-					animateCount('program-count', 0, 20, 2000);
-					animateCount('student-count', 0, 1000, 2000);
-					animateCount('teacher-count', 0, 50, 2000);
+					animateCount('program-count', 0, 1, 10);
+					animateCount('student-count', 0, 75, 1000);
+					animateCount('teacher-count', 0, 9, 1000);
 					observer.unobserve(entry.target);
 				}
 			});
