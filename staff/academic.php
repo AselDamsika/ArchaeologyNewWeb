@@ -78,11 +78,19 @@ $pageId = "staff";
 		/* Title row */
 		.title-row {
 			text-align: left;
+			align-items: center;
 			margin: 0 2px 20px 2px;
 			background-color: #F0F8FF;
 			padding: 10px;
 			border-radius: 8px;
 			color: #0056B3;
+		}
+		.title-row:hover {
+			background-color: #E0F0FF;
+				
+		}
+		.title-row h3 {
+			margin-bottom: 0;
 		}
 	</style>
 </head>
