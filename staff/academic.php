@@ -1,23 +1,24 @@
 <?php
-	$pageId = "staff";
+$pageId = "staff";
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Department of Archaeology - Academic Staff</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Department of Archaeology - Academic Staff</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 	<?php require_once "../assets/header.php"; ?>
-	
+
 	<!-- Custom CSS for Profile Items -->
-    <style>
-        /* Styling the profile grid items */
-        .profile-item {
+	<style>
+		/* Styling the profile grid items */
+		.profile-item {
 			border: 1px solid #e0e0e0;
 			border-radius: 8px;
 			overflow: hidden;
@@ -74,8 +75,18 @@
 			grid-gap: 20px;
 		}
 
-    </style>
+		/* Title row */
+		.title-row {
+			text-align: left;
+			margin: 0 2px 20px 2px;
+			background-color: #F0F8FF;
+			padding: 10px;
+			border-radius: 8px;
+			color: #0056B3;
+		}
+	</style>
 </head>
+
 <body>
 	<div class="container">
 		<ol class="breadcrumb">
@@ -83,10 +94,15 @@
 			<li class="active">Staff</li>
 			<li class="active">Academic</li>
 		</ol>
-        <div class="container my-5">
+		<div class="container my-5">
 			<h2 class="text-center mb-4">Academic Staff</h2><br>
 
 			<!-- Profile Items Grid -->
+
+			<div class="row title-row">
+				<h3>Permenant Acedamic Staff</h3>
+			</div>
+
 			<div class="profile-grid">
 				<!-- Profile Item 1 -->
 				<div class="profile-item text-center">
@@ -156,7 +172,7 @@
 				</div> -->
 
 				<div class="profile-item text-center">
-					<img src="../assets/images/academic/sandya.png" alt="Ms. K.G.A.M. Sandya Kumari Nawarathna Menike"  width="180" height="250">
+					<img src="../assets/images/academic/sandya.png" alt="Ms. K.G.A.M. Sandya Kumari Nawarathna Menike" width="180" height="250">
 					<div class="profile-description">
 						<h4><a href="rmm.php">Ms. K.G.A.M. Sandya Kumari Nawarathna Menike</a></h4>
 						<h5>Lecturer</h5>
@@ -255,23 +271,35 @@
 					<p>Phone: +94 71 5206865</p>
 				</div> -->
 
-				<div class="profile-item text-center">
-					<img src="../assets/images/academic/senarat.jpg" alt="Prof. Senarat Paranavitana" width="180" height="180" class="img-fluid">
-					<div class="profile-description">
-						<h4><a href="rmm.php">Prof. Senarat Paranavitana</a></h4>
-						
-					</div>
-				</div>
+			</div>
 
-				<!-- <div class="profile-item">
+			<div class="row title-row">
+				<h3>Temporary Acedamic Staff</h3>
+			</div>
+
+			<div class="row title-row">
+				<h3>Former Acedamic Staff</h3>
+			</div>
+
+			<div class="profile-grid">
+			<div class="profile-item text-center">
+				<img src="../assets/images/academic/senarat.jpg" alt="Prof. Senarat Paranavitana" width="180" height="180" class="img-fluid">
+				<div class="profile-description">
+					<h4><a href="rmm.php">Prof. Senarat Paranavitana</a></h4>
+				</div>
+			</div>
+
+			<!-- <div class="profile-item">
 					<img src="../assets/images/academic/senarat.jpg" alt="Prof. Senarat Paranavitana" width="172" height="182">
 					<h4><a href="#">Prof. Senarat Paranavitana</a></h4>
 				</div> -->
+
+			
 				<div class="profile-item text-center">
 					<img src="../assets/images/academic/UnknownProfile.png" alt="Prof. P.L. Prematilleke" width="180" height="180" class="img-fluid">
 					<div class="profile-description">
 						<h4><a href="rmm.php">Prof. P.L. Prematilleke</a></h4>
-						
+
 					</div>
 				</div>
 
@@ -284,7 +312,7 @@
 					<img src="../assets/images/academic/seneviratna.jpg" alt="Prof. S.D.S. Seneviratne" width="180" height="180" class="img-fluid">
 					<div class="profile-description">
 						<h4><a href="rmm.php">Prof. S.D.S. Seneviratne</a></h4>
-						
+
 					</div>
 				</div>
 
@@ -295,9 +323,11 @@
 			</div>
 		</div>
 	</div>
+	</div>
 
 	<?php require_once "../assets/footer.php" ?>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
