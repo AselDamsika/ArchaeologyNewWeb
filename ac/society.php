@@ -7,81 +7,111 @@ $pageId = "society";
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-    <title>Department of Archaeology</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Society | Department of Archaeology</title>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-    <title>Department of Archaeology</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <?php require_once "../assets/header.php"; ?>
-
-    <style>
-        .welcome-row {
-            background-color: #fdfdfd;
-            border: none;
-            margin: 5% 0;
-            padding-left: 2%;
-            padding: 2%;
-            border-left: 4px solid #007bff;
-        }
-
-        .about-cont{
-            margin: 5% 0;
-        }
-        .about-heading {
-            font-size: 4rem;
-            font-weight: 400;
-            color: #003269 !important;
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        .about-hr {
-            border: solid 2px #007bff;
-            margin: 2% 0;
-        }
-
-        .aboutpara {
-            font-size: 1.8rem;
-            font-weight: 400;
-            line-height: 1.5 !important;
-            color: #505050 !important;
-            text-align: justify;
-            padding-left: 0;
-            padding-right: 0;
-            margin-bottom: 2% !important;
-        }
-
-        .about-para-span {
-            font-weight: 600;
-        }
-    </style>
-
 </head>
 
 <body>
+    <div class="container mb-4">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Society</li>
+            </ol>
+        </nav>
 
-    <div class="container">
-        <ol class="breadcrumb">
-            <li><a href="../index.php">Home</a></li>
-            <li class="active">Society</li>
-        </ol>
-        <div class="page">
-            <div class="row about-row">
-                <p class="about-heading">Societies</p>
-                <hr class="about-hr" />
+        <!-- Society Header -->
+        <div class="text-center mb-5">
+            <h1 class="text-primary">Society of the Department of Archaeology</h1>
+            <p class="text-muted">
+                Bringing together students and professionals to promote research, learning, and engagement in archaeology.
+            </p>
+            <hr class="w-50 mx-auto">
+        </div>
 
-                <p class="aboutpara">In 1957, <span class="about-para-span">Dr. Senarat Paranavitana </span> on his retirement as Commissioner of Archaeology was appointed as research Professor of Archaeology, which marked the official beginning of the Department of Archaeology, University of Peradeniya. Since its establishment as a separate Department in 1976, the Department of Archaeology grew its academic staff, students and academic activities. At present the Department of Archaeology, University of Peradeniya is one of the largest archaeology departments in the university system of Sri Lanka.</p> 
-                <p class="aboutpara">The teaching of archaeology at Peradeniya was originally introduced as an auxiliary subject to history (as a sub department) and for the purpose of training future archaeological officers required by the state. In 1957, Dr. Senarat Paranavitana, on his retirement as Commissioner of Archaeology, was appointed as Research Professor of Archaeology, which also marked the official beginning of this Department of study. Paranavitana stressed the need of creating a separate Department without restricting the teaching of archaeology to postgraduate degrees alone. This view was noted in the report of the Needham Committee in 1958. In view of this, teaching and practical courses were introduced within the Fabric of classical archaeology of south Asia.</p> 
-                <p class="aboutpara">This programme was enhanced by the establishment of the first museum of archaeology at the University of Peradeniya where collections from Biddel, Hettiaracchi and De Saram were presented for study and public viewing. Professor Paranavitana along with Dr. P.L. Prematilleke (later research professor) was also responsible for setting-up the new museum and establishing a very good slide collection and architectural plans. In 1976 this Department, which functioned as a sub Department of History, offered its Special Degree courses in archaeology for the first time. Dr Prematilleke was the Head of this newly constituted Department of study.</p>
-                <p class="aboutpara">The decade of 1980 witnessed the expansion of the Department in terms of its academic staff, students and academic activity. It recruited to its staff Dr. Sudharshan Seneviratne (later Chair), Dr. W.H. Wijayapala (Director General of Central Cultural Fund at present), Mr. K.H. Jayatilleke (left service in 1987), Rev. Wetara Mahinda, Dr. Moira Tampoe (left service in 2001), Dr. Damayanti Gunasekare (left service in 1998), Dr. Piyatissa Senanayake, Dr. D.K. Jayaratne, Dr. R.M.M. Chandraratne and Prof. Chulani Rambukwella. They were trained in Sri Lanka, India, England and Greece. </p>
-                <p class="aboutpara">New courses in archaeology were introduced in response to changes taking place at the international level and due to national requirements. This Department was assigned with the UNESCO-Central Cultural Fund Projects in Polonnaruwa (Alahana Parivena), Kandy and Anuradhapura (Jetavana). Later it also became the collaborating University Department for the Anuradhapura Citadel Archaeology Project and the Pinwewa-Galsohonkanatta Archaeology Project. Several collaborative ventures were also carried out with visiting archaeological teams from England, USA, France and Germany during the past two decades.</p> 
+        <!-- Committee Section -->
+        <div id="committee" class="mb-5">
+            <h2 class="text-secondary mb-4">Committee</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Example Committee Members -->
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Dr. Jane Smith</h5>
+                            <p class="card-text">President</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Prof. John Doe</h5>
+                            <p class="card-text">Vice President</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ms. Emily White</h5>
+                            <p class="card-text">Secretary</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more members as needed -->
+            </div>
+        </div>
+
+        <!-- Activities Section -->
+        <div id="activities">
+            <h2 class="text-secondary mb-4">Activities</h2>
+            <div class="row g-4">
+                <!-- Example Activity -->
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Annual Archaeology Symposium</h5>
+                            <p class="card-text">
+                                Our annual symposium features presentations, research discussions, and networking opportunities for students and professionals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Field Excavation Program</h5>
+                            <p class="card-text">
+                                Hands-on training and practical experience in archaeological excavation techniques at historical sites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Heritage Awareness Workshops</h5>
+                            <p class="card-text">
+                                Educational workshops to raise awareness about the importance of preserving cultural heritage.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more activities as needed -->
             </div>
         </div>
     </div>
 
-    <?php require_once "../assets/footer.php" ?>
+    <!-- Include Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <?php require_once "../assets/footer.php"; ?>
 </body>
 
 </html>
