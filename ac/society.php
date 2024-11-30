@@ -81,7 +81,7 @@ $pageId = "society";
         </div>
     </div>
 
-    <?php require_once "assets/footer.php" ?>
+    <?php require_once "../assets/footer.php" ?>
 </body>
 
 </html>
