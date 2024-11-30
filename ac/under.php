@@ -34,7 +34,15 @@ $pageId = "ac";
 			border-radius: 10px;
 			padding: 15px;
 			margin-top: 20px;
+			margin-bottom: 30px;
 			background-color: #f9f9f9;
+			transition: transform 0.2s ease, box-shadow 0.2s ease;
+		}
+
+		.course-box:hover {
+			transform: scale(1.05); /* Slight zoom effect */
+			box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow */
+			background-color: #f0f8ff; /* Optional: Change background color */
 		}
 
 		.course-box h4 {
