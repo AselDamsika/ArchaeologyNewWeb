@@ -66,7 +66,7 @@ $pageId = "ac";
 <body>
 
 	<!-- Main container for Bootstrap grid -->
-	<div class="container">
+	<div class="container" style="margin-bottom: 30px; padding-bottom: 20px;">
 		<!-- Breadcrumb navigation -->
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="../index.php">Home</a></li>
@@ -74,11 +74,14 @@ $pageId = "ac";
 			<li class="breadcrumb-item active">Undergraduate Programme</li>
 		</ol>
 
-		<div class="page bg-white p-4 shadow-sm rounded">
+		<div class="page bg-white p-10 mb-10 shadow-sm rounded">
 			<!-- Main Title -->
 			<h3 class="text-primary text-center">Undergraduate Programme</h3>
 			<br>
+			<center>
 			<hr />
+			</center>
+			
 			<div class="cList">
 				<h3 class="text-secondary">Our Course Structure</h3>
 				<br>
@@ -120,7 +123,7 @@ $pageId = "ac";
 					</ul>
 				</div>
 
-				<div class="course-box">
+				<div class="course-box" style="margin-bottom: 30px;">
 					<h4>Fourth Year Courses</h4>
 					<ul class="list-unstyled">
 						<li>ACL 4001 Environmental Archaeology</li>
@@ -138,8 +141,10 @@ $pageId = "ac";
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</div>
 
-		<?php require_once "../assets/footer.php" ?>
+	<?php require_once "../assets/footer.php" ?>
+		
 </body>
 
 </html>
