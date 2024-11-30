@@ -235,9 +235,9 @@ if (!isset($pageId)) {
 						</ul>
 					</li>
 
-					<li class="<?php if ($pageId == 'about') {
+					<li class="<?php if ($pageId == 'society') {
 									echo "nav-item active";
-								} ?>"><a href="<?php echo $root; ?>/about.php">Society</a></li>
+								} ?>"><a href="<?php echo $root; ?>/ac/society.php">Society</a></li>
 
 					<li class="<?php if ($pageId == 'res') {
 									echo "nav-item active";
