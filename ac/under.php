@@ -116,7 +116,7 @@ $pageId = "ac";
 						<li>ACL 3006 The Built Environment of Ancient Sri Lanka</li>
 						<li>ACL 3007 Epigraphic Studies of Ancient Sri Lanka</li>
 						<li>ACL 3008 Archaeological Data Retrieval Systems & Processes</li>
-						<li>ACL 3020 Bio-Archaeology</li>
+						<li>ACL 3010 Bio-Archaeology</li>
 					</ul>
 				</div>
 
