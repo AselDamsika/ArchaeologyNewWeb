@@ -235,15 +235,12 @@ if (!isset($pageId)) {
 						</ul>
 					</li>
 
-<<<<<<< HEAD
 					<li class="<?php if ($pageId == 'society') {
 									echo "nav-item active";
 								} ?>"><a href="<?php echo $root; ?>/ac/society.php">Society</a></li>
-=======
 					<li class="<?php if ($pageId == 'about') {
 									echo "nav-item active";
-								} ?>"><a href="<?php echo $root; ?>/about.php">Society</a></li>
->>>>>>> d223f05 (feat: create society tab in navbar)
+								} ?>"><a href="<?php echo $root; ?>/about.php">About</a></li>
 
 					<li class="<?php if ($pageId == 'res') {
 									echo "nav-item active";
