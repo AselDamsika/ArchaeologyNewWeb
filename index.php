@@ -211,7 +211,7 @@ $pageId = "home";
 				<div class="count-box">
 					<img src="assets/data1/images/student.png" alt="" class="count-img">
 					<p>Students</p>
-					<h1> <span id="student-count" class="display-4">0</span>+</h1>
+					<h1> <span id="student-count" class="display-4">75</span>+</h1>
 				</div>
 			</div>
 
@@ -219,8 +219,8 @@ $pageId = "home";
 			<div class="col-md-4 text-center">
 				<div class="count-box">
 					<img src="assets/data1/images/degree.png" alt="" class="count-img">
-					<p>Study Programs</p>
-					<h1 id="program-count" class="display-4">0</h1>
+					<p>Academic Programme</p>
+					<h1 id="program-count" class="display-4">1</h1>
 				</div>
 			</div>
 
@@ -228,7 +228,7 @@ $pageId = "home";
 				<div class="count-box">
 					<img src="assets/data1/images/staff.png" alt="" class="count-img">
 					<p>Academic Staff</p>
-					<h1><span id="teacher-count" class="display-4">0</span>+</h1>
+					<h1><span id="teacher-count" class="display-4">9</span>+</h1>
 				</div>
 			</div>
 		</div>
