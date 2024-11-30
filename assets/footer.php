@@ -45,7 +45,7 @@
 
 <footer>
 	<div class="fotBar">
-		<div class="container">
+		<div class="container-fluid"> <!-- Changed from container to container-fluid -->
 			<div class="row">
 				<div class="col-md-3 footer-main-col">
 					<h3 class="quick-links">Quick Links</h3>
@@ -68,7 +68,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="fotStripe">Copyright ©2024 All Rights Reserved - Department of Archaeology - University of Peradeniya</div>
+	<div class="fotStripe text-center">Copyright ©2024 All Rights Reserved - Department of Archaeology - University of Peradeniya</div>
 </footer>
 
 <script src="<?php echo $root ; ?>/assets/js/jquery.js"></script>
