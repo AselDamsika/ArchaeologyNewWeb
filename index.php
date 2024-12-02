@@ -297,7 +297,7 @@ $pageId = "home";
 			</div>
 
 
-			<div class="row">
+			<div class="row news-events-row">
 				<div class="col-md-12 noticeBoard">
 					<h3>News &amp; Events</h3>
 					<hr />
@@ -323,19 +323,6 @@ $pageId = "home";
 					</video>
 					<hr />
 
-
-					<!--<h4><i class="fa fa-tags"></i>International Conference on Social Work - Social Development and Sustainable Development Goals</h4>
-                    <ul>
-                    <li>International Conference on <strong>Social Work - Social Development and Sustainable Development Goals,</strong> will be held on 29<sup>th</sup> - 30<sup>th</sup> September 2016. The conference organized by International Consortium for Social Development, Asia Pacific Branch with the Department of Sociology, University of Peradeniya, Kandy, Sri Lanka & Charles Sturt University, Australia.</li>
-                    <a href="events/conference.php">Learn More</a>
-                  </ul>
-                <hr />
-
-                    <h4><i class="fa fa-tags"></i>  Sociology Day</h4>
-                    <ul>
-                    <li>The Sociology day organized by the Department of Sociology held on 8<sup>th</sup> of April, 2015 at the Department of Sociology, University of Peradeniya. Keynote speech by Prof. Gananath Obeysekara</li>
-                    <a href="events/socday.php">Learn More</a>    
-                    </ul>-->
 
 				</div>
 			</div>
