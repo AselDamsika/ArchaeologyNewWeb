@@ -17,6 +17,11 @@ $pageId = "ac";
 
 	<!-- Custom Styling -->
 	<style>
+
+		body {
+            font-family: "Book Antiqua", Palatino, "Palatino Linotype", serif;
+        }
+
 		.page h3 {
 			font-weight: 700;
 			color: #333;

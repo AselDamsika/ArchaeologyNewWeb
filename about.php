@@ -17,6 +17,11 @@ $pageId = "about";
     <?php require_once "assets/header.php"; ?>
 
     <style>
+
+        body {
+            font-family: "Book Antiqua", Palatino, "Palatino Linotype", serif;
+        }
+
         .welcome-row {
             background-color: #fdfdfd;
             border: none;

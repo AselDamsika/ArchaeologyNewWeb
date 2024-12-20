@@ -21,6 +21,11 @@ $pageId = "home";
 
 
 	<style>
+
+		body {
+            font-family: "Book Antiqua", Palatino, "Palatino Linotype", serif;
+        }
+
 		.carousel-caption {
 			background-color: rgba(0, 0, 0, 0.5);
 			display: flex;
@@ -298,10 +303,9 @@ $pageId = "home";
 
 
 			<div class="row">
-				<div class="col-md-12 noticeBoard">
+				<div class="col-md-12 noticeBoard" style="font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;">
 					<h3>News &amp; Events</h3>
 					<hr />
-
 
 					<h4><i class="fa fa-tags"></i>Old Money and Ancient Writing: Archaeology undergraduates visit the National Museum and (state) Department of Archaeology to study coins and inscriptions</h4>
 					<h5><a href="videos/Study tour.pdf" target="_blank">More Info </a></h5>
@@ -310,35 +314,20 @@ $pageId = "home";
 					</video>
 					<hr />
 
-
 					<h4><i class="fa fa-tags"></i>Maritime Archaeology Training Programme at the Maritime Archaeology Unit of the Central Cultural Fund in Galle.</h4>
 					<video width="320" height="240" controls>
 						<source src="videos/Department of Archaeology MAU Training,Galle.mp4" type="video/mp4">
 					</video>
 					<hr />
 
-					<h4> <i class="fa fa-tags"></i> Rambewa Kadahatha Aloka Pabbatha Vihara Excavation conducted by the Department of Archaeology and Heritage Management, Rajarata University of Sri Lanka. </h4>
+					<h4><i class="fa fa-tags"></i>Rambewa Kadahatha Aloka Pabbatha Vihara Excavation conducted by the Department of Archaeology and Heritage Management, Rajarata University of Sri Lanka.</h4>
 					<video width="320" height="240" controls>
 						<source src="videos/Department of Archaeology Rambewa Excavation.mp4" type="video/mp4">
 					</video>
 					<hr />
-
-
-					<!--<h4><i class="fa fa-tags"></i>International Conference on Social Work - Social Development and Sustainable Development Goals</h4>
-                    <ul>
-                    <li>International Conference on <strong>Social Work - Social Development and Sustainable Development Goals,</strong> will be held on 29<sup>th</sup> - 30<sup>th</sup> September 2016. The conference organized by International Consortium for Social Development, Asia Pacific Branch with the Department of Sociology, University of Peradeniya, Kandy, Sri Lanka & Charles Sturt University, Australia.</li>
-                    <a href="events/conference.php">Learn More</a>
-                  </ul>
-                <hr />
-
-                    <h4><i class="fa fa-tags"></i>  Sociology Day</h4>
-                    <ul>
-                    <li>The Sociology day organized by the Department of Sociology held on 8<sup>th</sup> of April, 2015 at the Department of Sociology, University of Peradeniya. Keynote speech by Prof. Gananath Obeysekara</li>
-                    <a href="events/socday.php">Learn More</a>    
-                    </ul>-->
-
 				</div>
 			</div>
+
 		</div>
 	</div>
 

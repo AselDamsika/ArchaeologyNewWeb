@@ -13,6 +13,13 @@ $pageId = "society";
     <!-- Include Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <style>
+        /* Apply Book Antiqua font globally */
+        body {
+            font-family: "Book Antiqua", Palatino, "Palatino Linotype", serif;
+        }
+    </style>
+
     <?php require_once "../assets/header.php"; ?>
 </head>
 
