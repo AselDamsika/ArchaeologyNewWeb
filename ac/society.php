@@ -134,27 +134,27 @@ $pageId = "society";
         <!-- Activities Section -->
         <div class="container my-5">
             <h2 class="text-center text-primary mb-4">Activities</h2>
-            <div class="profile-grid">
+            <div class="activity-grid">
                 <!-- Activity Card 1 -->
-                <div class="profile-item">
+                <div class="activity-item d-flex">
                     <img src="../assets/images/activity1.jpg" alt="Field Visit">
-                    <div class="profile-description text-center">
+                    <div class="activity-description pl-4">
                         <h4>Field Visit to Ancient Ruins</h4>
                         <p>Exploring ancient ruins to learn about architectural techniques and cultural heritage.</p>
                     </div>
                 </div>
                 <!-- Activity Card 2 -->
-                <div class="profile-item">
+                <div class="activity-item d-flex">
                     <img src="../assets/images/activity2.jpg" alt="Seminar">
-                    <div class="profile-description text-center">
+                    <div class="activity-description pl-4">
                         <h4>Annual Archaeology Seminar</h4>
                         <p>An engaging event where students and professors discuss groundbreaking research in archaeology.</p>
                     </div>
                 </div>
                 <!-- Activity Card 3 -->
-                <div class="profile-item">
+                <div class="activity-item d-flex">
                     <img src="../assets/images/activity3.jpg" alt="Workshop">
-                    <div class="profile-description text-center">
+                    <div class="activity-description pl-4">
                         <h4>Heritage Conservation Workshop</h4>
                         <p>A hands-on workshop focusing on preserving historical artifacts and monuments.</p>
                     </div>
@@ -163,8 +163,10 @@ $pageId = "society";
         </div>
 
         <style>
-            /* Styling activity cards, reused from profile cards */
-            .profile-item {
+            /* Styling long activity cards */
+            .activity-item {
+                display: flex;
+                align-items: center;
                 border: 1px solid #e0e0e0;
                 border-radius: 8px;
                 overflow: hidden;
@@ -175,42 +177,45 @@ $pageId = "society";
             }
 
             /* Hover effect */
-            .profile-item:hover {
-                transform: scale(1.05);
+            .activity-item:hover {
+                transform: scale(1.02);
                 box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
                 background-color: #fff;
             }
 
-            /* Image styling */
-            .profile-item img {
-                width: 100%;
-                height: 150px;
+            /* Image styling for long cards */
+            .activity-item img {
+                width: 180px;
+                height: 180px;
                 object-fit: cover;
                 border-radius: 8px;
-                margin-bottom: 15px;
             }
 
-            /* Activity title and description */
-            .profile-description h4 {
-                font-size: 1.8rem;
+            /* Description styling for long cards */
+            .activity-description {
+                padding-left: 20px;
+            }
+
+            .activity-description h4 {
+                font-size: 2rem;
                 font-weight: bold;
                 margin-bottom: 10px;
             }
 
-            .profile-description p {
+            .activity-description p {
                 font-size: 1.2rem;
                 line-height: 1.5;
                 color: #555;
             }
 
-            /* Grid layout */
-            .profile-grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-                grid-gap: 20px;
-                margin-top: 30px;
+            /* Grid for responsiveness */
+            .activity-grid {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
             }
         </style>
+
 
     </div>
 
