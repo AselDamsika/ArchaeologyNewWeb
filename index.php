@@ -336,6 +336,7 @@ $pageId = "home";
 
 			<div class="row news-events-row">
 				<h1 class="newsevents">News &amp; Events</h1>
+<<<<<<< HEAD
 
 				<div class="col-md-6 news-events-col">
 					<h5>Old Money and Ancient Writing: Archaeology undergraduates visit the National Museum and (state) Department of Archaeology to study coins and inscriptions</h5>
@@ -345,6 +346,11 @@ $pageId = "home";
 					<hr />
 
 					<h4><i class="fa fa-tags"></i>Old Money and Ancient Writing: Archaeology undergraduates visit the National Museum and (state) Department of Archaeology to study coins and inscriptions</h4>
+=======
+
+				<div class="col-md-6 news-events-col">
+					<h5>Old Money and Ancient Writing: Archaeology undergraduates visit the National Museum and (state) Department of Archaeology to study coins and inscriptions</h5>
+>>>>>>> efb3d83 (feat: news & events)
 					<h5><a href="videos/Study tour.pdf" target="_blank">More Info </a></h5>
 					<video class="news-video" controls>
 						<source src="videos/archaeology.mov" type="video/mp4">
@@ -354,8 +360,11 @@ $pageId = "home";
 				<div class="col-md-6 news-events-col">
 					<h5>Maritime Archaeology Training Programme at the Maritime Archaeology Unit of the Central Cultural Fund in Galle.</h5>
 					<video class="news-video" controls>
+<<<<<<< HEAD
 					<h4><i class="fa fa-tags"></i>Maritime Archaeology Training Programme at the Maritime Archaeology Unit of the Central Cultural Fund in Galle.</h4>
 					<video width="320" height="240" controls>
+=======
+>>>>>>> efb3d83 (feat: news & events)
 						<source src="videos/Department of Archaeology MAU Training,Galle.mp4" type="video/mp4">
 					</video>
 				</div>
@@ -363,6 +372,7 @@ $pageId = "home";
 				<div class="col-md-6 news-events-col">
 					<h5>Rambewa Kadahatha Aloka Pabbatha Vihara Excavation conducted by the Department of Archaeology and Heritage Management, Rajarata University of Sri Lanka. </h5>
 					<video class="news-video" controls>
+<<<<<<< HEAD
 						<source src="videos/Department of Archaeology Rambewa Excavation.mp4" type="video/mp4">
 					</video>
 					<h4><i class="fa fa-tags"></i>Rambewa Kadahatha Aloka Pabbatha Vihara Excavation conducted by the Department of Archaeology and Heritage Management, Rajarata University of Sri Lanka.</h4>
@@ -370,6 +380,10 @@ $pageId = "home";
 						<source src="videos/Department of Archaeology Rambewa Excavation.mp4" type="video/mp4">
 					</video>
 					<hr />
+=======
+						<source src="videos/Department of Archaeology Rambewa Excavation.mp4" type="video/mp4">
+					</video>
+>>>>>>> efb3d83 (feat: news & events)
 				</div>
 
 
