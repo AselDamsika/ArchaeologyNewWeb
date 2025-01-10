@@ -12,8 +12,12 @@
 		}
 
 		.fotStripe {
+<<<<<<< HEAD
 			margin-top: 5%;
 			padding: 0% 0;
+=======
+			padding: 1% 0;
+>>>>>>> 6c5fb7a (fix)
 			color: rgb(179, 179, 179);
 			font-size: 1.5rem;
 		}
@@ -26,6 +30,7 @@
 			padding: 0;
 		}
 
+<<<<<<< HEAD
 		.footer-main-col {
 			display: flex;
 			flex-direction: column;
@@ -54,6 +59,21 @@
 			line-height: 2;
 		}
 
+=======
+		.footer-col {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0;
+		}
+
+		.footer-col a {
+			color: white;
+			font-size: 1.6rem;
+			line-height: 2;
+		}
+
+>>>>>>> 6c5fb7a (fix)
 		.footer-col a:hover {
 			color: #007bff;
 		}
@@ -66,10 +86,21 @@
 </head>
 
 <body>
+<<<<<<< HEAD
 	<footer>
 		<div class="fotBar">
 			<div class="container">
 				<div class="row footer-row">
+=======
+
+
+
+
+	<footer>
+		<div class="fotBar">
+			<div class="container-fluid"> <!-- Changed from container to container-fluid -->
+				<div class="row">
+>>>>>>> 6c5fb7a (fix)
 					<div class="col-md-3 footer-main-col">
 						<h3 class="quick-links">Quick Links</h3>
 					</div>
@@ -90,7 +121,12 @@
 					</div>
 				</div>
 			</div>
+<<<<<<< HEAD
 			<div class="fotStripe text-center">Copyright ©<span id="year"></span> All Rights Reserved - Department of Archaeology - University of Peradeniya</div>
+=======
+		</div>
+		<div class="fotStripe text-center">Copyright ©<span id="year"></span> All Rights Reserved - Department of Archaeology - University of Peradeniya</div>
+>>>>>>> 6c5fb7a (fix)
 	</footer>
 
 	<script src="<?php echo $root; ?>/assets/js/jquery.js"></script>
