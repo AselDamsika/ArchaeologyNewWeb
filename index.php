@@ -10,7 +10,7 @@ $pageId = "home";
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 	<title>Department of Archaeology</title>
-	
+
 	<?php require_once "assets/header.php"; ?>
 
 	<link rel="stylesheet" href="<?php echo $root; ?>/assets/css/index.css" />
@@ -65,7 +65,8 @@ $pageId = "home";
 			color: #003269 !important;
 			font-weight: 400;
 		}
-		.count-img{
+
+		.count-img {
 			width: 50px;
 			height: 50px;
 			margin: 5% 0;
@@ -128,6 +129,39 @@ $pageId = "home";
 		.dept-para-span {
 			font-weight: 600;
 		}
+
+		.news-events-row{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 5% 0;
+		}
+		.newsevents {
+			color: #003269;
+		}
+		.news-events-col{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 20px 0;
+			padding: 2%;
+			border: 1px solid #1B98E5;
+			border-radius: 5px;
+			box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+		}
+		.news-events-col:hover{
+			box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+		}
+		.news-video{
+			width: 100%;
+			height: 80%;
+			margin-top: 20px;
+		}
+		.news-events-col h5{
+			color: #505050;
+			font-weight: 600;
+		}
+		
 	</style>
 
 </head>
@@ -279,67 +313,51 @@ $pageId = "home";
 	<div class="frontHolder">
 		<div class="container main-container">
 
-
-
 			<div class="row welcome-row">
-					<p class="welcometo">Welcome to,</p>
-					<h1 class="welcomeheading">Department of Archaeology</h1>
-					<p class="deptpara">The <span class="dept-para-span">Department of Archaeology</span>, University of Peradeniya was established as a separate Department in 1976,
-						is one of the largest Departments in the university system of Sri Lanka. At present, over one hundred
-						undergraduates are following the Special and General Degree courses in Sinhala and English media at the
-						Department. The teaching of archaeology at Peradeniya, was originally introduced as an auxiliary subject
-						to history, as a sub-department, for the purpose of training future archaeological officers required by
-						the state. In 1957, Dr. Senarat Paranavitana on his retirement from the post of Commissioner of
-						Archaeology was appointed as the Professor of Archaeology, which marked the official beginning of the
-						Department of Archaeology, University of Peradeniya. The notable archaeologists, namely, Prof Senarat
-						Paranavitana, Prof. P.L. Prematilleke and Prof. Sudharshan Seneviratne have served in the Department.</p>
-				
+				<p class="welcometo">Welcome to,</p>
+				<h1 class="welcomeheading">Department of Archaeology</h1>
+				<p class="deptpara">The <span class="dept-para-span">Department of Archaeology</span>, University of Peradeniya was established as a separate Department in 1976,
+					is one of the largest Departments in the university system of Sri Lanka. At present, over one hundred
+					undergraduates are following the Special and General Degree courses in Sinhala and English media at the
+					Department. The teaching of archaeology at Peradeniya, was originally introduced as an auxiliary subject
+					to history, as a sub-department, for the purpose of training future archaeological officers required by
+					the state. In 1957, Dr. Senarat Paranavitana on his retirement from the post of Commissioner of
+					Archaeology was appointed as the Professor of Archaeology, which marked the official beginning of the
+					Department of Archaeology, University of Peradeniya. The notable archaeologists, namely, Prof Senarat
+					Paranavitana, Prof. P.L. Prematilleke and Prof. Sudharshan Seneviratne have served in the Department.</p>
+
 			</div>
 
 
-			<div class="row">
-				<div class="col-md-12 noticeBoard">
-					<h3>News &amp; Events</h3>
-					<hr />
+			<div class="row news-events-row">
+				<h1 class="newsevents">News &amp; Events</h1>
 
-
-					<h4><i class="fa fa-tags"></i>Old Money and Ancient Writing: Archaeology undergraduates visit the National Museum and (state) Department of Archaeology to study coins and inscriptions</h4>
+				<div class="col-md-6 news-events-col">
+					<h5>Old Money and Ancient Writing: Archaeology undergraduates visit the National Museum and (state) Department of Archaeology to study coins and inscriptions</h5>
 					<h5><a href="videos/Study tour.pdf" target="_blank">More Info </a></h5>
-					<video width="320" height="240" controls>
+					<video class="news-video" controls>
 						<source src="videos/archaeology.mov" type="video/mp4">
 					</video>
-					<hr />
+				</div>
 
-
-					<h4><i class="fa fa-tags"></i>Maritime Archaeology Training Programme at the Maritime Archaeology Unit of the Central Cultural Fund in Galle.</h4>
-					<video width="320" height="240" controls>
+				<div class="col-md-6 news-events-col">
+					<h5>Maritime Archaeology Training Programme at the Maritime Archaeology Unit of the Central Cultural Fund in Galle.</h5>
+					<video class="news-video" controls>
 						<source src="videos/Department of Archaeology MAU Training,Galle.mp4" type="video/mp4">
 					</video>
-					<hr />
+				</div>
 
-					<h4> <i class="fa fa-tags"></i> Rambewa Kadahatha Aloka Pabbatha Vihara Excavation conducted by the Department of Archaeology and Heritage Management, Rajarata University of Sri Lanka. </h4>
-					<video width="320" height="240" controls>
+				<div class="col-md-6 news-events-col">
+					<h5>Rambewa Kadahatha Aloka Pabbatha Vihara Excavation conducted by the Department of Archaeology and Heritage Management, Rajarata University of Sri Lanka. </h5>
+					<video class="news-video" controls>
 						<source src="videos/Department of Archaeology Rambewa Excavation.mp4" type="video/mp4">
 					</video>
-					<hr />
-
-
-					<!--<h4><i class="fa fa-tags"></i>International Conference on Social Work - Social Development and Sustainable Development Goals</h4>
-                    <ul>
-                    <li>International Conference on <strong>Social Work - Social Development and Sustainable Development Goals,</strong> will be held on 29<sup>th</sup> - 30<sup>th</sup> September 2016. The conference organized by International Consortium for Social Development, Asia Pacific Branch with the Department of Sociology, University of Peradeniya, Kandy, Sri Lanka & Charles Sturt University, Australia.</li>
-                    <a href="events/conference.php">Learn More</a>
-                  </ul>
-                <hr />
-
-                    <h4><i class="fa fa-tags"></i>  Sociology Day</h4>
-                    <ul>
-                    <li>The Sociology day organized by the Department of Sociology held on 8<sup>th</sup> of April, 2015 at the Department of Sociology, University of Peradeniya. Keynote speech by Prof. Gananath Obeysekara</li>
-                    <a href="events/socday.php">Learn More</a>    
-                    </ul>-->
-
 				</div>
+
+
 			</div>
 		</div>
+	</div>
 	</div>
 
 	<?php require_once "assets/footer.php" ?>
