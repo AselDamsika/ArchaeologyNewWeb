@@ -52,7 +52,6 @@ $pageId = "about";
 </head>
 
 <body>
-
     <div class="container">
         <ol class="breadcrumb">
             <li><a href="../ArchaeologyNewWeb/index.php">Home</a></li>

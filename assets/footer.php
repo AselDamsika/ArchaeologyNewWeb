@@ -13,7 +13,6 @@
 	.fotStripe {
 		padding: 1% 0;
 	}
-
 	.footer-main-col{
 		display: flex;
 		flex-direction: column;
@@ -45,8 +44,8 @@
 
 <footer>
 	<div class="fotBar">
-		<div class="container-fluid"> <!-- Changed from container to container-fluid -->
-			<div class="row">
+		<div class="container">
+			<div class="row footer-row">
 				<div class="col-md-3 footer-main-col">
 					<h3 class="quick-links">Quick Links</h3>
 				</div>
