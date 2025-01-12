@@ -1,56 +1,149 @@
 <?php
-	$pageId = "cnt";
+$pageId = "cnt";
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
+<head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 	<title>Department of Archaeology</title>
 
-	<?php require_once "assets/header.php"; ?>
-	
-	<!-- begin body content -->
+	<style>
+		.contact-container {
+			margin-bottom: 50px;
+		}
 
-	<div class="container">
+		.contact-us {
+			font-size: 4rem;
+			font-weight: 400;
+			color: #003269;
+			font-family: "roboto condensed", sans-serif;
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+
+		.contact-hr {
+			border: solid 2px #007bff;
+		}
+
+		.contact-row{
+			display: flex;
+			align-items: center;
+			text-align: center;
+		}
+
+		.contact-box {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: #F0F8FF;
+			margin: 5% 0;
+			padding: 20px;
+			box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+			height: 250px;
+		}
+
+		.contact-title {
+			font-size: 3rem;
+			color: #003269;
+			font-weight: 600;
+			text-align: center;
+			margin: 20px 0;
+		}
+
+		.contact-box span {
+			color: #1b98e5;
+			font-weight: 500;
+			text-align: left;
+		}
+
+		.contact-box p {
+			color: #505050 !important;
+			font-size: 1.7rem;
+			font-weight: 400;
+			text-align: left;
+		}
+		.contact-box a {
+			color: #505050 !important;
+			text-align: left;
+		}
+		.contact-box a:hover {
+			color:rgb(133, 133, 133) !important;
+		}
+
+		.contact-img {
+			width: 50px;
+			height: 50px;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<?php require_once "assets/header.php"; ?>
+
+	<div class="container contact-container">
 		<ol class="breadcrumb">
-		  <li><a href="index.php">Home</a></li>
-		  <li class="active">Contacts</li>
+			<li><a href="index.php">Home</a></li>
+			<li class="active">Contacts</li>
 		</ol>
-        <div class="page">
-		<div class="row">
-			<h3>Contact Information</h3>
-            <hr />
-	        <div class="col-md-4">
-	            <i class="fa fa-envelope-o fa-5x"></i> 
-	            <!--<h3>Postal Address</h3>-->
-	            <p>Department of Archaeology <br />
-	              Faculty of Arts <br />
-	              University of Peradeniya <br />
-	              Peradeniya 20400 <br />
-	              Sri Lanka </p>
-	        </div>
-	        <div class="col-md-4">
-	            <i class="fa fa-mobile fa-5x"></i>   
-	            <!--<h3>Telephone</h3>-->
-	            <p>Office - 0094 81 239 2553</p>
-	            <p>Staff Room - 0094 81 239 2555</p>
-	            <p>Head of the Department - 0094 81 239 2551</p>
-	            <p>Laborotory - 0094 81 239 2581</p>
-	        </div>
-	        <div class="col-md-4">
-	            <i class="fa fa-hand-pointer-o fa-5x"></i>   
-	            <!--<h3>Online</h3>-->
-	            <p>Email : arch.dip.peradeniya@gmail.com <br />
-	            Web :<a href="https://arts.pdn.ac.lk/archaeologynew/" target="_blank"> https://arts.pdn.ac.lk/archaeologynew/</a><br/>
-	            Facebook : <a href="https://www.facebook.com/profile.php?id=100086379914591" target="_blank"> https://www.facebook.com/profile.php?id=100086379914591</a></p>
-	        </div>
-            </div>
+
+		<div>
+			<h2 class="contact-us">Contact Us</h2>
+			<hr class="contact-hr" />
+
+
+			<div class="row contact-row">
+				<div class="col-md-4" >
+					<div class="contact-box">
+						<img src="assets/data1/images/location.png" alt="" class="contact-img">
+						<h3 class="contact-title">Postal Address</h3>
+						<p>
+							Department of Archaeology<br>
+							Faculty of Arts<br>
+							University of Peradeniya<br>
+							Peradeniya 20400<br>
+							Sri Lanka
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-4" >
+					<div class="contact-box">
+						<img src="assets/data1/images/telephone.png" alt="" class="contact-img">
+						<h3 class="contact-title">Telephone</h3>
+						<p>
+							<span class="span-title">Office  :  </span>+94 81 239 2553</br>
+							<span class="span-title">Staff Room  :  </span>+94 81 239 2555</br>
+							<span class="span-title">Head  :  </span>+94 81 239 2551</br>
+							<span class="span-title">Laboratory  :  </span>+94 81 239 2581</br>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-4" >
+					<div class="contact-box">
+						<img src="assets/data1/images/web.png" alt="" class="contact-img">
+						<h3 class="contact-title">Online</h3>
+						<p>
+							<span class="span-title">Email : </span><a href="mailto:arch.dip.peradeniya@gmail.com">arch.dip.peradeniya@gmail.com</a></br>
+							<span class="span-title">Web : </span><a href="https://arts.pdn.ac.lk/archaeologynew/" target="_blank">arts.pdn.ac.lk/archaeologynew</a></br>
+							<span class="span-title">Facebook : </span><a href="https://www.facebook.com/profile.php?id=100086379914591" target="_blank">Facebook Page</a></br>
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
+
 	</div>
 
 	<?php require_once "assets/footer.php" ?>
 </body>
+
 </html>
