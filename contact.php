@@ -10,7 +10,15 @@ $pageId = "cnt";
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 	<title>Department of Archaeology</title>
 
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 	<style>
+		body {
+			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
+		}
+
+
 		.contact-container {
 			margin-bottom: 50px;
 		}
@@ -19,7 +27,7 @@ $pageId = "cnt";
 			font-size: 4rem;
 			font-weight: 400;
 			color: #003269;
-			font-family: "roboto condensed", sans-serif;
+			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
 			padding-left: 0 !important;
 			padding-right: 0 !important;
 		}
@@ -84,7 +92,14 @@ $pageId = "cnt";
 
 <body>
 
+
 	<?php require_once "assets/header.php"; ?>
+
+	<style>
+        body {
+            font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
+        }
+	</style>	
 
 	<div class="container contact-container">
 		<ol class="breadcrumb">

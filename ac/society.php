@@ -79,6 +79,11 @@ $pageId = "society";
 
             <style>
                 /* Styling the profile grid items */
+
+                body {
+                    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
+                }
+
                 .profile-item {
                     border: 1px solid #e0e0e0;
                     border-radius: 8px;
@@ -112,12 +117,12 @@ $pageId = "society";
                 }
 
                 .profile-description h5 {
-                    font-size: 1.4rem;
+                    font-size: 1.6rem;
                     color: #555;
                 }
 
                 .profile-description blockquote {
-                    font-size: 1.2rem;
+                    font-size: 1.5rem;
                     color: #777;
                     border-left: 3px solid #007bff;
                     padding-left: 10px;
@@ -125,7 +130,7 @@ $pageId = "society";
 
                 /* Increase for the profile description text */
                 .profile-description p {
-                    font-size: 1.2rem;
+                    font-size: 1.5rem;
                     line-height: 1.5;
                 }
 
@@ -171,6 +176,11 @@ $pageId = "society";
         </div>
 
         <style>
+
+                body {
+                    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
+                }
+
             /* Styling long activity cards */
             .activity-item {
                 display: flex;
@@ -211,7 +221,7 @@ $pageId = "society";
             }
 
             .activity-description p {
-                font-size: 1.2rem;
+                font-size: 1.5rem;
                 line-height: 1.5;
                 color: #555;
             }
