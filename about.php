@@ -17,6 +17,23 @@ $pageId = "about";
     <?php require_once "assets/header.php"; ?>
 
     <style>
+
+        body {
+            font-family: "Book Antiqua", Palatino, "Palatino Linotype", serif;
+        }
+
+        .welcome-row {
+            background-color: #fdfdfd;
+            border: none;
+            margin: 5% 0;
+            padding-left: 2%;
+            padding: 2%;
+            border-left: 4px solid #007bff;
+        }
+
+        .about-cont{
+            margin: 5% 0;
+        }
         .about-heading {
             font-size: 4rem;
             font-weight: 400;
