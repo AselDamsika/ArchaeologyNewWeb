@@ -11,6 +11,11 @@ $pageId = "cnt";
 	<title>Department of Archaeology</title>
 
 	<style>
+
+		body {
+			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
+		}
+
 		.contact-container {
 			margin-bottom: 50px;
 		}
