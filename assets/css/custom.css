@@ -1,6 +1,7 @@
 body {
-  font-family: "roboto condensed", sans-serif;
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
 }
+
 
 h1,
 h2,
@@ -9,7 +10,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Book Antiqua";
 }
 
 header h2 {

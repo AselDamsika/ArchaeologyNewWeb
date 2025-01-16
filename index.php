@@ -21,6 +21,11 @@ $pageId = "home";
 
 
 	<style>
+
+		body {
+			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
+		}
+
 		.carousel-caption {
 			background-color: rgba(0, 0, 0, 0.5);
 			display: flex;

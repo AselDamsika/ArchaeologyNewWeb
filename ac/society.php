@@ -79,6 +79,11 @@ $pageId = "society";
 
             <style>
                 /* Styling the profile grid items */
+
+                body {
+                    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
+                }
+
                 .profile-item {
                     border: 1px solid #e0e0e0;
                     border-radius: 8px;
@@ -171,6 +176,11 @@ $pageId = "society";
         </div>
 
         <style>
+
+                body {
+                    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
+                }
+
             /* Styling long activity cards */
             .activity-item {
                 display: flex;
