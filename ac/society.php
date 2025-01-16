@@ -69,9 +69,9 @@ $pageId = "society";
                     <div class="profile-item">
                         <img src="../assets/images/profile3.jpg" alt="Ms. Sarah Brown">
                         <div class="profile-description text-center">
-                            <h4>Ms. Sarah Brown</h4>
+                            <h4>Ms. Walt Witz</h4>
                             <h5>Event Cordinator</h5>
-                            <blockquote>Specialist in cultural resource management and ancient history studies.</blockquote>
+                            <blockquote>Specialist ancient civilizations and heritage management.</blockquote>
                         </div>
                     </div>
                 </div>
