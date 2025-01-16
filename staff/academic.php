@@ -46,11 +46,18 @@ $pageId = "staff";
 		}
 
 		/* Increased font sizes for profile description */
-		.profile-description h4 {
-			font-size: 2rem;
+		.profile-description h4 a {
+			color: #0056B3;
+			text-decoration: none;
 			font-weight: bold;
+			transition: color 0.3s ease;
 		}
 
+		/* Profile name link hover effect */
+		.profile-description h4 a:hover {
+			color: #003d7a;
+			text-decoration: underline;
+}
 		.profile-description h5 {
 			font-size: 1.4rem;
 			color: #555;
