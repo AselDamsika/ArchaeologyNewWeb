@@ -21,11 +21,6 @@ $pageId = "home";
 
 
 	<style>
-
-		body {
-            font-family: "Book Antiqua", Palatino, "Palatino Linotype", serif;
-        }
-
 		.carousel-caption {
 			background-color: rgba(0, 0, 0, 0.5);
 			display: flex;
@@ -339,12 +334,6 @@ $pageId = "home";
 
 				<div class="col-md-6 news-events-col">
 					<h5>Old Money and Ancient Writing: Archaeology undergraduates visit the National Museum and (state) Department of Archaeology to study coins and inscriptions</h5>
-			<div class="row">
-				<div class="col-md-12 noticeBoard" style="font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;">
-					<h3>News &amp; Events</h3>
-					<hr />
-
-					<h4><i class="fa fa-tags"></i>Old Money and Ancient Writing: Archaeology undergraduates visit the National Museum and (state) Department of Archaeology to study coins and inscriptions</h4>
 					<h5><a href="videos/Study tour.pdf" target="_blank">More Info </a></h5>
 					<video class="news-video" controls>
 						<source src="videos/archaeology.mov" type="video/mp4">
@@ -354,8 +343,6 @@ $pageId = "home";
 				<div class="col-md-6 news-events-col">
 					<h5>Maritime Archaeology Training Programme at the Maritime Archaeology Unit of the Central Cultural Fund in Galle.</h5>
 					<video class="news-video" controls>
-					<h4><i class="fa fa-tags"></i>Maritime Archaeology Training Programme at the Maritime Archaeology Unit of the Central Cultural Fund in Galle.</h4>
-					<video width="320" height="240" controls>
 						<source src="videos/Department of Archaeology MAU Training,Galle.mp4" type="video/mp4">
 					</video>
 				</div>
@@ -365,16 +352,10 @@ $pageId = "home";
 					<video class="news-video" controls>
 						<source src="videos/Department of Archaeology Rambewa Excavation.mp4" type="video/mp4">
 					</video>
-					<h4><i class="fa fa-tags"></i>Rambewa Kadahatha Aloka Pabbatha Vihara Excavation conducted by the Department of Archaeology and Heritage Management, Rajarata University of Sri Lanka.</h4>
-					<video width="320" height="240" controls>
-						<source src="videos/Department of Archaeology Rambewa Excavation.mp4" type="video/mp4">
-					</video>
-					<hr />
 				</div>
 
 
 			</div>
-
 		</div>
 	</div>
 	</div>
