@@ -56,11 +56,23 @@ $pageId = "home";
 			font-size: 4rem
 		}
 
+		.count-row {
+			justify-content: center;
+		}
 		.count-box {
 			background-color: #F0F8FF;
 			margin: 5% 0;
 			padding: 20px;
 			box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+			height: 300px;
+			align-items: center;
+			justify-content: center;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.count-box:hover {
+			box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 		}
 
 		.count-box h1,
@@ -177,12 +189,25 @@ $pageId = "home";
 		    .dept-name{
 				font-size: 3rem
 			}
+			.count-box {
+				height: 250px;
+			}
+			.count-box h1,
+			.count-box span {
+				font-size: 5rem;
+			}
+			.count-box p {
+				font-size: 2rem;
+			}
+			
 		}
+
 		@media (max-width: 767px) {
 		    .dept-name{
 				font-size: 2rem
-			}	
+			}
 		}
+
 		@media (max-width: 575px) {
 		    .dept-name{
 				font-size: 1.5rem
@@ -202,6 +227,20 @@ $pageId = "home";
 				width: 3rem;
 				height: 2rem;
 			}	
+			.count-box {
+				height: 200px;
+				margin: 2% 0;
+					
+			}
+			.count-box h1,
+			.count-box span {
+				font-size: 4rem;
+			}
+			.count-img {
+				width: 40px;
+				height: 40px;
+			}
+			
 		}
 		
 	</style>
@@ -282,8 +321,8 @@ $pageId = "home";
 	<div class="container mt-5">
 
 
-		<div class="row">
-			<div class="col-md-4 text-center">
+		<div class="row count-row">
+			<div class="col-md-4 col-sm-6 text-center">
 				<div class="count-box">
 					<img src="assets/data1/images/student.png" alt="" class="count-img">
 					<p>Students</p>
@@ -292,7 +331,7 @@ $pageId = "home";
 			</div>
 
 
-			<div class="col-md-4 text-center">
+			<div class="col-md-4 col-sm-6 text-center">
 				<div class="count-box">
 					<img src="assets/data1/images/degree.png" alt="" class="count-img">
 					<p>Academic Programme</p>
@@ -300,7 +339,7 @@ $pageId = "home";
 				</div>
 			</div>
 
-			<div class="col-md-4 text-center">
+			<div class="col-md-4 col-sm-6 text-center">
 				<div class="count-box">
 					<img src="assets/data1/images/staff.png" alt="" class="count-img">
 					<p>Academic Staff</p>
