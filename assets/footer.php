@@ -46,6 +46,37 @@
 			margin: 0;
 			font-size: 3rem;
 		}
+
+		@media (max-width: 991px) {
+			.footer-col a {
+				font-size: 1.2rem;
+			}
+
+			.quick-links {
+				font-size: 2rem;
+			}
+
+			.fotStripe {
+				font-size: 1rem;
+			}
+			.footer-main-col{
+				display: none;
+			}
+		}
+
+		@media (max-width: 576px) {
+			.footer-col a {
+				font-size: 1rem;
+				line-height: 1.2;
+			}
+		}
+
+		@media (max-width: 450px) {
+			.footer-col a {
+				font-size: 0.9rem;
+			}
+		}
+		
 	</style>
 </head>
 
@@ -56,22 +87,22 @@
 
 	<footer>
 		<div class="fotBar">
-			<div class="container-fluid"> <!-- Changed from container to container-fluid -->
+			<div class="container">
 				<div class="row">
 					<div class="col-md-3 footer-main-col">
 						<h3 class="quick-links">Quick Links</h3>
 					</div>
-					<div class="col-md-3 footer-col">
+					<div class="col-md-3 col-sm-4 footer-col">
 						<a href="<?php echo $root; ?>/ac/under.php">UNDERGRADUATE</a>
 						<a href="http://www.pgihs.lk/">POSTGRADUATE</a>
 						<a href="#">ALUMNI</a>
 					</div>
-					<div class="col-md-3 footer-col">
+					<div class="col-md-3 col-sm-4 footer-col">
 						<a href="<?php echo $root; ?>/">ARCHAEOLOGY</a>
 						<a href="http://arts.pdn.ac.lk/" target="_blank">ARTS</a>
 						<a href="http://www.pdn.ac.lk/" target="_blank">UoP</a>
 					</div>
-					<div class="col-md-3 footer-col">
+					<div class="col-md-3 col-sm-4 footer-col">
 						<a href="https://webmail.pdn.ac.lk/" target="_blank">WEBMAIL</a>
 						<a href="https://www.pdn.ac.lk/login/" target="_blank">LOGIN</a>
 						<a href="<?php echo $root; ?>/contact.php">CONTACTS</a>
