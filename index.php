@@ -273,7 +273,7 @@ $pageId = "home";
 				font-size: 2.8rem;
 			}
 			.deptpara{
-				font-size: 1.3rem;
+				font-size: 1.4rem;
 			}
 			.news-events-col{
 				width: 100%;
