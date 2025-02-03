@@ -23,7 +23,19 @@ $pageId = "staff";
 		body {
 			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
 		}
-
+		.container{
+			margin-top: 0 !important;
+		}
+		.tab-pane{
+			padding: 0 !important;
+		}
+		.nav-tabs {
+    		border-bottom: none;
+		}
+		.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+			margin: 0 !important;
+			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif !important;
+		}
 		.profile-item {
 			border: 1px solid #e0e0e0;
 			border-radius: 8px;
@@ -64,7 +76,7 @@ $pageId = "staff";
 		.profile-description blockquote {
 			font-size: 1.2rem;
 			color: #777;
-			border-left: 3px solid #007bff;
+			border-left: 3px solid #1b98e5;
 			padding-left: 10px;
 		}
 
@@ -90,23 +102,22 @@ $pageId = "staff";
 			background-color: #F0F8FF;
 			padding: 10px;
 			border-radius: 8px;
-			color: #0056B3;
+			color: #1b98e5;
 		}
 
 		.title-row:hover {
 			background-color: #E0F0FF;
 
 		}
-
 		.nav-tabs .nav-item.show .nav-link,
 		.nav-tabs .nav-link.active {
-			margin: 0 10px;
-			color: #007bff;
+			margin: 0 !important;
+			color: #1b98e5;
 			background-color: #F0F8FF;
 			border-color: white;
 			padding: 10px;
 			font-size: 2rem;
-			font-family: "Montserrat", sans-serif;
+			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif !important;
 			font-weight: 500;
 		}
 
@@ -114,22 +125,22 @@ $pageId = "staff";
 		[type=reset]:not(:disabled),
 		[type=submit]:not(:disabled),
 		.nav-item button:not(:disabled) {
-			margin: 0 10px;
-			padding: 10px;
+			margin: 0 !important;
+			padding: 0px;
 			font-size: 2rem;
 			color: #505050;
-			font-family: "Montserrat", sans-serif;
+			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif !important;
 			font-weight: 500;
 		}
 
 		.nav-tabs .nav-link:focus,
 		.nav-tabs .nav-link:hover {
-			margin: 0 10px;
+			margin: 0 !important;
 			isolation: isolate;
 			border-color: var(--bs-nav-tabs-link-hover-border-color);
 			padding: 10px;
 			font-size: 2rem;
-			font-family: "Montserrat", sans-serif;
+			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif !important;
 			font-weight: 500;
 		}
 
@@ -144,9 +155,53 @@ $pageId = "staff";
 		}
 
 		.text-center {
-			color: #0056B3;
+			color: #1b98e5;
 			font-size: 3.5rem;
 		}
+		.aced-hr{
+			border: solid 2px #1b98e5;
+            margin: 2% 0;
+		}
+		.academic-title{
+			font-size: 4rem;
+            font-weight: 400;
+            color: #003269 !important;
+			margin-top: 0 !important;
+		}
+		.profile-item a{
+			color: #1b98e5;
+		}
+		.profile-item a:hover{
+			color: #1684CC;
+		}
+
+		@media (max-width: 992px) {
+			.nav-tabs {
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+        }
+
+		@media (max-width: 576px) {
+            .academic-title {
+                font-size: 3rem !important;
+            }
+			.nav-link{
+				font-size: 1.8rem !important;
+				padding: 10px !important;
+			}
+			
+        }
+		@media (max-width: 450px) {
+		    .academic-title{
+				font-size: 2.5rem !important;
+			}
+			.nav-link{
+				font-size: 1.6rem !important;
+				
+			}
+		}
+		
 	</style>
 </head>
 
@@ -157,8 +212,9 @@ $pageId = "staff";
 			<li class="active">Staff</li>
 			<li class="active">Academic</li>
 		</ol>
-		<div class="container my-5">
-			<h2 class="text-center mb-4">Academic Staff</h2><br>
+		<div>
+			<h3 class="academic-title">Academic Staff</h3>
+			<hr class="aced-hr" />
 
 			<!-- Profile Items Grid -->
 
