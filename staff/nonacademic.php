@@ -1,9 +1,10 @@
 <?php
-	$pageId = "staff";
+$pageId = "staff";
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 	<meta charset="UTF-8" />
@@ -11,11 +12,21 @@
 	<title>Department of Archaeology</title>
 
 	<?php require_once "../assets/header.php"; ?>
-	
+
 	<!-- Styling for non-academic staff page -->
-    <style>
-        /* Styling the profile grid items */
-        .profile-item {
+	<style>
+		.nonaced-hr{
+			border: solid 2px #1b98e5;
+            margin: 2% 0;
+		}
+		.nonacademic-title{
+			font-size: 4rem;
+            font-weight: 400;
+            color: #003269 !important;
+			margin-top: 0 !important;
+		}
+
+		.profile-item {
 			border: 1px solid #e0e0e0;
 			border-radius: 8px;
 			overflow: hidden;
@@ -27,7 +38,8 @@
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
-			text-align: center; /* Ensures the text is centered */
+			text-align: center;
+			/* Ensures the text is centered */
 		}
 
 		/* Hover effect on profile items */
@@ -60,7 +72,7 @@
 		.profile-description blockquote {
 			font-size: 1.2rem;
 			color: #777;
-			border-left: 3px solid #007bff;
+			border-left: 3px solid #1b98e5;
 			padding-left: 10px;
 		}
 
@@ -77,40 +89,53 @@
 			grid-gap: 20px;
 		}
 
-    </style>
-	
+		@media (max-width: 576px) {
+            .nonacademic-title {
+                font-size: 3rem !important;
+            }
+			
+        }
+		@media (max-width: 450px) {
+		    .nonacademic-title{
+				font-size: 2.5rem !important;
+			}
+		}
+	</style>
+
 	<!-- begin body content -->
 
 	<div class="container">
 		<ol class="breadcrumb">
-		  <li><a href="../index.php">Home</a></li>
-		  <li class="active">Staff</li>
-		  <li class="active">Non-Academic</li>
+			<li><a href="../index.php">Home</a></li>
+			<li class="active">Staff</li>
+			<li class="active">Non-Academic</li>
 		</ol>
-        <div class="page">
-		<h2 class="text-center mb-4">Non-Academic Staff</h2><br>
-		
-		<div class="profile-grid">
-		
-			<div class="profile-item">
-		        <div class="face"><img src="../assets/images/nonacademic/attanayake.jpg" class="img-responsive" alt="nonacademic"></div>
-		        <div class="profile-description">
-		        	<h4>Mr. R.M.Attanayake</h4>
-		        	<blockquote>
-		        		<em>Works Aid (Special Grade)</em><br />
-		        		<span class="fa fa-phone"></span>
-		        	<span>+94 812392553</p>	        		
-		        	</blockquote>
-		        </div>
+		<div>
+			<h3 class="nonacademic-title">Non-Academic Staff</h3>
+			<hr class="nonaced-hr" />
+
+			<div class="profile-grid">
+
+				<div class="profile-item">
+					<div class="face"><img src="../assets/images/nonacademic/attanayake.jpg" class="img-responsive" alt="nonacademic"></div>
+					<div class="profile-description">
+						<h4 style="color: #1b98e5;">Mr. R.M.Attanayake</h4>
+						<blockquote>
+							<em>Works Aid (Special Grade)</em><br />
+							<span class="fa fa-phone"></span>
+							<span>+94 812392553</p>
+						</blockquote>
+					</div>
+				</div>
+
+				<!-- Add other staff members similarly -->
+
 			</div>
 
-			<!-- Add other staff members similarly -->
-
 		</div>
-
-        </div>
 	</div>
 
 	<?php require_once "../assets/footer.php" ?>
-</body>
+	</body>
+
 </html>

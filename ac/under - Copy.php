@@ -1,56 +1,57 @@
 <?php
-	$pageId = "ac";
+$pageId = "ac";
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-	<title>Department of Archaeology</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>Department of Archaeology</title>
 
-	<?php require_once "../assets/header.php"; ?>
-	
-	<!-- begin body content -->
+    <?php require_once "../assets/header.php"; ?>
 
-	<div class="container">
-		<ol class="breadcrumb">
-		  <li><a href="../index.php">Home</a></li>
-		  <li class="active">Programmes</li>
-		  <li class="active">Undergraduate Programme</li>
-		</ol>
+    <!-- begin body content -->
+
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="../index.php">Home</a></li>
+            <li class="active">Programmes</li>
+            <li class="active">Undergraduate Programme</li>
+        </ol>
         <div class="page">
             <h3>Undergraduate Programme</h3>
             <hr />
             <div class="cList">
-            <h3>Our Course Structure</h3>
-            <h4>First Year Courses</h4>
-            <span>ACL 101</span> <span><a href="" title="The aim of the two introductory courses in Archaeology (ACL 101 and ACL 102) is to provide students who have had no previous exposure to the discipline with an introduction to its different fields. Following an introductory session, an overview of the theoretical development of the subject, and the history of archaeology, the course moves on to the use of artifacts, primary literary sources, epigraphy, numismatics, the built environment, and pre-industrial crafts and technology as source material in interpretative archaeology.">Introductory Archaeology I</a> </span><br/>
-            
-            <span>ACL 102</span> <span><a href="" title="The course expects to equip the student with basic tools from the field of multi-disciplinary studies, as a point of entry into field and interpretative archaeology. It introduces the subjects of anthropology, ethno-archaeology, bio-archaeology, environmental archaeology, the different aspects of the field archaeology process, cultural heritage management, museology and computer archaeology.">Introductory Archaeology II</a> </span>
-            <br/><br/>
-            <!--<p>Students offering Geography in their fist-year of studies at the Faculty of Arts are required to following two courses: GGY 101 – <a href="" title="The nature and processes of geo-system and its constituent parts:  atmosphere, lithosphere, hydrosphere and biosphere; structure and composition of the atmosphere: atmospheric circulation, weather and climate, energy transmission, spatial variation of energy inputs and energy budget; structure and composition of the earth: tectonics and related processes; hydrological cycle and its components: precipitation, evapotranspiration, groundwater, surface water and the oceans; vegetation zones of the world: world soils, ecosystems, biomes, energy and matter flows.">Fundamentals of Physical Geography</a> and GGY 102 – <a href="" title="Themes and fundamentals of Human Geography: evolution of Geography and Human Geography, core geographic concepts, population dynamics and resources; geographical diversity and unity: spatial patterns of religions, language, ethnicity, social inequality; Spatial patterns of  world political economy: patterns of development and globalization, dynamic patterns of space economy (agricultural, industrial and service sector); settlements: urban systems and urban structures, political ordering of space; Applied Human Geography: human impact on natural systems : landscape, land use, environmental problems and management.  The course will heavily rely on map exercises.">Fundamentals of Human Geography.</a></p>
+                <h3>Our Course Structure</h3>
+                <h4>First Year Courses</h4>
+                <span>ACL 101</span> <span><a href="" title="The aim of the two introductory courses in Archaeology (ACL 101 and ACL 102) is to provide students who have had no previous exposure to the discipline with an introduction to its different fields. Following an introductory session, an overview of the theoretical development of the subject, and the history of archaeology, the course moves on to the use of artifacts, primary literary sources, epigraphy, numismatics, the built environment, and pre-industrial crafts and technology as source material in interpretative archaeology.">Introductory Archaeology I</a> </span><br />
+
+                <span>ACL 102</span> <span><a href="" title="The course expects to equip the student with basic tools from the field of multi-disciplinary studies, as a point of entry into field and interpretative archaeology. It introduces the subjects of anthropology, ethno-archaeology, bio-archaeology, environmental archaeology, the different aspects of the field archaeology process, cultural heritage management, museology and computer archaeology.">Introductory Archaeology II</a> </span>
+                <br /><br />
+                <!--<p>Students offering Geography in their fist-year of studies at the Faculty of Arts are required to following two courses: GGY 101 – <a href="" title="The nature and processes of geo-system and its constituent parts:  atmosphere, lithosphere, hydrosphere and biosphere; structure and composition of the atmosphere: atmospheric circulation, weather and climate, energy transmission, spatial variation of energy inputs and energy budget; structure and composition of the earth: tectonics and related processes; hydrological cycle and its components: precipitation, evapotranspiration, groundwater, surface water and the oceans; vegetation zones of the world: world soils, ecosystems, biomes, energy and matter flows.">Fundamentals of Physical Geography</a> and GGY 102 – <a href="" title="Themes and fundamentals of Human Geography: evolution of Geography and Human Geography, core geographic concepts, population dynamics and resources; geographical diversity and unity: spatial patterns of religions, language, ethnicity, social inequality; Spatial patterns of  world political economy: patterns of development and globalization, dynamic patterns of space economy (agricultural, industrial and service sector); settlements: urban systems and urban structures, political ordering of space; Applied Human Geography: human impact on natural systems : landscape, land use, environmental problems and management.  The course will heavily rely on map exercises.">Fundamentals of Human Geography.</a></p>
             <p>Students are selected for the Special Degree in Geography at the end of the first year based on their GP for Geography and the general (overall?) GPA. Additional qualifications considered in the selection of special degree students are their performance in Basic Mathematics and English as a Second Language (ESL) courses. Besides the special degree,  Geography is also offered as a subject for a General Degree.</p>-->
-            <h4>Second Year Courses</h4>
-            <!--<p>The second and third year courses are mostly composed of compulsory courses to ensure that students acquire a foundational knowledge and skills in Geography. </p>
+                <h4>Second Year Courses</h4>
+                <!--<p>The second and third year courses are mostly composed of compulsory courses to ensure that students acquire a foundational knowledge and skills in Geography. </p>
             
             <span>Compulsory Credited Courses</span>
-            <br/>-->         
-                           
+            <br/>-->
 
-                <span>ACL 201</span> <span><a href="" title="The course introduces the concept of evolution in its many aspects: geological and biological evolution, primate and hominoid evolution, the different stages of hominid (human) evolution, variations in the physical characteristics of humans, and anthropometry (paleohuman biology). The fields of ethnography, ethnology and ethno-archaeology are defined, broadening into discussions of ethnographic theory and practice, ethnographic analogies, and field techniques.">Palaeo-Human Biology and Ethno-Archaeology</a> </span><br/>
-                
+
+                <span>ACL 201</span> <span><a href="" title="The course introduces the concept of evolution in its many aspects: geological and biological evolution, primate and hominoid evolution, the different stages of hominid (human) evolution, variations in the physical characteristics of humans, and anthropometry (paleohuman biology). The fields of ethnography, ethnology and ethno-archaeology are defined, broadening into discussions of ethnographic theory and practice, ethnographic analogies, and field techniques.">Palaeo-Human Biology and Ethno-Archaeology</a> </span><br />
+
                 <span>ACL 202</span> <span><a href="" title="This course, along with ACL 207, guides students in the study of the historical background of ancient India and Sri Lanka, and provides them with the historical context needed to situate material evidence retrieved from archaeological studies. ACL 202 introduces the study of history and historiography, the management of historical data in archaeology, historical geography and techno-cultural periods and zones of the Indo-Pakistan subcontinent, pre-Harappan, Harappan and other Chalcolithic cultures, Early Iron Age cultures, urbanism, state formation, trade and commerce and the emergence of land grant economies.  
-">Socio-Economic History of Ancient India</a></span> <br/>
-                
-                <span>ACL 203</span> <span><a href="" title="The student is introduced in this course to the theoretical basis of archaeological studies and to the different stages of the archaeological process from surveying and field reconnaissance, excavation, analysis, interpretation and reconstruction, to publication.">Archaeological Theory and Methods</a></span> <br/>
-                <span>ACL 204 </span> <span><a href="" title="This course is designed to train the student in the various aspects involved in managing the cultural heritage.">Cultural Resource Management</a></span> <br/>
+">Socio-Economic History of Ancient India</a></span> <br />
+
+                <span>ACL 203</span> <span><a href="" title="The student is introduced in this course to the theoretical basis of archaeological studies and to the different stages of the archaeological process from surveying and field reconnaissance, excavation, analysis, interpretation and reconstruction, to publication.">Archaeological Theory and Methods</a></span> <br />
+                <span>ACL 204 </span> <span><a href="" title="This course is designed to train the student in the various aspects involved in managing the cultural heritage.">Cultural Resource Management</a></span> <br />
                 <span>ACL 205</span> <span><a href="" title="In this course the student is provided with a basic introduction to theory, policy and practice in archaeological conservation. This covers the conservation of sites, monuments, objects and materials located in different physical environments—
-from conservation up to their storage and presentation in suitable environments, and the preparation of conservation reports.">Conservation of Archaeological Material</a></span> <br/>
-                <span>ACL 206</span> <span><a href="" title="The aim of this course is to provide an overview of the nature of global civilizations. It introduces the concept of material culture and civilization, ecological and human adaptations, early village cultures and bronze age urbanism. This is followed by study of certain aspects of the Mesopotamian, Egyptian, North Mediterranean, Chinese, Mesoamerican, South American, and Islamic civilizations.">Formation of Ancient Civilizations</a></span> <br/>
-                <span>ACL 207</span> <span><a href="" title="The course provides an insight into concepts related to the history, historiography, historical periodisation, and historical sources of Sri Lanka. It traces the development of Sri Lankan civilization from prehistoric foraging societies to early iron age village cultures, to urbanism and state formation, agricultural expansion, water management and craft production in the Early Historic Period, the transformation to Middle Historic and Late Historic polities, and precolonial demographic shifts and new societal adaptations.">The Socio-Economic History of Ancient Sri Lanka</a></span> <br/>
-                <span>ACL 208</span> <span><a href="" title="The student is trained in this course in archaeological recording practices in the field and laboratory which are not covered in ACL 203. The student is introduced to the use and production of topographical and geological maps, aerial photography and site plans, archaeological draughting practice related to sites, monuments and objects, computer archaeology in managing data bases, and Geographical Information Systems.">Practical Archaeology</a></span> <br/><br/>
+from conservation up to their storage and presentation in suitable environments, and the preparation of conservation reports.">Conservation of Archaeological Material</a></span> <br />
+                <span>ACL 206</span> <span><a href="" title="The aim of this course is to provide an overview of the nature of global civilizations. It introduces the concept of material culture and civilization, ecological and human adaptations, early village cultures and bronze age urbanism. This is followed by study of certain aspects of the Mesopotamian, Egyptian, North Mediterranean, Chinese, Mesoamerican, South American, and Islamic civilizations.">Formation of Ancient Civilizations</a></span> <br />
+                <span>ACL 207</span> <span><a href="" title="The course provides an insight into concepts related to the history, historiography, historical periodisation, and historical sources of Sri Lanka. It traces the development of Sri Lankan civilization from prehistoric foraging societies to early iron age village cultures, to urbanism and state formation, agricultural expansion, water management and craft production in the Early Historic Period, the transformation to Middle Historic and Late Historic polities, and precolonial demographic shifts and new societal adaptations.">The Socio-Economic History of Ancient Sri Lanka</a></span> <br />
+                <span>ACL 208</span> <span><a href="" title="The student is trained in this course in archaeological recording practices in the field and laboratory which are not covered in ACL 203. The student is introduced to the use and production of topographical and geological maps, aerial photography and site plans, archaeological draughting practice related to sites, monuments and objects, computer archaeology in managing data bases, and Geographical Information Systems.">Practical Archaeology</a></span> <br /><br />
                 <!--<span>Compulsory Non-Credit Courses</span>
             <br/>
             <span>GGY 215</span> <span><a href="" title="Biology:
@@ -66,8 +67,8 @@ Units of measurements, displacement, velocity, acceleration, vectors, forces, fr
             <br/>
             <span>ECN 204</span> <span>Introductory Statistics</span><br/>
             <span>ECN 214</span> <span>Intermediate Statistics</span><br/><br/>-->
-            <h4>Third Year Courses</h4>
-                        <!--<span>Compulsory Courses</span>
+                <h4>Third Year Courses</h4>
+                <!--<span>Compulsory Courses</span>
             <br/>         
 
 
@@ -97,9 +98,9 @@ Part Two: Introduction to social environment; population: growth, distribution a
                  <br/><br/>
                  <span>Subjects outside the Discipline (two courses)</span><br/>
              
-            <span>Students are required to take two optional courses from other Departments of the University.</span>--> 
-                        <h4>Fourth Year Courses</h4>
-                        <!--<p>In the fourth year, students have the option of specializing in either Human or Physical Geography by choosing from a range of non-compulsory courses. These courses are aimed at providing students with an in-depth knowledge and equipping them with diverse skills required to synthesize the qualitative and quantitative information in Geography. All students specializing in Geography are required to register for GGY 498 and GGY 499 for the purpose of conducting an original research on a topic of their choice and writing a dissertation under the supervision of an academic staff member.</p>
+            <span>Students are required to take two optional courses from other Departments of the University.</span>-->
+                <h4>Fourth Year Courses</h4>
+                <!--<p>In the fourth year, students have the option of specializing in either Human or Physical Geography by choosing from a range of non-compulsory courses. These courses are aimed at providing students with an in-depth knowledge and equipping them with diverse skills required to synthesize the qualitative and quantitative information in Geography. All students specializing in Geography are required to register for GGY 498 and GGY 499 for the purpose of conducting an original research on a topic of their choice and writing a dissertation under the supervision of an academic staff member.</p>
      
 			<span>Compulsory Courses</span>
             <br/>       
@@ -173,20 +174,21 @@ introduction to cartography (the history and the nature of cartography, types of
                 <span>GGY206</span> <span><a href="" title="Introduction to Geology,  definition of a mineral, classification of minerals, physical properties of minerals , identification of minerals, rock cycle, igneous rocks (formation, structures, classification), sedimentary rocks  formation, structures, classification), metamorphic rocks  formation, structures, classifications), rock identification, rock deformation and geological structures in rocks, different types of rocks in Sri Lanka, stratigraphical units, unconformities, introduction to paleontology, identification of fossils, introduction to photogeology.">Geology </a></span> <br/><br/>
            <span>GGY310</span> <span><a href="" title="This course will cover the following topics: historical evolution of the settlements: origin and growth; types of settlements: rural, urban, and other; ecological processes of rural and urban growth; settlement functions and networks; spatial patterns of the settlements: spatial hierarchies and  internal morphologies;  settlement  and landscapes: settlements as instruments of social, economic,  colonial and cultural articulation; measuring settlement patterns: nearest neighbour analysis, the rank size rule,  primate city, central place theory;   settlement policies and planning in Sri Lanka. ">Settlement Geography</a> </span> <br/> 
            <span>GGY311</span> <span><a href="" title="Introduction to Biogeography:  link between biology and geography; theoretical and conceptual development of the field; The concept of biosphere: origin and evolution of organisms; biological kingdoms; the theory of island biogeography; the concept of carrying capacity; geographical distribution of biota; biogeographic realms and major biomes: Wallace’s biogeographical regions; The concept of biodiversity: genetic diversity, species diversity and  ecosystem diversity/habitat diversity, biodiversity degradation; biological interactions.  society and biological resources: the concept of conservation, challenges and conservation measures in national and international contexts(special attention will be paid to in – situ and ex – situ conservation practices in Sri Lanka); Biological survey methods (practical exercise based on a field visit); conservation Biogeography ( The roots of conservation Biogeography, social values of conservation Biogeography, systematic conservation – past, present & future).">Biogeography </a></span> <br/>
-           <span>GGY312</span> <span><a href="" title="This course will cover the following topics: the concepts and theories of Urban Geography; the process of urbanization: origin and growth of urban settlements; evolution of urban systems: form, structure and organization of cities; urban functions: commercial, residential, services etc.; urban land use planning; urban problems and prospects; cities of future; urbanization in Sri Lanka; Urban policies and planning in Sri Lanka.">Urban Geography </a></span>--> <br/> 
-           <br/>  
-           <h4>Download Course Details </h4>           
-           <span><a href="../assets/downloads/100.pdf">First Year Courses</a></span><br/>
-           <span><a href="../assets/downloads/200.pdf">Second Year Courses</a></span><br/>
-           <span><a href="../assets/downloads/300.pdf">Third Year Courses</a></span><br/>
-           <span><a href="../assets/downloads/400.pdf">Fourth Year Courses</a></span><br/>
-            
-                </div>
-                
-           </div>
-        </div>
-	</div>
+           <span>GGY312</span> <span><a href="" title="This course will cover the following topics: the concepts and theories of Urban Geography; the process of urbanization: origin and growth of urban settlements; evolution of urban systems: form, structure and organization of cities; urban functions: commercial, residential, services etc.; urban land use planning; urban problems and prospects; cities of future; urbanization in Sri Lanka; Urban policies and planning in Sri Lanka.">Urban Geography </a></span>--> <br />
+                <br />
+                <h4>Download Course Details </h4>
+                <span><a href="../assets/downloads/100.pdf">First Year Courses</a></span><br />
+                <span><a href="../assets/downloads/200.pdf">Second Year Courses</a></span><br />
+                <span><a href="../assets/downloads/300.pdf">Third Year Courses</a></span><br />
+                <span><a href="../assets/downloads/400.pdf">Fourth Year Courses</a></span><br />
 
-	<?php require_once "../assets/footer.php" ?>
-</body>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <?php require_once "../assets/footer.php" ?>
+    </body>
+
 </html>

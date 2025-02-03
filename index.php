@@ -51,11 +51,28 @@ $pageId = "home";
 			display: block;
 		}
 
+		.dept-name{
+			font-weight: 400; 
+			font-size: 4rem
+		}
+
+		.count-row {
+			justify-content: center;
+		}
 		.count-box {
 			background-color: #F0F8FF;
 			margin: 5% 0;
 			padding: 20px;
 			box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+			height: 300px;
+			align-items: center;
+			justify-content: center;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.count-box:hover {
+			box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 		}
 
 		.count-box h1,
@@ -166,6 +183,111 @@ $pageId = "home";
 			color: #505050;
 			font-weight: 600;
 		}
+
+
+		@media (max-width: 991px) {
+		    .dept-name{
+				font-size: 3rem
+			}
+			.count-box {
+				height: 250px;
+			}
+			.count-box h1,
+			.count-box span {
+				font-size: 5rem;
+			}
+			.count-box p {
+				font-size: 2rem;
+			}
+			.welcometo{
+				font-size: 2.5rem;
+			}
+			.welcomeheading{
+				font-size: 4rem;
+			}
+			.deptpara{
+				font-size: 1.8rem;
+			}
+			.news-events-col{
+				width: 100%;
+			}
+			.news-video{
+				height: 300px;
+			}
+		}
+
+		@media (max-width: 767px) {
+		    .dept-name{
+				font-size: 2.5rem
+			}
+			.count-box {
+				height: 200px;
+			}
+			.deptpara{
+				font-size: 1.5rem;
+			}
+		}
+
+		@media (max-width: 767px) {
+		    .dept-name{
+				font-size: 2rem
+			}
+		}
+
+		@media (max-width: 575px) {
+		    .dept-name{
+				font-size: 1.5rem
+			}
+			.carousel-caption {
+				padding: 20px 0px 20px 0px;
+				letter-spacing: 10px;
+			}
+			.carousel-indicators {
+				display: none;
+			}
+			.carousel-img{
+				height: 200px;
+			}
+			.carousel-control-next-icon,
+			.carousel-control-prev-icon {
+				width: 3rem;
+				height: 2rem;
+			}	
+			.count-box {
+				height: 200px;
+				margin: 2% 0;
+					
+			}
+			.count-box h1,
+			.count-box span {
+				font-size: 4rem;
+			}
+			.count-img {
+				width: 40px;
+				height: 40px;
+			}
+			.welcometo{
+				font-size: 1.8rem;
+			}
+			.welcomeheading{
+				font-size: 2.8rem;
+			}
+			.deptpara{
+				font-size: 1.4rem;
+			}
+			.news-events-col{
+				width: 100%;
+			}
+			.news-video{
+				height: 200px;
+			}
+		}
+
+		@media (max-width: 450px) {
+		    .welcomeheading{
+				font-size: 2.5rem;
+			}
+		}
 		
 	</style>
 
@@ -187,39 +309,39 @@ $pageId = "home";
 
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="assets/data1/images/001new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/001new.jpg" alt="Department of Archaeology" class="d-block w-100 carousel-img">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
+					<h1 class="dept-name">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/005new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/005new.jpg" alt="Department of Archaeology" class="d-block w-100 carousel-img">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
+					<h1 class="dept-name">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/007new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/007new.jpg" alt="Department of Archaeology" class="d-block w-100 carousel-img">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
+					<h1 class="dept-name">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/008new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/008new.jpg" alt="Department of Archaeology" class="d-block w-100 carousel-img">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
+					<h1 class="dept-name">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/005.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/005.jpg" alt="Department of Archaeology" class="d-block w-100 carousel-img">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
+					<h1 class="dept-name">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/006new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/006new.jpg" alt="Department of Archaeology" class="d-block w-100 carousel-img">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
+					<h1 class="dept-name">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 
@@ -235,7 +357,6 @@ $pageId = "home";
 		</a>
 	</div>
 
-
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -245,8 +366,8 @@ $pageId = "home";
 	<div class="container mt-5">
 
 
-		<div class="row">
-			<div class="col-md-4 text-center">
+		<div class="row count-row">
+			<div class="col-md-4 col-sm-6 text-center">
 				<div class="count-box">
 					<img src="assets/data1/images/student.png" alt="" class="count-img">
 					<p>Students</p>
@@ -255,7 +376,7 @@ $pageId = "home";
 			</div>
 
 
-			<div class="col-md-4 text-center">
+			<div class="col-md-4 col-sm-6 text-center">
 				<div class="count-box">
 					<img src="assets/data1/images/degree.png" alt="" class="count-img">
 					<p>Academic Programme</p>
@@ -263,7 +384,7 @@ $pageId = "home";
 				</div>
 			</div>
 
-			<div class="col-md-4 text-center">
+			<div class="col-md-4 col-sm-6 text-center">
 				<div class="count-box">
 					<img src="assets/data1/images/staff.png" alt="" class="count-img">
 					<p>Academic Staff</p>

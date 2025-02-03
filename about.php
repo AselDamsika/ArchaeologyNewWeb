@@ -61,6 +61,27 @@ $pageId = "about";
         .about-para-span {
             font-weight: 600;
         }
+
+        @media (max-width: 768px) {
+            .aboutpara {
+                font-size: 1.6rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .about-heading {
+                font-size: 3rem;
+            }
+            .aboutpara {
+                font-size: 1.4rem;
+            }
+        }
+
+        @media (max-width: 450px) {
+		    .about-heading{
+				font-size: 2.5rem;
+			}
+		}
     </style>
 
 </head>
