@@ -17,25 +17,30 @@ $pageId = "ac";
 
 	<!-- Custom Styling -->
 	<style>
-
 		body {
-            font-family: "Book Antiqua", Palatino, "Palatino Linotype", serif;
-        }
+			font-family: "Book Antiqua", Palatino, "Palatino Linotype", serif;
+		}
+
+		.page{
+			padding: 0;
+		}
 
 		.page h3 {
-			font-weight: 700;
-			color: #333;
-			margin-top: 30px;
+			font-size: 4rem;
+            font-weight: 400;
+            color: #003269 !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
 		}
 
-		.page hr {
-			border-top: 3px solid #007bff;
-			width: 60px;
-			margin-top: -10px;
-		}
+
+		.under-hr {
+            border: solid 2px #1b98e5;
+            margin: 2% 0;
+        }
 
 		.course-box {
-			border: 2px solid #007bff;
+			border: 2px solid #1b98e5;
 			border-radius: 10px;
 			padding: 15px;
 			margin-top: 20px;
@@ -45,13 +50,13 @@ $pageId = "ac";
 		}
 
 		.course-box:hover {
-			transform: scale(1.05); /* Slight zoom effect */
-			box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow */
-			background-color: #f0f8ff; /* Optional: Change background color */
+			transform: scale(1.01);			
+			box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);		
+			background-color: #f0f8ff;
 		}
 
 		.course-box h4 {
-			color: #007bff;
+			color: #1b98e5;
 			font-weight: bold;
 			margin-bottom: 10px;
 		}
@@ -64,14 +69,35 @@ $pageId = "ac";
 			font-size: 16px;
 			padding-left: 10px;
 			position: relative;
+			color: #505050 !important;
 		}
 
 		.course-box li::before {
 			content: "•";
-			color: #007bff;
+			color: #1b98e5;
 			font-weight: bold;
 			position: absolute;
 			left: -10px;
+		}
+
+		@media (max-width: 576px) {
+            .text-secondary {
+                font-size: 3rem !important;
+            }
+            .course-box li {
+                font-size: 1.4rem !important;
+            }
+        }
+		@media (max-width: 450px) {
+		    .text-secondary{
+				font-size: 2.5rem !important;
+			}
+			.course-box h4{
+				font-size: 1.6rem !important;
+			}
+			.course-box li {
+				font-size: 1.3rem !important;
+			}
 		}
 	</style>
 </head>
@@ -87,17 +113,11 @@ $pageId = "ac";
 			<li class="breadcrumb-item active">Undergraduate Programme</li>
 		</ol>
 
-		<div class="page bg-white p-10 mb-10 shadow-sm rounded">
-			<!-- Main Title -->
-			<h3 class="text-primary text-center">Undergraduate Programme</h3>
-			<br>
-			<center>
-			<hr />
-			</center>
-			
+		<div class="page bg-white p-10 mb-10">
+			<h3 class="text-secondary">Course Structure</h3>
+			<hr class="under-hr" />
+
 			<div class="cList">
-				<h3 class="text-secondary">Our Course Structure</h3>
-				<br>
 				<div class="course-box">
 					<h4>First Year Courses</h4>
 					<ul class="list-unstyled">
@@ -157,7 +177,7 @@ $pageId = "ac";
 	</div>
 
 	<?php require_once "../assets/footer.php" ?>
-		
+
 </body>
 
 </html>
