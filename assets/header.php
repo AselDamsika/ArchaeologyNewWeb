@@ -189,6 +189,31 @@ if (!isset($pageId)) {
 				text-align: center;
 			}
 		}
+		@media (max-width: 1200px) {
+			.logoimg {
+				width: 75px;
+			}
+		}
+		@media (max-width: 767px) {
+			.logocol {
+				justify-content: center;
+			}
+		}
+		@media (max-width: 575px) {
+			.deptname {
+				font-size: 2.8rem;
+			}
+			.uniname {
+				font-size: 1.8rem;
+			}
+			.nav-link {
+				font-size: 1.5rem;
+			}
+			.navbar-nav .dropdown-menu>li>a {
+				font-size: 1.4rem;
+				padding: 5px;
+			}
+		}				
 
 	</style>
 

@@ -51,6 +51,11 @@ $pageId = "home";
 			display: block;
 		}
 
+		.dept-name{
+			font-weight: 400; 
+			font-size: 4rem
+		}
+
 		.count-box {
 			background-color: #F0F8FF;
 			margin: 5% 0;
@@ -166,6 +171,38 @@ $pageId = "home";
 			color: #505050;
 			font-weight: 600;
 		}
+
+
+		@media (max-width: 991px) {
+		    .dept-name{
+				font-size: 3rem
+			}
+		}
+		@media (max-width: 767px) {
+		    .dept-name{
+				font-size: 2rem
+			}	
+		}
+		@media (max-width: 575px) {
+		    .dept-name{
+				font-size: 1.5rem
+			}
+			.carousel-caption {
+				padding: 20px 0px 20px 0px;
+				letter-spacing: 10px;
+			}
+			.carousel-indicators {
+				display: none;
+			}
+			.carousel-img{
+				height: 200px;
+			}
+			.carousel-control-next-icon,
+			.carousel-control-prev-icon {
+				width: 3rem;
+				height: 2rem;
+			}	
+		}
 		
 	</style>
 
@@ -187,39 +224,39 @@ $pageId = "home";
 
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="assets/data1/images/001new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/001new.jpg" alt="Department of Archaeology" class="d-block w-100 carousel-img">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
+					<h1 class="dept-name">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/005new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/005new.jpg" alt="Department of Archaeology" class="d-block w-100 carousel-img">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
+					<h1 class="dept-name">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/007new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/007new.jpg" alt="Department of Archaeology" class="d-block w-100 carousel-img">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
+					<h1 class="dept-name">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/008new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/008new.jpg" alt="Department of Archaeology" class="d-block w-100 carousel-img">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
+					<h1 class="dept-name">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/005.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/005.jpg" alt="Department of Archaeology" class="d-block w-100 carousel-img">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
+					<h1 class="dept-name">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/data1/images/006new.jpg" alt="Department of Archaeology" class="d-block w-100">
+				<img src="assets/data1/images/006new.jpg" alt="Department of Archaeology" class="d-block w-100 carousel-img">
 				<div class="carousel-caption">
-					<h1 style="font-weight: 400; font-size:4rem">Department of ARCHAEOLOGY</h1>
+					<h1 class="dept-name">Department of ARCHAEOLOGY</h1>
 				</div>
 			</div>
 
