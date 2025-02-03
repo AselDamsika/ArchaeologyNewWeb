@@ -199,7 +199,33 @@ $pageId = "home";
 			.count-box p {
 				font-size: 2rem;
 			}
-			
+			.welcometo{
+				font-size: 2.5rem;
+			}
+			.welcomeheading{
+				font-size: 4rem;
+			}
+			.deptpara{
+				font-size: 1.8rem;
+			}
+			.news-events-col{
+				width: 100%;
+			}
+			.news-video{
+				height: 300px;
+			}
+		}
+
+		@media (max-width: 767px) {
+		    .dept-name{
+				font-size: 2.5rem
+			}
+			.count-box {
+				height: 200px;
+			}
+			.deptpara{
+				font-size: 1.5rem;
+			}
 		}
 
 		@media (max-width: 767px) {
@@ -240,7 +266,27 @@ $pageId = "home";
 				width: 40px;
 				height: 40px;
 			}
-			
+			.welcometo{
+				font-size: 1.8rem;
+			}
+			.welcomeheading{
+				font-size: 2.8rem;
+			}
+			.deptpara{
+				font-size: 1.3rem;
+			}
+			.news-events-col{
+				width: 100%;
+			}
+			.news-video{
+				height: 200px;
+			}
+		}
+
+		@media (max-width: 450px) {
+		    .welcomeheading{
+				font-size: 2.5rem;
+			}
 		}
 		
 	</style>
