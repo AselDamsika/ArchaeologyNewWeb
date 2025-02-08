@@ -14,7 +14,7 @@
 		.fotStripe {
 			padding: 1% 0;
 			color: rgb(179, 179, 179);
-			font-size: 1.5rem;
+			font-size: 1.4rem;
 		}
 
 		.footer-main-col {
