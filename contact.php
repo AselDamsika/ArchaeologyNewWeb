@@ -18,12 +18,11 @@ $pageId = "cnt";
 			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
 		}
 
-
 		.contact-container {
 			margin-bottom: 50px;
 		}
 
-		.contact-us {
+		.contact-heading {
 			font-size: 4rem;
 			font-weight: 400;
 			color: #003269;
@@ -87,19 +86,40 @@ $pageId = "cnt";
 			height: 50px;
 		}
 
+		@media (max-width: 991px) {
+			.contact-box p{
+				font-size: 1.5rem;
+			}
+		}
+		@media (max-width: 767px) {
+			.contact-title{
+				font-size: 2.5rem;
+			}
+			.contact-box p{
+				font-size: 1.4rem;
+			}
+			.contact-img {
+				width: 40px;
+				height: 40px;
+			}
+		}
+		@media (max-width: 576px) {
+			.contact-heading{
+				font-size: 3rem;
+			}
+		}
+		@media (max-width: 450px) {
+		    .contact-heading{
+				font-size: 2.5rem;
+			}
+		}
+
 	</style>
 </head>
 
 <body>
 
-
 	<?php require_once "assets/header.php"; ?>
-
-	<style>
-        body {
-            font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
-        }
-	</style>	
 
 	<div class="container contact-container">
 		<ol class="breadcrumb">
@@ -108,12 +128,12 @@ $pageId = "cnt";
 		</ol>
 
 		<div>
-			<h2 class="contact-us">Contact Us</h2>
+			<h2 class="contact-heading">Contact Us</h2>
 			<hr class="contact-hr" />
 
 
 			<div class="row contact-row">
-				<div class="col-md-4" >
+				<div class="col-md-6" >
 					<div class="contact-box">
 						<img src="assets/data1/images/location.png" alt="" class="contact-img">
 						<h3 class="contact-title">Postal Address</h3>
@@ -128,21 +148,7 @@ $pageId = "cnt";
 
 				</div>
 
-				<div class="col-md-4" >
-					<div class="contact-box">
-						<img src="assets/data1/images/telephone.png" alt="" class="contact-img">
-						<h3 class="contact-title">Telephone</h3>
-						<p>
-							<span class="span-title">Office  :  </span>+94 81 239 2553</br>
-							<span class="span-title">Staff Room  :  </span>+94 81 239 2555</br>
-							<span class="span-title">Head  :  </span>+94 81 239 2551</br>
-							<span class="span-title">Laboratory  :  </span>+94 81 239 2581</br>
-						</p>
-					</div>
-
-				</div>
-
-				<div class="col-md-4" >
+				<div class="col-md-6" >
 					<div class="contact-box">
 						<img src="assets/data1/images/web.png" alt="" class="contact-img">
 						<h3 class="contact-title">Online</h3>
