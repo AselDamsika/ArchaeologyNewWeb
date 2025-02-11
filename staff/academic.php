@@ -239,7 +239,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/chandranew.jpg" alt="Prof. R.M.M. Chandraratne" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Prof. R.M.M. Chandraratne</a></h4>
+							<h4><a href="profile.php?id=1">Prof. R.M.M. Chandraratne</a></h4>
 								<h5>Professor, Department of Archaeology</h5>
 								<blockquote>
 									<em>BA (Hons) (Perad), MA (Poona), Ph.D. (Pune), FSLCA</em>
