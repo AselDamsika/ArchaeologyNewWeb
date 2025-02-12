@@ -71,9 +71,10 @@ $profile = isset($staffProfiles[$profileId]) ? $staffProfiles[$profileId] : null
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile - <?php echo $profile ? $profile["name"] : "Not Found"; ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <?php require_once "../assets/header.php"; ?>
 </head>
 <body>
-    <div class="container mt-5">
+    <div class="container my-5">
         <?php if ($profile): ?>
             <h1><?php echo $profile["name"]; ?></h1>
             <img src="<?php echo $profile["image"]; ?>" alt="<?php echo $profile["name"]; ?>" class="img-fluid rounded">
@@ -86,5 +87,8 @@ $profile = isset($staffProfiles[$profileId]) ? $staffProfiles[$profileId] : null
         <?php endif; ?>
         <a href="academic.php" class="btn btn-primary">Back to Staff</a>
     </div>
+
+    <?php require_once "../assets/footer.php" ?>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
