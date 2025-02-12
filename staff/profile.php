@@ -18,7 +18,47 @@ $staffProfiles = [
         "email" => "chulanimw@gmail.com",
         "phone" => "+94 0812392583",
         "biography" => "Prof. Rambukwella is a leading expert in South Asian archaeology, with a focus on ancient trade routes and cultural exchanges."
-    ]
+    ],
+    3 => [
+        "name" => "Dr. A.S.T. Rajapakse",
+        "image" => "../assets/images/academic/ast.png",
+        "title" => "Senior Lecturer",
+        "qualifications" => "B.A. (Peradeniya), P.G. Dip. (IHS, Netherlands), M.A. (I.P. University), Ph.D. (Peradeniya)",
+        "email" => "tsaru2003@yahoo.com",
+        "phone" => "+94 71 4395277"
+    ],
+    4 => [
+        "name" => "Ms. K.G.A.M. Sandya Kumari Nawarathna Menike",
+        "image" => "../assets/images/academic/sandya.png",
+        "title" => "Lecturer",
+        "qualifications" => "BA(Hons)Peradeniya, MSc(PGIAR), Ph.D.Reading(PGIAR) MSLCA",
+        "email" => "sannawarathna@gmail.com",
+        "phone" => "+94 714 823 384"
+    ],
+    5 => [
+        "name" => "Dr. Uditha Jinadasa",
+        "image" => "../assets/images/academic/uditha.jpg",
+        "title" => "Lecturer",
+        "qualifications" => "BA & MSc in Geo-Informatics (Peradeniya), PhD (Leiden)",
+        "email" => "ujinadasa@pdn.ac.lk",
+        "phone" => "+94 71 497 0718"
+    ],
+    6 => [
+        "name" => "Ms. Piyumi Embuldeniya",
+        "image" => "../assets/images/academic/piyumi.png",
+        "title" => "Lecturer (Probationary)",
+        "qualifications" => "MSSc. (Kelaniya), PGDip. in Museology (PGIAR, Kelaniya), B.A. (Kelaniya)",
+        "email" => "piyumie@arts.pdn.ac.lk",
+        "phone" => "+94 772383788"
+    ],
+    7 => [
+        "name" => "Mr. Buddhisha Weerasuriya",
+        "image" => "../assets/images/academic/buddi.jpg",
+        "title" => "Lecturer (Probationary)",
+        "qualifications" => "M.Phil (Peradeniya) - Reading, B.A (Hons) (Peradeniya)",
+        "email" => "buddisha@arts.pdn.ac.lk",
+        "phone" => "+94 71 5206865"
+    ],
 ];
 
 // Get profile ID from URL
@@ -82,7 +122,9 @@ $profile = isset($staffProfiles[$profileId]) ? $staffProfiles[$profileId] : null
                 </div>
                 <div class="bio-section">
                     <h5>Biography</h5>
-                    <p><?php echo $profile["biography"]; ?></p>
+                    <p>
+                        <?php echo isset($profile["biography"]) ? $profile["biography"] : "Biography not available."; ?>
+                    </p>
                 </div>
                 <a href="academic.php" class="btn btn-primary mt-3">Back to Staff</a>
             </div>
