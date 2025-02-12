@@ -239,7 +239,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/chandranew.jpg" alt="Prof. R.M.M. Chandraratne" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Prof. R.M.M. Chandraratne</a></h4>
+							<h4><a href="profile.php?id=1">Prof. R.M.M. Chandraratne</a></h4>
 								<h5>Professor, Department of Archaeology</h5>
 								<blockquote>
 									<em>BA (Hons) (Perad), MA (Poona), Ph.D. (Pune), FSLCA</em>
@@ -255,7 +255,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/proframbukwella.jpg" alt="Prof. Chulani Rambukwella" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Prof. Chulani Rambukwella</a></h4>
+							<h4><a href="profile.php?id=2">Prof. Chulani Rambukwella</a></h4>
 								<h5>Chair Professor of Archaeology</h5>
 								<blockquote>
 									<em>Phd (UK), MA (Peradeniya), BA (Peradeniya)</em>
@@ -280,7 +280,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/ast.png" alt="Dr. A.S.T. Rajapakse" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Dr. A.S.T. Rajapakse</a></h4>
+								<h4><a href="profile.php?id=3">Dr. A.S.T. Rajapakse</a></h4>
 								<h5>Senior Lecturer</h5>
 								<blockquote>
 									<em>B.A. (Peradeniya),P.G. Dip.(IHS, Netherlands), M.A. (I.P. University), Ph.D. (Peradeniya)</em>
@@ -305,7 +305,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/sandya.png" alt="Ms. K.G.A.M. Sandya Kumari Nawarathna Menike" width="180" height="250">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Ms. K.G.A.M. Sandya Kumari Nawarathna Menike</a></h4>
+							<h4><a href="profile.php?id=4">Ms. K.G.A.M. Sandya Kumari Nawarathna Menike</a></h4>
 								<h5>Lecturer</h5>
 								<blockquote>
 									<em>BA(Hons)Peradeniya, MSc(PGIAR), Ph.D.Reading(PGIAR) MSLCA</em>
@@ -330,7 +330,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/uditha.jpg" alt="Dr. Uditha Jinadasa" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Dr. Uditha Jinadasa</a></h4>
+							<h4><a href="profile.php?id=5">Dr. Uditha Jinadasa</a></h4>
 								<h5>Lecturer</h5>
 								<blockquote>
 									<em>BA & MSc in Geo-Informatics (Peradeniya), PhD (Leiden)</em>
@@ -355,7 +355,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/piyumi.png" alt="Ms. Piyumi Embuldeniya" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Ms. Piyumi Embuldeniya</a></h4>
+							<h4><a href="profile.php?id=6">Ms. Piyumi Embuldeniya</a></h4>
 								<h5>Lecturer (Probationary)</h5>
 								<blockquote>
 									<em>MSSc. (Kelaniya), PGDip. in Museology (PGIAR, Kelaniya), B.A. (Kelaniya)</em>
@@ -380,7 +380,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/buddi.jpg" alt="Mr. Buddhisha Weerasuriya" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Mr. Buddhisha Weerasuriya</a></h4>
+								<h4><a href="profile.php?id=7">Mr. Buddhisha Weerasuriya</a></h4>
 								<h5>Lecturer (Probationary)</h5>
 								<blockquote>
 									<em>M.Phil (Peradeniya) - Reading, B.A (Hons) (Peradeniya)</em>
