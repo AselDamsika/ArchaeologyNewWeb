@@ -337,7 +337,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/buddi.jpg" alt="Mr. Buddhisha Weerasuriya" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="profile.php?id=7">Mr. Buddhisha Weerasuriya</a></h4>
+								<h4><a href="buddisha.php">Mr. Buddhisha Weerasuriya</a></h4>
 								<h5>Lecturer (Probationary)</h5>
 								<blockquote>
 									<em>M.Phil (Peradeniya) - Reading, B.A (Hons) (Peradeniya)</em>
