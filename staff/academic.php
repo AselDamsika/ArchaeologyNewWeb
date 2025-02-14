@@ -10,16 +10,11 @@ $pageId = "staff";
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Department of Archaeology - Academic Staff</title>
 
-	<!-- Bootstrap CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
 
 	<?php require_once "../assets/header.php"; ?>
 
-	<!-- Custom CSS for Profile Items -->
 	<style>
-		/* Styling the profile grid items */
-
 		body {
 			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
 		}
@@ -216,9 +211,6 @@ $pageId = "staff";
 			<h3 class="academic-title">Academic Staff</h3>
 			<hr class="aced-hr" />
 
-			<!-- Profile Items Grid -->
-
-
 			<ul class="nav nav-tabs" id="myTab" role="tablist">
 				<li class="nav-item" role="presentation">
 					<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Permanant Academic Staff</button>
@@ -235,11 +227,11 @@ $pageId = "staff";
 					<div class="profile-grid">
 
 
-						<!-- Profile Item 1 -->
+						
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/chandranew.jpg" alt="Prof. R.M.M. Chandraratne" class="img-fluid">
 							<div class="profile-description">
-							<h4><a href="profile.php?id=1">Prof. R.M.M. Chandraratne</a></h4>
+							<h4><a href="rmm.php">Prof. R.M.M. Chandraratne</a></h4>
 								<h5>Professor, Department of Archaeology</h5>
 								<blockquote>
 									<em>BA (Hons) (Perad), MA (Poona), Ph.D. (Pune), FSLCA</em>
@@ -268,15 +260,7 @@ $pageId = "staff";
 							</div>
 						</div>
 
-						<!-- <div class="profile-item">
-					<img src="../assets/images/academic/proframbukwella.jpg" alt="Prof. Chulani Rambukwella" width="147" height="182">
-					<h4><a href="rabukwella.php">Prof. Chulani Rambukwella</a></h4>
-					<h5>Chair Professor of Archaeology</h5>
-					<p>Phd (UK), MA (Peradeniya), BA (Peradeniya)</p>
-					<p>Email: <a href="mailto:chulanir@pdn.ac.lk">chulanir@pdn.ac.lk</a>/<a href="mailto:chulanimw@gmail.com">chulanimw@gmail.com</a></p>
-					<p>Phone: +94 718600523</p>
-				</div> -->
-
+						
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/ast.png" alt="Dr. A.S.T. Rajapakse" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
