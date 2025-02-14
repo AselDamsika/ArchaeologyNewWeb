@@ -18,19 +18,25 @@ $pageId = "staff";
 		body {
 			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
 		}
-		.container{
+
+		.container {
 			margin-top: 0 !important;
 		}
-		.tab-pane{
+
+		.tab-pane {
 			padding: 0 !important;
 		}
+
 		.nav-tabs {
-    		border-bottom: none;
+			border-bottom: none;
 		}
-		.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+
+		.nav-tabs .nav-item.show .nav-link,
+		.nav-tabs .nav-link.active {
 			margin: 0 !important;
 			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif !important;
 		}
+
 		.profile-item {
 			border: 1px solid #e0e0e0;
 			border-radius: 8px;
@@ -104,6 +110,7 @@ $pageId = "staff";
 			background-color: #E0F0FF;
 
 		}
+
 		.nav-tabs .nav-item.show .nav-link,
 		.nav-tabs .nav-link.active {
 			margin: 0 !important;
@@ -153,20 +160,24 @@ $pageId = "staff";
 			color: #1b98e5;
 			font-size: 3.5rem;
 		}
-		.aced-hr{
+
+		.aced-hr {
 			border: solid 2px #1b98e5;
-            margin: 2% 0;
+			margin: 2% 0;
 		}
-		.academic-title{
+
+		.academic-title {
 			font-size: 4rem;
-            font-weight: 400;
-            color: #003269 !important;
+			font-weight: 400;
+			color: #003269 !important;
 			margin-top: 0 !important;
 		}
-		.profile-item a{
+
+		.profile-item a {
 			color: #1b98e5;
 		}
-		.profile-item a:hover{
+
+		.profile-item a:hover {
 			color: #1684CC;
 		}
 
@@ -175,28 +186,30 @@ $pageId = "staff";
 				flex-wrap: wrap;
 				justify-content: center;
 			}
-        }
+		}
 
 		@media (max-width: 576px) {
-            .academic-title {
-                font-size: 3rem !important;
-            }
-			.nav-link{
+			.academic-title {
+				font-size: 3rem !important;
+			}
+
+			.nav-link {
 				font-size: 1.8rem !important;
 				padding: 10px !important;
 			}
-			
-        }
+
+		}
+
 		@media (max-width: 450px) {
-		    .academic-title{
+			.academic-title {
 				font-size: 2.5rem !important;
 			}
-			.nav-link{
+
+			.nav-link {
 				font-size: 1.6rem !important;
-				
+
 			}
 		}
-		
 	</style>
 </head>
 
@@ -225,13 +238,10 @@ $pageId = "staff";
 			<div class="tab-content" id="myTabContent">
 				<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 					<div class="profile-grid">
-
-
-						
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/chandranew.jpg" alt="Prof. R.M.M. Chandraratne" class="img-fluid">
 							<div class="profile-description">
-							<h4><a href="rmm.php">Prof. R.M.M. Chandraratne</a></h4>
+								<h4><a href="rmm.php">Prof. R.M.M. Chandraratne</a></h4>
 								<h5>Professor, Department of Archaeology</h5>
 								<blockquote>
 									<em>BA (Hons) (Perad), MA (Poona), Ph.D. (Pune), FSLCA</em>
@@ -247,7 +257,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/proframbukwella.jpg" alt="Prof. Chulani Rambukwella" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-							<h4><a href="profile.php?id=2">Prof. Chulani Rambukwella</a></h4>
+								<h4><a href="profile.php?id=2">Prof. Chulani Rambukwella</a></h4>
 								<h5>Chair Professor of Archaeology</h5>
 								<blockquote>
 									<em>Phd (UK), MA (Peradeniya), BA (Peradeniya)</em>
@@ -260,7 +270,6 @@ $pageId = "staff";
 							</div>
 						</div>
 
-						
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/ast.png" alt="Dr. A.S.T. Rajapakse" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
@@ -277,19 +286,10 @@ $pageId = "staff";
 							</div>
 						</div>
 
-						<!-- <div class="profile-item">
-					<img src="../assets/images/academic/ast.png" alt="Dr. A.S.T. Rajapakse" width="147" height="150">
-					<h4><a href="ast.php">Dr. A.S.T. Rajapakse</a></h4>
-					<h5>Senior Lecturer</h5>
-					<p>B.A. (Peradeniya),P.G. Dip.(IHS, Netherlands), M.A. (I.P. University), Ph.D. (Peradeniya)</p>
-					<p>Email: <a href="mailto:tsaru2003@yahoo.com">tsaru2003@yahoo.com</a></p>
-					<p>Phone: +94 71 4395277</p>
-				</div> -->
-
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/sandya.png" alt="Ms. K.G.A.M. Sandya Kumari Nawarathna Menike" width="180" height="250">
 							<div class="profile-description">
-							<h4><a href="profile.php?id=4">Ms. K.G.A.M. Sandya Kumari Nawarathna Menike</a></h4>
+								<h4><a href="profile.php?id=4">Ms. K.G.A.M. Sandya Kumari Nawarathna Menike</a></h4>
 								<h5>Lecturer</h5>
 								<blockquote>
 									<em>BA(Hons)Peradeniya, MSc(PGIAR), Ph.D.Reading(PGIAR) MSLCA</em>
@@ -302,19 +302,10 @@ $pageId = "staff";
 							</div>
 						</div>
 
-						<!-- <div class="profile-item">
-					<img src="../assets/images/academic/sandya.png" alt="Ms. K.G.A.M. Sandya Kumari Nawarathna Menike" width="147" height="182">
-					<h4><a href="sandya.php">Ms. K.G.A.M. Sandya Kumari Nawarathna Menike</a></h4>
-					<h5>Lecturer</h5>
-					<p>BA(Hons)Peradeniya, MSc(PGIAR), Ph.D.Reading(PGIAR) MSLCA</p>
-					<p>Email: <a href="mailto:sannawarathna@gmail.com">sannawarathna@gmail.com</a>/<a href="mailto:nawarathnasknm@pdn.ac.lk">nawarathnasknm@pdn.ac.lk</a></p>
-					<p>Phone: +94 714 823 384</p>
-				</div> -->
-
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/uditha.jpg" alt="Dr. Uditha Jinadasa" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-							<h4><a href="profile.php?id=5">Dr. Uditha Jinadasa</a></h4>
+								<h4><a href="uditha.php">Dr. Uditha Jinadasa</a></h4>
 								<h5>Lecturer</h5>
 								<blockquote>
 									<em>BA & MSc in Geo-Informatics (Peradeniya), PhD (Leiden)</em>
@@ -327,19 +318,10 @@ $pageId = "staff";
 							</div>
 						</div>
 
-						<!-- <div class="profile-item">
-					<img src="../assets/images/academic/uditha.jpg" alt="Dr. Uditha Jinadasa" width="147" height="182">
-					<h4><a href="uditha.php">Dr. Uditha Jinadasa</a></h4>
-					<h5>Lecturer</h5>
-					<p>BA & MSc in Geo-Informatics (Peradeniya), PhD (Leiden)</p>
-					<p>Email: <a href="mailto:u.n.jinadasa@gmail.com">u.n.jinadasa@gmail.com</a>/<a href="mailto:ujinadasa@pdn.ac.lk">ujinadasa@pdn.ac.lk</a></p>
-					<p>Phone: +94 71 497 0718</p>
-				</div> -->
-
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/piyumi.png" alt="Ms. Piyumi Embuldeniya" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-							<h4><a href="profile.php?id=6">Ms. Piyumi Embuldeniya</a></h4>
+								<h4><a href="profile.php?id=6">Ms. Piyumi Embuldeniya</a></h4>
 								<h5>Lecturer (Probationary)</h5>
 								<blockquote>
 									<em>MSSc. (Kelaniya), PGDip. in Museology (PGIAR, Kelaniya), B.A. (Kelaniya)</em>
@@ -351,15 +333,6 @@ $pageId = "staff";
 								</p>
 							</div>
 						</div>
-
-						<!-- <div class="profile-item">
-					<img src="../assets/images/academic/piyumi.png" alt="Ms. Piyumi Embuldeniya" width="147" height="182">
-					<h4><a href="piyumi.php">Ms. Piyumi Embuldeniya</a></h4>
-					<h5>Lecturer (Probationary)</h5>
-					<p>MSSc. (Kelaniya), PGDip. in Museology (PGIAR, Kelaniya), B.A. (Kelaniya)</p>
-					<p>Email: <a href="mailto:piyumie@arts.pdn.ac.lk">piyumie@arts.pdn.ac.lk</a></p>
-					<p>Phone: +94 772383788</p>
-				</div> -->
 
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/buddi.jpg" alt="Mr. Buddhisha Weerasuriya" width="180" height="180" class="img-fluid">
@@ -376,18 +349,9 @@ $pageId = "staff";
 								</p>
 							</div>
 						</div>
-
-						<!-- <div class="profile-item">
-					<img src="../assets/images/academic/buddi.jpg" alt="Mr. Buddhisha Weerasuriya" width="147" height="182">
-					<h4><a href="#">Mr. Buddhisha Weerasuriya</a></h4>
-					<h5>Lecturer (Probationary)</h5>
-					<p>M.Phil (Peradeniya) - Reading, B.A (Hons) (Peradeniya)</p>
-					<p>Email: <a href="mailto:buddisha@arts.pdn.ac.lk">buddisha@arts.pdn.ac.lk</a></p>
-					<p>Phone: +94 71 5206865</p>
-				</div> -->
-
 					</div>
 				</div>
+
 				<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 					<div class="profile-grid">
 						<div class="profile-item text-center">
@@ -397,12 +361,6 @@ $pageId = "staff";
 							</div>
 						</div>
 
-						<!-- <div class="profile-item">
-					<img src="../assets/images/academic/senarat.jpg" alt="Prof. Senarat Paranavitana" width="172" height="182">
-					<h4><a href="#">Prof. Senarat Paranavitana</a></h4>
-				</div> -->
-
-
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/UnknownProfile.png" alt="Prof. P.L. Prematilleke" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
@@ -411,11 +369,6 @@ $pageId = "staff";
 							</div>
 						</div>
 
-						<!-- <div class="profile-item">
-					<img src="../assets/images/academic/UnknownProfile.png" alt="Prof. P.L. Prematilleke" width="172" height="182">
-					<h4><a href="#">Prof. P.L. Prematilleke</a></h4>
-				</div> -->
-
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/seneviratna.jpg" alt="Prof. S.D.S. Seneviratne" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
@@ -423,11 +376,6 @@ $pageId = "staff";
 
 							</div>
 						</div>
-
-						<!-- <div class="profile-item">
-					<img src="../assets/images/academic/seneviratna.jpg" alt="Prof. S.D.S. Seneviratne" width="172" height="182">
-					<h4><a href="#">Prof. S.D.S. Seneviratne</a></h4>
-				</div> -->
 					</div>
 				</div>
 
@@ -441,12 +389,6 @@ $pageId = "staff";
 							</div>
 						</div>
 
-						<!-- <div class="profile-item">
-					<img src="../assets/images/academic/senarat.jpg" alt="Prof. Senarat Paranavitana" width="172" height="182">
-					<h4><a href="#">Prof. Senarat Paranavitana</a></h4>
-				</div> -->
-
-
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/UnknownProfile.png" alt="Prof. P.L. Prematilleke" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
@@ -455,10 +397,6 @@ $pageId = "staff";
 							</div>
 						</div>
 
-						<!-- <div class="profile-item">
-					<img src="../assets/images/academic/UnknownProfile.png" alt="Prof. P.L. Prematilleke" width="172" height="182">
-					<h4><a href="#">Prof. P.L. Prematilleke</a></h4>
-				</div> -->
 
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/seneviratna.jpg" alt="Prof. S.D.S. Seneviratne" width="180" height="180" class="img-fluid">
@@ -467,23 +405,9 @@ $pageId = "staff";
 
 							</div>
 						</div>
-
-						<!-- <div class="profile-item">
-					<img src="../assets/images/academic/seneviratna.jpg" alt="Prof. S.D.S. Seneviratne" width="172" height="182">
-					<h4><a href="#">Prof. S.D.S. Seneviratne</a></h4>
-				</div> -->
 					</div>
 				</div>
 			</div>
-
-
-
-
-
-
-
-
-
 		</div>
 	</div>
 	</div>
