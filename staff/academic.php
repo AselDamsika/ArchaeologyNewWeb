@@ -289,7 +289,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/sandya.png" alt="Ms. K.G.A.M. Sandya Kumari Nawarathna Menike" width="180" height="250">
 							<div class="profile-description">
-								<h4><a href="profile.php?id=4">Ms. K.G.A.M. Sandya Kumari Nawarathna Menike</a></h4>
+								<h4><a href="sandya.php">Ms. K.G.A.M. Sandya Kumari Nawarathna Menike</a></h4>
 								<h5>Lecturer</h5>
 								<blockquote>
 									<em>BA(Hons)Peradeniya, MSc(PGIAR), Ph.D.Reading(PGIAR) MSLCA</em>
