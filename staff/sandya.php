@@ -2,66 +2,133 @@
 
 $staffProfiles = [
     1 => [
-        "name" => "Dr. Uditha Jinadasa",
-        "image" => "../assets/images/academic/uditha.jpg",
+        "name" => "Ms. K.G.A.M. Sandya Kumari Nawarathna Menike",
+        "image" => "../assets/images/academic/sandya.png",
         "title" => "Lecturer (Probationary), Department of Archaeology",
-        "qualifications" => "BA & MSc in Geo-Informatics (Peradeniya), PhD (Leiden)",
-        "email" => "ujinadasa@pdn.ac.lk",
-        "phone" => "",
+        "qualifications" => "BA(Hons)Peradeniya, MSc(PGIAR), Ph.D.Reading(PGIAR ) MSLCA",
+        "email" => "nawarathnasknm@pdn.ac.lk",
+        "phone" => "+94 714823384",
         "aboutme" => "",
+        "googlescolar" => "",
+        "researchgate" => "",
 
         "education" => [
-            "degree1" => "PhD",
-            "institution1" => "Leiden University - 2020",
-            "degree2" => "Master of Geo Informatics",
-            "institution2" => "University of Peradeniya - 2009",
-            "degree3" => "BA",
-            "institution3" => "University of Peradeniya - 2005",
+            "degree1" => "PhD in Archaeology ( Reading )",
+            "institution1" => "Postgraduate Institute of Archaeology, University of Kelaniya, Sri Lanka",
+            "degree2" => "MSc in Archaeology",
+            "institution2" => "Postgraduate Institute of Archaeology, University of Kelaniya , Sri Lanka - 2016",
+            "degree3" => "BA ( First Class Honours ) in Archaeology",
+            "institution3" => "University of Peradeniya , Sri Lanka - 2007",
         ],
 
         "currentpositions" => [
-            "position1" => "Lecturer (Probationary) - University of Peradeniya",
+            "position1" => "Lecturer (Probationary) - Department of Archaeology",
             "period1" => "November 2020 - To Present"
         ],
 
-        "positionsheld" => "",
+        "positionsheld" => [
+            "position1" => "Archeology Officer - Colombo Project - Central Cultural Fund",
+            "period1" => "September 2019 - October 2020",
+            "position2" => "Archeology Officer - Publication Unit - Central Cultural Fund",
+            "period2" => "October 2014 - September 2019",
+            "position3" => "Archeology Officer - Dambulla Painting Museum - Central Cultural Fund",
+            "period3" => "May 2011 - October 2014",
+            "position4" => "Archaeology Officer & Trainee Research Officer - Galle Maritime Archaeology Museum - Central Cultural Fund",
+            "period4" => "December 2007 - May 2011",
+            "position5" => "Trainee Research Officer- Tissamaharama Project - Central Cultural Fund",
+            "period5" => "October 2007 - November 2007",
+            
+        ],
 
         "memberships" => [
-            "member1" => "Member - Sri Lanka Council of Archaeologists",
+            "member1" => "Member - Council of Archaeologists of Sri Lanka ( MSLCA )",
+            "member2" => "Member (life ) - Royal Asiatic Society of Sri Lanka",
+            "member3" => "Member ( life) - Museum Society of Sri Lanka",
+
         ],
 
-        "awards" => "",
-
-        "books" => [
-            "book1" => "Jinadasa, U.N. 2020. Changes in the Cultural Landscape and their Impacts on Heritage Management: A Study of Dutch Fort at Galle, Sri Lanka. Leiden: Leiden University Press.",
-            "link1" => "https://press.uchicago.edu/ucp/books/book/distributed/C/bo69302552.html",
+        "awards" => [
+            "award1" => "Prof. Leelananda Premathilake & Dr. Nanda Premathilake award for the Greatest Competence in Archaeology - University of Peradeniya",
+            "period1" => "2007",
+           
         ],
+
+        "books" => "",
 
         "chapters" => [
-            "chapter1" => "Jinadasa, U. et al., 2017. “Recently Discovered Archeological Sites Showing Evidence of Buddhism in Mullaitivu District in Northern Sri Lanka: A Study Using Geo-Informatics Tools” in Archaeology of Buddhism: Recent Discoveries in South Asia, Sanjay Garg (ed), New Delhi: Manohar Publisher. Pp.369-386.",
+            "chapter1" => "Nawarathna Menike,S.K.,( in Press-2022), 'Sri lankave prag ithihasika yugaye paryeshana ithihasaya pilibda vimasumak', Nishshanka sagarawa, 4 veluma - 1 kalapaya , 2016, sanskarakawaru - Gamage, T.G.S.A., Chandralatha, U.G., etc., Colombo 7, Central Cultural Fund.9",
+            "chapter2" => "Nawarathna Menike,S.K., (in Press-2022), 'Manavavansha puravidyave nirvachana saha mulika sankalpa' ,Nishshanka sagarava, 3 veluma - 1 kalapaya, 2015, sanskarakavaru - Gamage,T.G.S.A., Chandralatha, U.G., etc.,Colombo 7, Central Cultural Fund.",
+            "chapter3" => "Nawarathna Menike,S.K., & Karunarathna,M., 2009, 'Veddas’ Hunting Methods and Rituals' published in Vedijana Urumaya book – ISBN 978-955-0028-08-5.",
         ],
 
         "journals" => "",
 
-        "cpapers" => "",
+        "cpapers" => [
+            "cpaper1" => "Nawarathna Menike,S.K., 2010, 'Makeeyana Urumayaka Mathaka Awarjanaya' published in National Archaeological Symposium Vol.1",
+            "cpaper2" => "Nawarathna Menike,S.K., 2009, 'Sri lankave adivaseenge parisara anuwarthanaya (Uva palatha ashrayen sidukarana parisara vidyathmaka vimarshanayak)' published in National Archaeological Symposium Vol. 1",
+        ],
 
         "abstracts" => [
-            "abstract1" => "Jinadsa, U. 2019. “An Asian Experience of Gentrification in World Heritage Cities: Old Town of Galle and its Fortifications, Sri Lanka,” 25th EAA Annual Meeting (Bern, 2019) – Abstract Book, Kateřina Kleinova (ed), Bern: European Association of Archaeologists.",
+            "abstract1" => "Nawarathna Menike,S.K., 2011, 'Vedijana Adahili saha Wathpiliweth' The Royal Asiatic Society of Sri Lanka, ISSN 1800- 4067",
+            "abstract2" => "Nawarathna Menike,S.K., 2009, 'Analysis of bird remains from Alavala Potgul - lena Cave' Hunting for Hunter - gatherers at Alavala Cave – ISBN 978-955-8522-07-3",
         ],
 
         "editorials" => "",
 
-        "conferences" => "",
+        "conferences" => [
+            "name1" => "University of Peradeniya International Research Sessions ( i PURSE 2021 )",
+            "para1" => "Participated in as an Academic Coordinator ( Control Room ) of the Technical Sessions University of Peradeniya",
+            "period1" => "11-12 November 2021",
+            "name2" => "SAARC International Conference",
+            "para2" => "As an Official Nominee of Sri Lanka , Development of Museums in South Asia, 'Curating Culture for Present & future' Colombo, Sri Lanka",
+            "period2" => "23-25 October 2014",
+            "name3" => "Values Embedded in Burial Archaeological Context and Integrated Microscopy Approaches in Archaeobotany",
+            "para3" => "Participated and contributed in Training Workshop Postgraduate Institute of Archaeology, University of Kelaniya",
+            "period3" => "20-21 December 2018",
+            "name4" => "Environmental Archaeology and Integrated Microscopy Approaches in Archaeobotany",
+            "para4" => "Participated and contributed in Training Workshop Postgraduate Institute of Archaeology, University of Kelaniya",
+            "period4" => "13-14 December 2018",
+            
+        ],
 
-        "specializations" => "",
+        "specializations" => [
+            "specialization1" => "Epigraphy",
+            "specialization2" => "Ethnoarchaeology",
+            "specialization3" => "Prehistoric",
+        ],
 
-        "teachings" => "",
+        "teachings" => [
+            "teaching1" => "ACL 1001 - Introductory Archaeology I (Sharing with other lecturers) - Department of Archaeology",
+            "period1" => "To Present",
+            "teaching2" => "ACL 301/3001 - Craft and Technology of Pre – Industrial South Asia with Prof. Chulani Rambukwella - Department of Archaeology",
+            "period2" => "First Semester 2020/2021 - To Present",
+            "teaching3" => "ACL 302/3002 - Epigraphic Studies of Ancient India - Department of Archaeology",
+            "period3" => "First Semester 2020/2021",
+            "teaching4" => "ACL 306/3006 - The Built Environment of Ancient Sri Lanka - Department of Archaeology",
+            "period4" => "To Present",
+            "teaching5" => "ACL 307/3007 - Epigraphic Studies of Ancient Sri Lanka - Department of Archaeology",
+            "period5" => "To Present",
+            
+        ],
 
-        "researchs" => "",
+        "researchs" => [
+            "research1" => "Epigraphy",
+            "research2" => "Ethno Archaeology",
+            
+        ],
 
         "grants" => "",
 
-        "contributions" => "",
+        "contributions" => [
+            "contribution1" => "Conducted monthly lectures in the Maritime Archaeology Museum, Galle and Painting Museum, Dambulla under the Central Cultural Fund since 2010 to 2014 as an Acting Museum Curator cum Archaeology officer.",
+            "contribution2" => "Participated in Ruwanwella, Nikawalamula Clay Canoe Burial site excavation , Post Graduate Institute of Archaeology , University of Kelaniya, 2009- 2010.",
+            "contribution3" => "Participated in exploration of archaeological sites in Eastern Province of Sri Lanka under consultation of Senior Prof. Raj Somadeva in 2009, Postgraduate Institute of Archaeology, University of Kelaniya.",
+            "contribution4" => "Participated in as a Graduate Research Officer for Internal planning process of Maritime Archaeology Museum Galle in Sri Lanka, and exploration artifacts in the coastal belt of Southern, Western and North Western in Sri Lanka under the Central Cultural Fund associated with Netherland Fund for Galle from 2007 to 2010 March",
+            "contribution5" => "Participated in Veheragala Exploration and Excavation,a scientific study of Archaeological sites of the proposed Veheragala reservoir area from 28th October to 25th November 2007.",
+            "contribution6" => "Participated in Archaeological excavation in Vessagiriya- Jethavana Project under the Central Cultural Fund –Sri Lanka- 2006",
+            "contribution7" => "Participated in Malwathu Oya Exploration - Jethavana Project under the Central Cultural Fund – Sri Lanka- 2005",
+
+        ]
 
     ],
 ];
@@ -97,7 +164,7 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
 
         .profile-image {
             width: 200px;
-            height: auto;
+            height: 200px;
             border-radius: 50%;
             border: 3px solid #1b98e5;
         }
@@ -352,7 +419,7 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
                                 <?php endforeach; ?>
                             </table>
                         </div>
-                    <?php endif; ?><br>
+                    <?php endif; ?>
 
                     <!-- Chapters in books -->
                     <?php if (!empty($profile["chapters"])): ?>
@@ -421,7 +488,7 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
                                 <?php endforeach; ?>
                             </table>
                         </div>
-                    <?php endif; ?>
+                    <?php endif; ?><br>
 
                     <!-- Abstracts -->
                     <?php if (!empty($profile["abstracts"])): ?>
@@ -444,7 +511,7 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
                                 <?php endforeach; ?>
                             </table>
                         </div>
-                    <?php endif; ?><br>
+                    <?php endif; ?>
 
                     <!-- Editorial -->
                     <?php if (!empty($profile["editorials"])): ?>
@@ -467,8 +534,7 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
                                 <?php endforeach; ?>
                             </table>
                         </div>
-                    <?php endif; ?><br>
-
+                    <?php endif; ?>
 
                 </div>
 
