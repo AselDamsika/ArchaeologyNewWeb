@@ -273,7 +273,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/ast.png" alt="Dr. A.S.T. Rajapakse" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="profile.php?id=3">Dr. A.S.T. Rajapakse</a></h4>
+								<h4><a href="ast.php">Dr. A.S.T. Rajapakse</a></h4>
 								<h5>Senior Lecturer</h5>
 								<blockquote>
 									<em>B.A. (Peradeniya),P.G. Dip.(IHS, Netherlands), M.A. (I.P. University), Ph.D. (Peradeniya)</em>
