@@ -257,7 +257,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/proframbukwella.jpg" alt="Prof. Chulani Rambukwella" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="profile.php?id=2">Prof. Chulani Rambukwella</a></h4>
+								<h4><a href="rambukwella.php">Prof. Chulani Rambukwella</a></h4>
 								<h5>Chair Professor of Archaeology</h5>
 								<blockquote>
 									<em>Phd (UK), MA (Peradeniya), BA (Peradeniya)</em>
