@@ -321,7 +321,7 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/piyumi.png" alt="Ms. Piyumi Embuldeniya" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="profile.php?id=6">Ms. Piyumi Embuldeniya</a></h4>
+								<h4><a href="piyumi.php">Ms. Piyumi Embuldeniya</a></h4>
 								<h5>Lecturer (Probationary)</h5>
 								<blockquote>
 									<em>MSSc. (Kelaniya), PGDip. in Museology (PGIAR, Kelaniya), B.A. (Kelaniya)</em>
