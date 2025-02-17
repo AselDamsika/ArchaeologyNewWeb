@@ -53,7 +53,7 @@ $pageId = "staff";
 			background-color: #fff;
 		}
 
-		
+
 		.profile-item img {
 			width: 150px;
 			height: 150px;
