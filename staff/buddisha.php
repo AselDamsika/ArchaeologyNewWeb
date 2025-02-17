@@ -177,7 +177,8 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
 
         .profile-subtitle {
             margin-top: 0 !important;
-            color: #505050 !important;
+            color: #003269 !important;
+            font-weight: 600;
         }
 
         table {
