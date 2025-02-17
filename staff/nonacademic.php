@@ -13,16 +13,16 @@ $pageId = "staff";
 
 	<?php require_once "../assets/header.php"; ?>
 
-	<!-- Styling for non-academic staff page -->
 	<style>
-		.nonaced-hr{
+		.nonaced-hr {
 			border: solid 2px #1b98e5;
-            margin: 2% 0;
+			margin: 2% 0;
 		}
-		.nonacademic-title{
+
+		.nonacademic-title {
 			font-size: 4rem;
-            font-weight: 400;
-            color: #003269 !important;
+			font-weight: 400;
+			color: #003269 !important;
 			margin-top: 0 !important;
 		}
 
@@ -39,17 +39,14 @@ $pageId = "staff";
 			align-items: center;
 			justify-content: center;
 			text-align: center;
-			/* Ensures the text is centered */
 		}
 
-		/* Hover effect on profile items */
 		.profile-item:hover {
 			transform: scale(1.05);
 			box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 			background-color: #fff;
 		}
 
-		/* Styling the profile image */
 		.profile-item img {
 			width: 150px;
 			height: 150px;
@@ -58,31 +55,21 @@ $pageId = "staff";
 			margin-bottom: 15px;
 		}
 
-		/* Increased font sizes for profile description */
 		.profile-description h4 {
-			font-size: 2rem;
+			font-size: 2.5rem;
 			font-weight: bold;
 		}
 
 		.profile-description h5 {
-			font-size: 1.4rem;
+			font-size: 1.8rem;
 			color: #555;
 		}
 
-		.profile-description blockquote {
-			font-size: 1.2rem;
-			color: #777;
-			border-left: 3px solid #1b98e5;
-			padding-left: 10px;
-		}
-
-		/* Increase for the profile description text */
 		.profile-description p {
 			font-size: 1.2rem;
 			line-height: 1.5;
 		}
 
-		/* Ensuring grid layout looks good */
 		.profile-grid {
 			display: grid;
 			grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -90,19 +77,19 @@ $pageId = "staff";
 		}
 
 		@media (max-width: 576px) {
-            .nonacademic-title {
-                font-size: 3rem !important;
-            }
-			
-        }
+			.nonacademic-title {
+				font-size: 3rem !important;
+			}
+
+		}
+
 		@media (max-width: 450px) {
-		    .nonacademic-title{
+			.nonacademic-title {
 				font-size: 2.5rem !important;
 			}
 		}
 	</style>
 
-	<!-- begin body content -->
 
 	<div class="container">
 		<ol class="breadcrumb">
@@ -120,15 +107,12 @@ $pageId = "staff";
 					<div class="face"><img src="../assets/images/nonacademic/attanayake.jpg" class="img-responsive" alt="nonacademic"></div>
 					<div class="profile-description">
 						<h4 style="color: #1b98e5;">Mr. R.M.Attanayake</h4>
-						<blockquote>
-							<em>Works Aid (Special Grade)</em><br />
-							<span class="fa fa-phone"></span>
-							<span>+94 812392553</p>
-						</blockquote>
+						<em>Works Aid (Special Grade)</em><br />
+						<span class="fa fa-phone"></span>
+						<span>+94 812392553</p>
 					</div>
 				</div>
 
-				<!-- Add other staff members similarly -->
 
 			</div>
 
