@@ -43,7 +43,7 @@
     								<div class="col-md-8">
         								<div class="col-md-4 pull-left hover-image">
         									<a class="btn btn-light"
-        										style="a: hover:backgroud:black; cursor: default;"> <img
+												style="cursor: default;"> <img
         										class="profile-image img-responsive img-fluid"
         										id="profileImg" src="<?php echo "data:image/png;base64, ".$profile->encodedImage;?>" alt="Profile Image">
         									</a>

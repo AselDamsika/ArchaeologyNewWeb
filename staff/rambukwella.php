@@ -2,15 +2,15 @@
 
 $staffProfiles = [
     1 => [
-        "name" => "Prof. MWCNK Rambukwella",
+        "name" => "Prof. M.W.C.N.K. Rambukwella",
         "image" => "../assets/images/academic/proframbukwella.jpg",
         "title" => "Chair Professor of Archaeology",
         "qualifications" => "PhD (UK), MA (Peradeniya), BA (Peradeniya)",
         "email" => "chulanimw@gmail.com",
         "phone" => "+94 0812392583",
         "aboutme" => "I am the Professor of Archaeology (Chair Professor) at the Department of Archaeology, University of Peradeniya, Sri Lanka with 32 years of teaching and research experience. Currently, I am the Head of the Department of Archaeology I have a PhD in Archaeology and Museology (Museum Studies) from the School of Museum Studies, University of Leicester, United Kingdom. I am also a Fellow of the Sri Lanka Council of Archaeologists. From 2015 I have been serving in a consultative capacity as the Archaeology Director for the Badulla District of the Central Cultural Fund (CCF) of Sri Lanka. I have also been appointed as one of the seven members of the Board of Members of the Inter Statutory Board for the Protection of Kandyan Heritage under the Ministry of Ministry of Science, Technology, Research, Skills Development & Vocational Training and Kandyan Heritage. My research writings have been published in several refereed journals. I am also the author of some books on Archaeology and Museology.",
-        "googlescolar" => "https://scholar.google.com/citations?user=ipI-knoAAAAJ&hl=en",
-        "researchgate" => "https://www.researchgate.net/profile/Rmm-Chandraratne-2",
+        "googlescolar" => "",
+        "researchgate" => "",
         "education" => [
             "degree1" => "B.A. ",
             "institution1" => "Department of Archaeology, University of Peradeniya - 1986",
@@ -637,7 +637,7 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
                                 <?php endforeach; ?>
                             </table>
                         </div>
-                    <?php endif; ?><br>
+                    <?php endif; ?>
 
                     <!-- Abstracts -->
                     <?php if (!empty($profile["abstracts"])): ?>
@@ -662,7 +662,7 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
                         </div>
                     <?php endif; ?><br>
 
-                    <!-- Editorial -->
+                    <!-- Peers -->
                     <?php if (!empty($profile["peers"])): ?>
                         <div>
                             <h3 class="profile-subtitle">Peer Reviewed Publications</h3>
@@ -683,7 +683,7 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
                                 <?php endforeach; ?>
                             </table>
                         </div>
-                    <?php endif; ?><br>
+                    <?php endif; ?>
 
 
                 </div>

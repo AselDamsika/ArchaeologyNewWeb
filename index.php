@@ -21,7 +21,6 @@ $pageId = "home";
 
 
 	<style>
-
 		body {
 			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
 		}
@@ -51,14 +50,15 @@ $pageId = "home";
 			display: block;
 		}
 
-		.dept-name{
-			font-weight: 400; 
+		.dept-name {
+			font-weight: 400;
 			font-size: 4rem
 		}
 
 		.count-row {
 			justify-content: center;
 		}
+
 		.count-box {
 			background-color: #F0F8FF;
 			margin: 5% 0;
@@ -152,16 +152,18 @@ $pageId = "home";
 			font-weight: 600;
 		}
 
-		.news-events-row{
+		.news-events-row {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
 			margin: 5% 0;
 		}
+
 		.newsevents {
 			color: #003269;
 		}
-		.news-events-col{
+
+		.news-events-col {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -171,124 +173,148 @@ $pageId = "home";
 			border-radius: 5px;
 			box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 		}
-		.news-events-col:hover{
+
+		.news-events-col:hover {
 			box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 		}
-		.news-video{
+
+		.news-video {
 			width: 100%;
 			height: 80%;
 			margin-top: 20px;
 		}
-		.news-events-col h5{
+
+		.news-events-col h5 {
 			color: #505050;
 			font-weight: 600;
 		}
 
 
 		@media (max-width: 991px) {
-		    .dept-name{
+			.dept-name {
 				font-size: 3rem
 			}
+
 			.count-box {
 				height: 250px;
 			}
+
 			.count-box h1,
 			.count-box span {
 				font-size: 5rem;
 			}
+
 			.count-box p {
 				font-size: 2rem;
 			}
-			.welcometo{
+
+			.welcometo {
 				font-size: 2.5rem;
 			}
-			.welcomeheading{
+
+			.welcomeheading {
 				font-size: 4rem;
 			}
-			.deptpara{
+
+			.deptpara {
 				font-size: 1.8rem;
 			}
-			.news-events-col{
+
+			.news-events-col {
 				width: 100%;
 			}
-			.news-video{
+
+			.news-video {
 				height: 300px;
 			}
 		}
 
 		@media (max-width: 767px) {
-		    .dept-name{
+			.dept-name {
 				font-size: 2.5rem
 			}
+
 			.count-box {
 				height: 200px;
 			}
-			.deptpara{
+
+			.deptpara {
 				font-size: 1.5rem;
 			}
 		}
 
 		@media (max-width: 767px) {
-		    .dept-name{
+			.dept-name {
 				font-size: 2rem
 			}
 		}
 
 		@media (max-width: 575px) {
-		    .dept-name{
+			.dept-name {
 				font-size: 1.5rem
 			}
+
 			.carousel-caption {
 				padding: 20px 0px 20px 0px;
 				letter-spacing: 10px;
 			}
+
 			.carousel-indicators {
 				display: none;
 			}
-			.carousel-img{
+
+			.carousel-img {
 				height: 200px;
 			}
+
 			.carousel-control-next-icon,
 			.carousel-control-prev-icon {
 				width: 3rem;
 				height: 2rem;
-			}	
+			}
+
 			.count-box {
 				height: 200px;
 				margin: 2% 0;
-					
+
 			}
+
 			.count-box h1,
 			.count-box span {
 				font-size: 4rem;
 			}
+
 			.count-img {
 				width: 40px;
 				height: 40px;
 			}
-			.welcometo{
+
+			.welcometo {
 				font-size: 1.8rem;
 			}
-			.welcomeheading{
+
+			.welcomeheading {
 				font-size: 2.8rem;
 			}
-			.deptpara{
+
+			.deptpara {
 				font-size: 1.4rem;
 			}
-			.news-events-col{
+
+			.news-events-col {
 				width: 100%;
 			}
-			.news-video{
+
+			.news-video {
 				height: 200px;
 			}
 		}
 
 		@media (max-width: 450px) {
-		    .welcomeheading{
+			.welcomeheading {
 				font-size: 2.5rem;
 			}
 		}
-		
 	</style>
 
 </head>
@@ -442,16 +468,20 @@ $pageId = "home";
 			<div class="row welcome-row">
 				<p class="welcometo">Welcome to,</p>
 				<h1 class="welcomeheading">Department of Archaeology</h1>
-				<p class="deptpara">The <span class="dept-para-span">Department of Archaeology</span>, University of Peradeniya was established as a separate Department in 1976,
-					is one of the largest Departments in the university system of Sri Lanka. At present, over one hundred
-					undergraduates are following the Special and General Degree courses in Sinhala and English media at the
-					Department. The teaching of archaeology at Peradeniya, was originally introduced as an auxiliary subject
-					to history, as a sub-department, for the purpose of training future archaeological officers required by
-					the state. In 1957, Dr. Senarat Paranavitana on his retirement from the post of Commissioner of
-					Archaeology was appointed as the Professor of Archaeology, which marked the official beginning of the
-					Department of Archaeology, University of Peradeniya. The notable archaeologists, namely, Prof Senarat
-					Paranavitana, Prof. P.L. Prematilleke and Prof. Sudharshan Seneviratne have served in the Department.</p>
+				<p class="deptpara">The <span class="dept-para-span">Department of Archaeology</span>,
+					at the University of Peradeniya has a distinguished history that reflects the growth and development of archaeology as an academic discipline in Sri Lanka. Established in 1959, the Department was initially a sub-department under the Department of History, with Professor Senarat Paranavitana serving as its first Professor and Head. This initiative was designed to train future archaeological officers for the state, providing a crucial foundation for the discipline in Sri Lanka.
+					In its early years, the Department collaborated closely with the government’s Archaeological Department, leveraging its fieldwork expertise, technical resources, and staff. The Department introduced courses focused on the Archaeology of Ceylon, while also offering a broader academic perspective on Art and Antiquities. Undergraduate teaching initially emphasized subjects such as History and Pali & Buddhist Civilization, with the addition of a subsidiary course in the Elements of Archaeology.
+					The Department’s early successes were marked by the completion of the first Master of Arts degrees by students A. Ariyasinghe and N. Mudiyanse, who were the first to successfully complete the MA in 1961. This milestone laid the groundwork for further development and expansion in the years that followed. <br> <br>
 
+					Recognizing the need for more specialized and comprehensive education in archaeology, Dr. Senarat Paranavitana stressed the importance of establishing a fully independent Department of Archaeology. His vision was supported in the 1958 report of the Needham Committee, which recommended the creation of a separate department. In response, the University expanded its offerings and began to include both theoretical and practical courses within the framework of classical South Asian archaeology.
+					The establishment of the University’s first Archaeology Museum was another key development during this period. The museum, which featured collections from renowned archaeologists such as Biddel, Hettiaracchi, and De Saram, provided valuable resources for both academic study and public exhibition. Dr. Paranavitana and Dr. P.L. Prematilleke (who later became a Research Professor) played instrumental roles in curating these collections, which greatly enriched the Department’s academic environment.
+					In 1976, the Department of Archaeology officially became an independent entity, offering Special Degree courses in archaeology for the first time. Dr. Prematilleke became the first Head of the newly formed Department, marking the beginning of a new era of growth and development. <br> <br>
+
+					Throughout the 1980s, the Department expanded significantly, both in terms of its academic staff and its research activities. Scholars such as Dr. Sudharshan Seneviratne, Dr. W.H. Wijayapala, and Dr. Moira Tampoe, among others, were recruited to the staff, contributing to the Department’s growing academic reputation. The Department also introduced new courses to keep pace with international developments and national archaeological needs, while continuing to expand its research portfolio.
+					As part of its academic and research initiatives, the Department has been involved in numerous high-profile archaeological projects, including collaborations with UNESCO and the Central Cultural Fund on excavations in Polonnaruwa, Kandy, and Anuradhapura. The Department also became a key partner in the Anuradhapura Citadel Archaeology Project and the Pinwewa-Galsohonkanatta Archaeology Project.
+					Today, the Department of Archaeology at the University of Peradeniya is recognized as one of the largest and most prestigious archaeology departments in Sri Lanka’s higher education system. It continues to play a leading role in the education, research, and preservation of Sri Lanka’s cultural heritage, offering undergraduate and postgraduate programs that shape the future of archaeology in the country.
+
+				</p>
 			</div>
 
 
