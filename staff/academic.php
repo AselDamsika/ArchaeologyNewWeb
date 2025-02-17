@@ -47,14 +47,13 @@ $pageId = "staff";
 			background-color: #f9f9f9;
 		}
 
-		/* Hover effect on profile items */
 		.profile-item:hover {
-			transform: scale(1.05);
+			transform: scale(1.02);
 			box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 			background-color: #fff;
 		}
 
-		/* Styling the profile image */
+
 		.profile-item img {
 			width: 150px;
 			height: 150px;
@@ -63,31 +62,28 @@ $pageId = "staff";
 			margin-bottom: 15px;
 		}
 
-		/* Increased font sizes for profile description */
 		.profile-description h4 {
-			font-size: 2rem;
+			font-size: 2.5rem;
 			font-weight: bold;
 		}
 
 		.profile-description h5 {
-			font-size: 1.4rem;
+			font-size: 1.8rem;
 			color: #555;
 		}
 
 		.profile-description blockquote {
-			font-size: 1.2rem;
+			font-size: 1.4rem;
 			color: #777;
 			border-left: 3px solid #1b98e5;
 			padding-left: 10px;
 		}
 
-		/* Increase for the profile description text */
 		.profile-description p {
-			font-size: 1.2rem;
+			font-size: 1.4rem;
 			line-height: 1.5;
 		}
 
-		/* Ensuring grid layout looks good */
 		.profile-grid {
 			display: grid;
 			grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -95,7 +91,6 @@ $pageId = "staff";
 			margin-top: 30px;
 		}
 
-		/* Title row */
 		.title-row {
 			text-align: left;
 			align-items: center;
@@ -232,7 +227,7 @@ $pageId = "staff";
 					<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Temporary Academic Staff</button>
 				</li>
 				<li class="nav-item" role="presentation">
-					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Former Academic Staff</button>
+					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Emeritus Professors</button>
 				</li>
 			</ul>
 			<div class="tab-content" id="myTabContent">

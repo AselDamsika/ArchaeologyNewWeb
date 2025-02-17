@@ -155,7 +155,7 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
         .profile-section {
             margin-top: 10px;
             padding: 25px 15px;
-            background: #f8f9fa;
+            background: #F0F8FF;
             border-radius: 8px;
         }
 
@@ -177,7 +177,8 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
 
         .profile-subtitle {
             margin-top: 0 !important;
-            color: #505050 !important;
+            color: #003269 !important;
+            font-weight: 600;
         }
 
         table {
@@ -207,6 +208,38 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
 
         .viewlink:hover {
             color: #1684CC;
+        }
+
+        @media (max-width: 991px) {
+            .profile-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .profile-image {
+                width: 150px;
+            }
+            .profile-title{
+                font-size: 3rem;
+            }
+        }
+
+        @media (max-width: 450px) {
+            .profile-title{
+                font-size: 2.7rem;
+            }
+            .profile-subtitle{
+                font-size: 2.5rem !important;
+            }
+            p{
+                font-size: 1.3rem !important;
+            }
+            td{
+                font-size: 1.3rem !important;
+            }
         }
     </style>
 </head>
