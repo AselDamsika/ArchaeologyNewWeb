@@ -14,9 +14,28 @@ $pageId = "about";
     <?php require_once "assets/header.php"; ?>
 
     <style>
-
         body {
             font-family: "Book Antiqua", Palatino, "Palatino Linotype", serif;
+        }
+        .breadcrumb{
+            background-color: #F0F8FF;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .breadcrumb li {
+            color: #003269 !important;
+            font-weight: 500;
+        }
+        .breadcrumb > li + li:before {
+            color: #003269;
+            padding-right: 2px;
+        }
+        .breadcrumb li a {
+            color: #1b98e5 !important;
+        }
+
+        .breadcrumb li a:hover {
+            color: #1684CC !important;
         }
 
         .welcome-row {
@@ -28,9 +47,10 @@ $pageId = "about";
             border-left: 4px solid #007bff;
         }
 
-        .about-cont{
+        .about-cont {
             margin: 5% 0;
         }
+
         .about-heading {
             font-size: 4rem;
             font-weight: 400;
@@ -44,9 +64,11 @@ $pageId = "about";
             margin: 2% 0;
         }
 
-        .about-row{
+        .about-row {
             padding: 0 15px;
+            margin-bottom: 30px;
         }
+
         .aboutpara {
             font-size: 1.8rem;
             font-weight: 400;
@@ -72,16 +94,17 @@ $pageId = "about";
             .about-heading {
                 font-size: 3rem;
             }
+
             .aboutpara {
                 font-size: 1.4rem;
             }
         }
 
         @media (max-width: 450px) {
-		    .about-heading{
-				font-size: 2.5rem;
-			}
-		}
+            .about-heading {
+                font-size: 2.5rem;
+            }
+        }
     </style>
 
 </head>
@@ -97,11 +120,28 @@ $pageId = "about";
             <hr class="about-hr" />
 
             <div class="row about-row">
-                <p class="aboutpara">In 1957, <span class="about-para-span">Dr. Senarat Paranavitana </span> on his retirement as Commissioner of Archaeology was appointed as research Professor of Archaeology, which marked the official beginning of the Department of Archaeology, University of Peradeniya. Since its establishment as a separate Department in 1976, the Department of Archaeology grew its academic staff, students and academic activities. At present the Department of Archaeology, University of Peradeniya is one of the largest archaeology departments in the university system of Sri Lanka.</p>
-                <p class="aboutpara">The teaching of archaeology at Peradeniya was originally introduced as an auxiliary subject to history (as a sub department) and for the purpose of training future archaeological officers required by the state. In 1957, Dr. Senarat Paranavitana, on his retirement as Commissioner of Archaeology, was appointed as Research Professor of Archaeology, which also marked the official beginning of this Department of study. Paranavitana stressed the need of creating a separate Department without restricting the teaching of archaeology to postgraduate degrees alone. This view was noted in the report of the Needham Committee in 1958. In view of this, teaching and practical courses were introduced within the Fabric of classical archaeology of south Asia.</p>
-                <p class="aboutpara">This programme was enhanced by the establishment of the first museum of archaeology at the University of Peradeniya where collections from Biddel, Hettiaracchi and De Saram were presented for study and public viewing. Professor Paranavitana along with Dr. P.L. Prematilleke (later research professor) was also responsible for setting-up the new museum and establishing a very good slide collection and architectural plans. In 1976 this Department, which functioned as a sub Department of History, offered its Special Degree courses in archaeology for the first time. Dr Prematilleke was the Head of this newly constituted Department of study.</p>
-                <p class="aboutpara">The decade of 1980 witnessed the expansion of the Department in terms of its academic staff, students and academic activity. It recruited to its staff Dr. Sudharshan Seneviratne (later Chair), Dr. W.H. Wijayapala (Director General of Central Cultural Fund at present), Mr. K.H. Jayatilleke (left service in 1987), Rev. Wetara Mahinda, Dr. Moira Tampoe (left service in 2001), Dr. Damayanti Gunasekare (left service in 1998), Dr. Piyatissa Senanayake, Dr. D.K. Jayaratne, Dr. R.M.M. Chandraratne and Prof. Chulani Rambukwella. They were trained in Sri Lanka, India, England and Greece. </p>
-                <p class="aboutpara">New courses in archaeology were introduced in response to changes taking place at the international level and due to national requirements. This Department was assigned with the UNESCO-Central Cultural Fund Projects in Polonnaruwa (Alahana Parivena), Kandy and Anuradhapura (Jetavana). Later it also became the collaborating University Department for the Anuradhapura Citadel Archaeology Project and the Pinwewa-Galsohonkanatta Archaeology Project. Several collaborative ventures were also carried out with visiting archaeological teams from England, USA, France and Germany during the past two decades.</p>
+                <p class="aboutpara">
+                    The Department of Archaeology at the University of Peradeniya has a distinguished history that reflects the growth and development of archaeology as an academic discipline in Sri Lanka. Established in 1959, the Department was initially a sub-department under the Department of History, with Professor Senarat Paranavitana serving as its first Professor and Head. This initiative was designed to train future archaeological officers for the state, providing a crucial foundation for the discipline in Sri Lanka.
+                    In its early years, the Department collaborated closely with the government’s Archaeological Department, leveraging its fieldwork expertise, technical resources, and staff. The Department introduced courses focused on the Archaeology of Ceylon, while also offering a broader academic perspective on Art and Antiquities.
+                </p>
+                <p class="aboutpara">
+                    Undergraduate teaching initially emphasized subjects such as History and Pali & Buddhist Civilization, with the addition of a subsidiary course in the Elements of Archaeology.
+                    The Department’s early successes were marked by the completion of the first Master of Arts degrees by students A. Ariyasinghe and N. Mudiyanse, who were the first to successfully complete the MA in 1961. This milestone laid the groundwork for further development and expansion in the years that followed.
+                </p>
+                <p class="aboutpara">
+                    Recognizing the need for more specialized and comprehensive education in archaeology, Dr. Senarat Paranavitana stressed the importance of establishing a fully independent Department of Archaeology. His vision was supported in the 1958 report of the Needham Committee, which recommended the creation of a separate department. In response, the University expanded its offerings and began to include both theoretical and practical courses within the framework of classical South Asian archaeology.
+                    The establishment of the University’s first Archaeology Museum was another key development during this period. The museum, which featured collections from renowned archaeologists such as Biddel, Hettiaracchi, and De Saram, provided valuable resources for both academic study and public exhibition. Dr. Paranavitana and Dr. P.L. Prematilleke (who later became a Research Professor) played instrumental roles in curating these collections, which greatly enriched the Department’s academic environment.
+                </p>
+                <p class="aboutpara">
+                    In 1976, the Department of Archaeology officially became an independent entity, offering Special Degree courses in archaeology for the first time. Dr. Prematilleke became the first Head of the newly formed Department, marking the beginning of a new era of growth and development.
+                </p>
+                <p class="aboutpara">
+                    Throughout the 1980s, the Department expanded significantly, both in terms of its academic staff and its research activities. Scholars such as Dr. Sudharshan Seneviratne, Dr. W.H. Wijayapala, and Dr. Moira Tampoe, among others, were recruited to the staff, contributing to the Department’s growing academic reputation. The Department also introduced new courses to keep pace with international developments and national archaeological needs, while continuing to expand its research portfolio.
+                </p>
+                <p class="aboutpara">
+                    As part of its academic and research initiatives, the Department has been involved in numerous high-profile archaeological projects, including collaborations with UNESCO and the Central Cultural Fund on excavations in Polonnaruwa, Kandy, and Anuradhapura. The Department also became a key partner in the Anuradhapura Citadel Archaeology Project and the Pinwewa-Galsohonkanatta Archaeology Project.
+                    Today, the Department of Archaeology at the University of Peradeniya is recognized as one of the largest and most prestigious archaeology departments in Sri Lanka’s higher education system. It continues to play a leading role in the education, research, and preservation of Sri Lanka’s cultural heritage, offering undergraduate and postgraduate programs that shape the future of archaeology in the country.
+                </p>
             </div>
         </div>
     </div>

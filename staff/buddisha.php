@@ -14,7 +14,7 @@ $staffProfiles = [
 
         "education" => [
             "degree1" => "M.Phil (Reading)",
-            "institution1" => "PGIS - University of Peradeniya",
+            "institution1" => "PGIHS - University of Peradeniya",
             "degree2" => "BA (Hons)",
             "institution2" => "University of Peradeniya",
         ],

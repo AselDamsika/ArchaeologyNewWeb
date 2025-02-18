@@ -18,6 +18,26 @@ $pageId = "staff";
 		body {
 			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
 		}
+		.breadcrumb{
+            background-color: #F0F8FF;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .breadcrumb li {
+            color: #003269 !important;
+            font-weight: 500;
+        }
+        .breadcrumb > li + li:before {
+            color: #003269;
+            padding-right: 2px;
+        }
+        .breadcrumb li a {
+            color: #1b98e5 !important;
+        }
+
+        .breadcrumb li a:hover {
+            color: #1684CC !important;
+        }
 
 		.container {
 			margin-top: 0 !important;
@@ -231,13 +251,15 @@ $pageId = "staff";
 				</li>
 			</ul>
 			<div class="tab-content" id="myTabContent">
+
+				<!-- Permanant Academic Staff -->
 				<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 					<div class="profile-grid">
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/chandranew.jpg" alt="Prof. R.M.M. Chandraratne" class="img-fluid">
 							<div class="profile-description">
 								<h4><a href="rmm.php">Prof. R.M.M. Chandraratne</a></h4>
-								<h5>Professor, Department of Archaeology</h5>
+								<h5>Professor</h5>
 								<blockquote>
 									<em>BA (Hons) (Perad), MA (Poona), Ph.D. (Pune), FSLCA</em>
 								</blockquote>
@@ -253,7 +275,7 @@ $pageId = "staff";
 							<img src="../assets/images/academic/proframbukwella.jpg" alt="Prof. Chulani Rambukwella" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
 								<h4><a href="rambukwella.php">Prof. Chulani Rambukwella</a></h4>
-								<h5>Chair Professor of Archaeology</h5>
+								<h5>Chair Professor</h5>
 								<blockquote>
 									<em>Phd (UK), MA (Peradeniya), BA (Peradeniya)</em>
 								</blockquote>
@@ -347,57 +369,66 @@ $pageId = "staff";
 					</div>
 				</div>
 
+				<!-- Temporary Academic Staff -->
 				<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 					<div class="profile-grid">
 						<div class="profile-item text-center">
-							<img src="../assets/images/academic/senarat.jpg" alt="Prof. Senarat Paranavitana" width="180" height="180" class="img-fluid">
+							<img src="../assets/images/academic/lakshika.jpg" alt="Prof. Senarat Paranavitana" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Prof. Senarat Paranavitana</a></h4>
+								<h4>Ms. D.M.L.D Dissanayaka</h4>
+								<h5>Temporary Lecturer</h5>
+								<blockquote>
+									<em>BA (Hons) (Peradeniya)</em>
+								</blockquote>
+								<p>
+									<span class="fa fa-envelope-o"></span>
+									<a href="mailto:lakshika2244@gmail.com">lakshika2244@gmail.com</a><br><br>
+									<span class="fa fa-phone"></span> 0787516061
+								</p>
 							</div>
 						</div>
 
 						<div class="profile-item text-center">
-							<img src="../assets/images/academic/UnknownProfile.png" alt="Prof. P.L. Prematilleke" width="180" height="180" class="img-fluid">
+							<img src="../assets/images/academic/lakshika.jpg" alt="Prof. Senarat Paranavitana" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Prof. P.L. Prematilleke</a></h4>
-
+								<h4>Ms. D.M.L.D Dissanayaka</h4>
+								<h5>Temporary Lecturer</h5>
+								<blockquote>
+									<em>BA (Hons) (Peradeniya)</em>
+								</blockquote>
+								<p>
+									<span class="fa fa-envelope-o"></span>
+									<a href="mailto:lakshika2244@gmail.com">lakshika2244@gmail.com</a><br><br>
+									<span class="fa fa-phone"></span> 0787516061
+								</p>
 							</div>
 						</div>
 
-						<div class="profile-item text-center">
-							<img src="../assets/images/academic/seneviratna.jpg" alt="Prof. S.D.S. Seneviratne" width="180" height="180" class="img-fluid">
-							<div class="profile-description">
-								<h4><a href="rmm.php">Prof. S.D.S. Seneviratne</a></h4>
-
-							</div>
-						</div>
 					</div>
 				</div>
 
 
+				<!-- Emeritus Professors -->
 				<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 					<div class="profile-grid">
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/senarat.jpg" alt="Prof. Senarat Paranavitana" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Prof. Senarat Paranavitana</a></h4>
+								<h4>Prof. Senarat Paranavitana</h4>
 							</div>
 						</div>
 
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/UnknownProfile.png" alt="Prof. P.L. Prematilleke" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Prof. P.L. Prematilleke</a></h4>
-
+								<h4>Prof. P.L. Prematilleke</h4>
 							</div>
 						</div>
-
 
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/seneviratna.jpg" alt="Prof. S.D.S. Seneviratne" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Prof. S.D.S. Seneviratne</a></h4>
-
+								<h4>Prof. S.D.S. Seneviratne</h4>
 							</div>
 						</div>
 					</div>

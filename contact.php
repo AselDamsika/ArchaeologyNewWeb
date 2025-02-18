@@ -18,6 +18,27 @@ $pageId = "cnt";
 			font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', serif;
 		}
 
+		.breadcrumb{
+            background-color: #F0F8FF !important;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .breadcrumb li {
+            color: #003269 !important;
+            font-weight: 500;
+        }
+        .breadcrumb > li + li:before {
+            color: #003269;
+            padding-right: 2px;
+        }
+        .breadcrumb li a {
+            color: #1b98e5 !important;
+        }
+
+        .breadcrumb li a:hover {
+            color: #1684CC !important;
+        }
+
 		.contact-container {
 			margin-bottom: 50px;
 		}

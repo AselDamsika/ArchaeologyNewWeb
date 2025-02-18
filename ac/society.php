@@ -14,6 +14,29 @@ $pageId = "society";
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <?php require_once "../assets/header.php"; ?>
+
+    <style>
+        .breadcrumb{
+            background-color: #F0F8FF;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .breadcrumb li {
+            color: #003269 !important;
+            font-weight: 500;
+        }
+        .breadcrumb > li + li:before {
+            color: #003269;
+            padding-right: 2px;
+        }
+        .breadcrumb li a {
+            color: #1b98e5 !important;
+        }
+
+        .breadcrumb li a:hover {
+            color: #1684CC !important;
+        }
+    </style>
 </head>
 
 <body>

@@ -468,19 +468,11 @@ $pageId = "home";
 			<div class="row welcome-row">
 				<p class="welcometo">Welcome to,</p>
 				<h1 class="welcomeheading">Department of Archaeology</h1>
-				<p class="deptpara">The <span class="dept-para-span">Department of Archaeology</span>,
-					at the University of Peradeniya has a distinguished history that reflects the growth and development of archaeology as an academic discipline in Sri Lanka. Established in 1959, the Department was initially a sub-department under the Department of History, with Professor Senarat Paranavitana serving as its first Professor and Head. This initiative was designed to train future archaeological officers for the state, providing a crucial foundation for the discipline in Sri Lanka.
-					In its early years, the Department collaborated closely with the government’s Archaeological Department, leveraging its fieldwork expertise, technical resources, and staff. The Department introduced courses focused on the Archaeology of Ceylon, while also offering a broader academic perspective on Art and Antiquities. Undergraduate teaching initially emphasized subjects such as History and Pali & Buddhist Civilization, with the addition of a subsidiary course in the Elements of Archaeology.
-					The Department’s early successes were marked by the completion of the first Master of Arts degrees by students A. Ariyasinghe and N. Mudiyanse, who were the first to successfully complete the MA in 1961. This milestone laid the groundwork for further development and expansion in the years that followed. <br> <br>
-
-					Recognizing the need for more specialized and comprehensive education in archaeology, Dr. Senarat Paranavitana stressed the importance of establishing a fully independent Department of Archaeology. His vision was supported in the 1958 report of the Needham Committee, which recommended the creation of a separate department. In response, the University expanded its offerings and began to include both theoretical and practical courses within the framework of classical South Asian archaeology.
-					The establishment of the University’s first Archaeology Museum was another key development during this period. The museum, which featured collections from renowned archaeologists such as Biddel, Hettiaracchi, and De Saram, provided valuable resources for both academic study and public exhibition. Dr. Paranavitana and Dr. P.L. Prematilleke (who later became a Research Professor) played instrumental roles in curating these collections, which greatly enriched the Department’s academic environment.
-					In 1976, the Department of Archaeology officially became an independent entity, offering Special Degree courses in archaeology for the first time. Dr. Prematilleke became the first Head of the newly formed Department, marking the beginning of a new era of growth and development. <br> <br>
-
-					Throughout the 1980s, the Department expanded significantly, both in terms of its academic staff and its research activities. Scholars such as Dr. Sudharshan Seneviratne, Dr. W.H. Wijayapala, and Dr. Moira Tampoe, among others, were recruited to the staff, contributing to the Department’s growing academic reputation. The Department also introduced new courses to keep pace with international developments and national archaeological needs, while continuing to expand its research portfolio.
-					As part of its academic and research initiatives, the Department has been involved in numerous high-profile archaeological projects, including collaborations with UNESCO and the Central Cultural Fund on excavations in Polonnaruwa, Kandy, and Anuradhapura. The Department also became a key partner in the Anuradhapura Citadel Archaeology Project and the Pinwewa-Galsohonkanatta Archaeology Project.
-					Today, the Department of Archaeology at the University of Peradeniya is recognized as one of the largest and most prestigious archaeology departments in Sri Lanka’s higher education system. It continues to play a leading role in the education, research, and preservation of Sri Lanka’s cultural heritage, offering undergraduate and postgraduate programs that shape the future of archaeology in the country.
-
+				<p class="deptpara">
+					Founded in 1976, the Department of Archaeology at the University of Peradeniya stands as one of the largest and most respected departments in Sri Lanka’s university system. With over a hundred undergraduates currently pursuing both Special and General Degree courses in Sinhala and English, we offer a comprehensive academic experience that nurtures the next generation of archaeologists.
+					The journey of teaching archaeology at Peradeniya began in 1957, when Dr. Senarat Paranavitana, following his retirement as the Commissioner of Archaeology, was appointed as the first Professor of Archaeology. This marked the formal inception of the department. Initially introduced as a sub-department under history, its purpose was to train future archaeological officers for the state. Since then, the department has grown in both scope and influence.
+					We are proud of the distinguished archaeologists who have shaped our department, including Professors Senarat Paranavitana, P.L. Prematilleke, and Sudharshan Seneviratne. Their contributions have played a pivotal role in advancing both the academic and practical aspects of archaeology in Sri Lanka and beyond.
+					Thank you for visiting our department. We invite you to explore the rich history and vibrant academic community that continues to thrive here at the University of Peradeniya.
 				</p>
 			</div>
 
@@ -490,7 +482,7 @@ $pageId = "home";
 
 				<div class="col-md-6 news-events-col">
 					<h5>Old Money and Ancient Writing: Archaeology undergraduates visit the National Museum and (state) Department of Archaeology to study coins and inscriptions</h5>
-					<h5><a href="videos/Study tour.pdf" target="_blank">More Info </a></h5>
+					<h5><a style="color: #1b98e5;" href="videos/Study tour.pdf" target="_blank">More Info </a></h5>
 					<video class="news-video" controls>
 						<source src="videos/archaeology.mov" type="video/mp4">
 					</video>

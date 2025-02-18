@@ -101,18 +101,27 @@ if (!isset($pageId)) {
 		}
 
 		.dropdown-menu>li>a:focus {
-			background-color: #f5f5f5;
+			background-color: #F0F8FF;
 			box-shadow: inset 200px 0 0 0 white;
 		}
 
 		.dropdown-menu>li>a:hover {
-			box-shadow: inset 250px 0 0 0 #f5f5f5;
+			box-shadow: inset 250px 0 0 0 #F0F8FF;
 		}
 
 		.navbar-toggler {
 			position: absolute;
 			right: 15px;
 			top: 10px;
+		}
+
+		.navbar-nav .dropdown-menu>li>a:hover {
+			color: #003269;
+			background-color: #F0F8FF;
+		}
+
+		.dropdown-menu>li>a:hover {
+			box-shadow: inset 250px 0 0 0 #F0F8FF;
 		}
 
 		.main-row {
@@ -168,7 +177,10 @@ if (!isset($pageId)) {
 			background-color: #1684CC;
 		}
 
-		[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), .nav-item button:not(:disabled) {
+		[type=button]:not(:disabled),
+		[type=reset]:not(:disabled),
+		[type=submit]:not(:disabled),
+		.nav-item button:not(:disabled) {
 			padding: 0px;
 			font-size: 2rem;
 			color: #1b98e5;
@@ -179,42 +191,49 @@ if (!isset($pageId)) {
 				text-align: center;
 			}
 		}
+
 		@media (max-width: 991px) {
 			.navbar-nav {
 				width: 100%;
 				text-align: center;
 			}
+
 			.dropdown-menu {
 				width: 100%;
 				text-align: center;
 			}
 		}
+
 		@media (max-width: 1200px) {
 			.logoimg {
 				width: 75px;
 			}
 		}
+
 		@media (max-width: 767px) {
 			.logocol {
 				justify-content: center;
 			}
 		}
+
 		@media (max-width: 575px) {
 			.deptname {
 				font-size: 2.8rem;
 			}
+
 			.uniname {
 				font-size: 1.8rem;
 			}
+
 			.nav-link {
 				font-size: 1.5rem;
 			}
+
 			.navbar-nav .dropdown-menu>li>a {
 				font-size: 1.4rem;
 				padding: 5px;
 			}
-		}				
-
+		}
 	</style>
 
 </head>
@@ -265,7 +284,7 @@ if (!isset($pageId)) {
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav navbar-right">
-					
+
 					<li class="nav-item <?php if ($pageId == 'home') echo 'active'; ?>">
 						<a class="nav-link" href="<?php echo $root; ?>/">Home</a>
 					</li>
