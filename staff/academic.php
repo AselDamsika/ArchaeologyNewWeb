@@ -378,7 +378,7 @@ $pageId = "staff";
 								<h4>Ms. D.M.L.D Dissanayaka</h4>
 								<h5>Temporary Lecturer</h5>
 								<blockquote>
-									<em>BA (Hons) (Peradeniya)</em>
+									<em>BA(Hons) (Peradeniya)</em>
 								</blockquote>
 								<p>
 									<span class="fa fa-envelope-o"></span>
@@ -389,17 +389,17 @@ $pageId = "staff";
 						</div>
 
 						<div class="profile-item text-center">
-							<img src="../assets/images/academic/lakshika.jpg" alt="Prof. Senarat Paranavitana" width="180" height="180" class="img-fluid">
+							<img src="../assets/images/academic/janani.jpg" alt="Prof. Senarat Paranavitana" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4>Ms. D.M.L.D Dissanayaka</h4>
+								<h4>Ms. M.J.U. Merinnage</h4>
 								<h5>Temporary Lecturer</h5>
 								<blockquote>
-									<em>BA (Hons) (Peradeniya)</em>
+									<em>BA(Hons) (Kelaniya)</em>
 								</blockquote>
 								<p>
 									<span class="fa fa-envelope-o"></span>
-									<a href="mailto:lakshika2244@gmail.com">lakshika2244@gmail.com</a><br><br>
-									<span class="fa fa-phone"></span> 0787516061
+									<a href="mailto:jananiuthpalamerinnage999@gmail.com">jananiuthpalamerinnage999@gmail.com</a><br><br>
+									<span class="fa fa-phone"></span> 0774599613
 								</p>
 							</div>
 						</div>
