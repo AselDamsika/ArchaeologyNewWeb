@@ -553,7 +553,7 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
                                 <?php endforeach; ?>
                             </table>
                         </div>
-                    <?php endif; ?><br>
+                    <?php endif; ?>
 
                     <!-- Chapters in books -->
                     <?php if (!empty($profile["chapters"])): ?>
@@ -576,7 +576,7 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
                                 <?php endforeach; ?>
                             </table>
                         </div>
-                    <?php endif; ?><br>
+                    <?php endif; ?>
 
                     <!-- Journal articles -->
                     <?php if (!empty($profile["journals"])): ?>
@@ -668,7 +668,7 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
                                 <?php endforeach; ?>
                             </table>
                         </div>
-                    <?php endif; ?><br>
+                    <?php endif; ?>
 
 
                 </div>
@@ -687,13 +687,12 @@ $profile = isset($staffProfiles[1]) ? $staffProfiles[1] : null;
                                         <td class="icon-column"><span class="fa fa-dot-circle-o"></span></td>
                                         <td>
                                             <strong><?php echo $profile["avm"][$specializationKey]; ?><br></strong>
+                                            <a class="viewlink" href="https://www.youtube.com/watch?v=izck3NTh0Ac">View Video</a>
                                         </td>
-                                        
                                     </tr>
                                 <?php endif; ?>
                             <?php endforeach; ?>
                         </table>
-                        <a href="https://www.youtube.com/watch?v=izck3NTh0Ac">https://www.youtube.com/watch?v=izck3NTh0Ac</a>
                     </div>
                 <?php endif; ?>
 
