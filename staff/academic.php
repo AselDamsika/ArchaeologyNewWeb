@@ -353,25 +353,35 @@ $pageId = "staff";
 						<div class="profile-item text-center">
 							<img src="../assets/images/academic/lakshika.jpg" alt="Prof. Senarat Paranavitana" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">D.M.L.D Dissanayaka</a></h4>
+								<h4>Ms. D.M.L.D Dissanayaka</h4>
+								<h5>Temporary Lecturer, Department of Archaeology</h5>
+								<blockquote>
+									<em>BA (Hons) (Peradeniya)</em>
+								</blockquote>
+								<p>
+									<span class="fa fa-envelope-o"></span>
+									<a href="mailto:lakshika2244@gmail.com">lakshika2244@gmail.com</a><br><br>
+									<span class="fa fa-phone"></span> 0787516061
+								</p>
 							</div>
 						</div>
 
 						<div class="profile-item text-center">
-							<img src="../assets/images/academic/UnknownProfile.png" alt="Prof. P.L. Prematilleke" width="180" height="180" class="img-fluid">
+							<img src="../assets/images/academic/lakshika.jpg" alt="Prof. Senarat Paranavitana" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Prof. P.L. Prematilleke</a></h4>
-
+								<h4>Ms. D.M.L.D Dissanayaka</h4>
+								<h5>Temporary Lecturer, Department of Archaeology</h5>
+								<blockquote>
+									<em>BA (Hons) (Peradeniya)</em>
+								</blockquote>
+								<p>
+									<span class="fa fa-envelope-o"></span>
+									<a href="mailto:lakshika2244@gmail.com">lakshika2244@gmail.com</a><br><br>
+									<span class="fa fa-phone"></span> 0787516061
+								</p>
 							</div>
 						</div>
 
-						<div class="profile-item text-center">
-							<img src="../assets/images/academic/seneviratna.jpg" alt="Prof. S.D.S. Seneviratne" width="180" height="180" class="img-fluid">
-							<div class="profile-description">
-								<h4><a href="rmm.php">Prof. S.D.S. Seneviratne</a></h4>
-
-							</div>
-						</div>
 					</div>
 				</div>
 
