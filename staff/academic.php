@@ -347,12 +347,13 @@ $pageId = "staff";
 					</div>
 				</div>
 
+				<!-- Temporary Academic Staff -->
 				<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 					<div class="profile-grid">
 						<div class="profile-item text-center">
-							<img src="../assets/images/academic/senarat.jpg" alt="Prof. Senarat Paranavitana" width="180" height="180" class="img-fluid">
+							<img src="../assets/images/academic/lakshika.jpg" alt="Prof. Senarat Paranavitana" width="180" height="180" class="img-fluid">
 							<div class="profile-description">
-								<h4><a href="rmm.php">Prof. Senarat Paranavitana</a></h4>
+								<h4><a href="rmm.php">D.M.L.D Dissanayaka</a></h4>
 							</div>
 						</div>
 
