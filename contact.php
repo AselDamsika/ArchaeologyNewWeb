@@ -19,7 +19,7 @@ $pageId = "cnt";
 		}
 
 		.breadcrumb{
-            background-color: #F0F8FF;
+            background-color: #F0F8FF !important;
             padding: 10px;
             border-radius: 8px;
         }

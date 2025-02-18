@@ -482,7 +482,7 @@ $pageId = "home";
 
 				<div class="col-md-6 news-events-col">
 					<h5>Old Money and Ancient Writing: Archaeology undergraduates visit the National Museum and (state) Department of Archaeology to study coins and inscriptions</h5>
-					<h5><a href="videos/Study tour.pdf" target="_blank">More Info </a></h5>
+					<h5><a style="color: #1b98e5;" href="videos/Study tour.pdf" target="_blank">More Info </a></h5>
 					<video class="news-video" controls>
 						<source src="videos/archaeology.mov" type="video/mp4">
 					</video>

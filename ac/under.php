@@ -99,6 +99,9 @@ $pageId = "ac";
 			position: absolute;
 			left: -10px;
 		}
+		.course-box h4{
+			font-size: 2.5rem;
+		}
 
 		@media (max-width: 576px) {
             .text-secondary {
